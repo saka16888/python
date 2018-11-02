@@ -1,0 +1,59 @@
+========================
+Functions -- exercises
+========================
+
+1. Write a function that takes 2 plain parameters, prints their
+   values, and then returns a tuple containing those two values.
+
+2. Write a function that has one plain parameter and one parameter
+   with an default value.  Print the values, then return the values
+   as a tuple with each value multiplied by 2.
+
+3. Write a function that defines one plain argument and that
+   *correctly* defines an optional argument whose default value is a
+   list.  Append the value of the plain argument to the list.
+
+4. Write a function that takes one plain argument and that catches
+   any number of addition arguments and keyword arguments.  In this
+   function, print all the arguments.
+
+5. Create/define a global variable.  Write a function that modifies
+   that global variable.  After calling that function, print that
+   global variable to make sure that it has been modified.
+
+6. Write a function with default values for 4 formal parameters.
+   Call this function with a single keyword argument, accepting the
+   other default values.
+
+7. Implement a function that takes 1 argument (size), but which can
+   be customized to act like it takes 2 arguments (a size and a
+   color).  Suggestion: write a nested function that is a closure,
+   that is, it captures (closes upon) a variable in its scope.
+
+8. Write a function that calls each of the above functions and also
+   does each of the following:
+
+   - Catch the two values from the first function in two variables
+     using unpacking.
+   - Call the 2nd function with and without the default arguments.
+   - Call one of the functions using a keyword argument.
+   - Call the function that defines an argument with a default
+     value which is mutable.  Check to make sure that a new value is
+     created each time you call it.
+   - Creates an instance of your nested (closure) function.  Call
+     it.
+
+
+What you will learn:
+
+- How to write functions with plain parameters and parameters that
+  have default values.
+
+- How to call a function using keyword arguments.
+
+- How to write a function that returns multiple values.
+
+- How to implement a closure.
+
+- How to implement a function with a default parameter value that is
+  mutable.

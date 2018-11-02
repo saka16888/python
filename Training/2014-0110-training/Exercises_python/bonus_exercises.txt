@@ -1,0 +1,347 @@
+Bonus exercises
+=================
+
+Described below are a variety of additional Python coding exercises.
+
+--------------------
+
+Synopsis:
+    Process config files (files that obey the .ini format):
+    1. Print a report of several config files.
+    2. Enable the user to enter section/name/value triples, then write
+       a new config file.
+    Sample config files are here -- config1.ini, config2.ini
+Usage:
+    python configfile_report_update.py [options] <file1> <file2> ...
+Options:
+    -o, --ouput     Output file name.  Default: tmp.ini
+Hints:
+    - ConfigParser module in the Python standard library
+    - raw_input built-in function
+Solution:
+    Solutions/configfile_report_update.py
+
+--------------------
+
+Synopsis:
+    1. Process all the files whose names match a path/pattern.  For
+       each file, do the following -- Count the characters, the
+       words, and the lines in the file.  Print these counts.
+       ``glob``.
+    2. Process all the files whose names match a path/pattern.  For
+       each file, do the following -- Search each line for a
+       pattern.  Print each line that matches.
+Usage:
+    python file_count_search.py count <file_name_pattern>
+    python file_count_search.py search <text_pattern> <file_name_pattern>
+Hints:
+    - glob module in the Python standard library
+    - re (regular expression) module in the Python standard library
+Solution:
+    Solutions/file_count_search.py
+
+--------------------
+
+Synopsis:
+    Given a list of 2-tuples, process each item in the list in an
+    order such that each item in the list is processed after the
+    tuple whose first item is equal to the current tuple's second
+    item, unless the tuple's second item is None, in which case it
+    can always be processed.  In other words:
+
+        1. Process (xx, bb) only after processing (bb, yy).
+        2. Process (xx, None) in any order.
+
+    Here is a sample list of tuples::
+
+        Data1 = [
+            ('aaa', 'mmm'),
+            ('bbb', 'lll'),
+            ('mmm', None),
+            ('ccc', 'kkk'),
+            ('lll', None),
+            ('ddd', 'jjj'),
+            ('iii', None),
+            ('eee', 'aaa'),
+            ('jjj', None),
+            # comment out the following line to test for endless loop error.
+            ('kkk', None),
+        ]
+Usage:
+    python ordered_processed_list.py
+Solution:
+    Solutions/ordered_processed_list.py
+
+--------------------
+
+Synopsis:
+    Recursively print out the names of files and directories starting
+    at a given path.
+Usage:
+    python report_files_directories.py <path>
+Hints:
+    - glob module in the Python standard library
+    - os.path.isdir function
+Solution:
+    Solutions/report_files_directories.py
+
+--------------------
+
+Synopsis:
+    Search a target string for a pattern.
+    Print all the positions of the occurance of the pattern string
+        within the target string.
+    Implement the above in two different ways:
+        1. Use a while: statement.
+        2. Implement a generator function (a function that uses the
+           yield statement).
+Usage:
+    python search_str.py
+Solution:
+    Solutions/search_str.py
+
+--------------------
+
+Synopsis:
+    - Implement a class that can be initialized with a to-address, and
+      can send messages to that address.
+    - Implement a "factory" function that creates an instance of the above
+      class.
+    - Implement a helper function that uses the above class to send messages.
+    - Repeat:
+        - Prompt user for subject and body.
+        - Send email given fixed from and to addresses.
+Usage:
+    python send_mail.py
+Hints:
+    - smtplib module in the Python standard library
+    - raw_input built-in function
+Solution:
+    Solutions/send_mail.py
+
+--------------------
+
+Synopsis:
+    Print formatted listing of Zip file.
+Usage:
+    python zip-ls.py [options] <zip_file_name>
+Options:
+    -h, --help      Display this help message.
+    -s, --sort      Sort files by x, where x is one of:
+                        file_name     or fn (default)
+                        date_time     or dt
+                        file_size     or fs
+                        compress_size or cs
+    -c, --columns   Columns to display.  Values:
+                        s   Short; file names only.
+                        m   Medium (default)
+                        l   Long
+                        v   Verbose
+    -r, --reverse   Reverse sort
+    -t, --totals    Print column totals.
+    --no-totals     Do not print column totals.  (override .zip-lsrc)
+Examples:
+    python zip-ls.py stuff.zip
+    python zip-ls.py -s file_name stuff.zip
+    python zip-ls.py --sort=date_time --reverse stuff.zip
+    python zip-ls.py -s compress_size -c m stuff.zip
+
+zip-ls reads default options from ${HOME}/.zip-lsrc.  Example
+of .zip-lsrc:
+
+    [general]
+    sort: file_name
+    columns: v
+    reverse: 0
+    totals: 1
+Hints:
+    - zipfile module in the Python standard library
+    - ConfigParser module in the Python standard library
+Solution:
+    Solutions/zip_ls.py
+
+--------------------
+
+Synopsis:
+    Create 10 threads.
+    Each thread does the following:
+        1. Increment a global count and prints it.
+        2. Sleeps (waits) for 3 seconds.
+        3. Prints the global count and decrements it.
+Usage:
+    python simple_threads.py
+Hints:
+    Thread and Lock from the threading module in the Python standard library
+Solution:
+    Solutions/simple_threads.py
+
+--------------------
+
+Synopsis:
+    Use 3 (or more) worker threads to process a list of "jobs".
+    Place the jobs in a queue (an instance of Queue.Queue).
+    Enable the worker threads to process the jobs.
+    Here is a list of jobs -- Multiply the first item of each
+    tuple by the second:
+        JobsInputlist = [
+            (5, 5),
+            (10, 4),
+            (78, 5),
+            (87, 2),
+            (65, 4),
+            (10, 10),
+            (65, 2),
+            (88, 95),
+            (44, 55),
+            (33, 3),
+        ]
+Usage:
+    python threads_and_queue.py
+Hints:
+    - threading module in the Python standard library
+    - Queue module in the Python standard library
+    - time.sleep() from the time module in the Python standard library
+Solution:
+    Solutions/threads_and_queue.py
+
+--------------------
+
+Synopsis:
+    A simple server that responds to a Web request with "pong".
+Usage:
+    python gevent1.py
+Hints:
+    - modules gevent and gevent.socket from the gevent prackage
+Solution:
+    Solutions/gevent1.py
+
+--------------------
+
+Synopsis:
+    A REST-ful HTTP server app that response to the following commands:
+        - "/" or "/help" --> display command help
+        - "/ping"        --> display "pong"
+        - "/chocolate"   --> display "vanilla"
+        - "/sugar"       --> display "spice"
+    Implement your "Web app" with gevent.
+Usage:
+    python gevent2.py
+Resources:
+    Comparison of asynchronous servers:
+        http://nichol.as/asynchronous-servers-in-python
+    Gevent homepage:
+        http://gevent.org/
+Solution:
+    Solutions/gevent2.py
+
+--------------------
+
+Synopsis:
+    Create and use lightweight pseudothreads.
+    Run several greenlets (instances of gevent Greenlets) in parallel.
+    Implement a subclass of gevent.Greenlet.  When an instance of
+        this subclass runs, it should (1) sleep for several seconds, and
+        then (2) return a value.
+    Create several instances of that class and run them.  Print the
+        value returned by each greenlet.
+Options:
+    -h, --help              Print this help message.
+    -c, --command <cmd>     Command to run.  Possibles values are
+                              "empty" and "parsexml".
+    -t, --threads <n>       Number of threads to start.
+Arguments:
+    For command "empty" -- n -- number of seconds to delay.
+    For command "parsexml" -- filename.xml -- XML document to parse.
+Usage:
+    python greenlet1.py
+    python greenlet1.py -c empty -t 10 2
+    python greenlet1.py -c parsexml -t 100 people_big.xml
+Hints:
+    - class Greenlet from the gevent package
+Solution:
+    Solutions/greenlet1.py
+
+--------------------
+
+Synopsis:
+    Implement an XML-RPC server that response to (serves) several
+    mathematical functions, for example pow, sqrt, etc.
+Usage:
+    python xmlrpcserver1.py
+Hints:
+    - module SimpleXMLRPCServer in the Python standard library.
+Solution:
+    Solutions/xmlrpcserver1.py
+
+--------------------
+
+Synopsis:
+    Implement an XML-RPC client that "calls" the functions provided by
+        your XML-RPC server.
+Usage:
+    python xmlrpcclient1.py
+Hints:
+    - module SimpleXMLRPCServer in the Python standard library.
+    - module xmlrpclib in the Python standard library.
+Solution:
+    Solutions/xmlrpcclient1.py
+
+--------------------
+
+Synopsis:
+    Process an XML document with elementtree.
+    Show the document tree.
+    Modify the document tree and then show it again.
+Usage:
+    python elementtree_walk.py [options] infilename
+Options:
+    -h, --help      Display this help message.
+Example:
+    python elementtree_walk.py myxmldoc.xml
+Hints:
+    - xml.etree.ElementTree module in the Python standard library
+    - Or, if you have installed it, use Lxml ()
+Solution:
+    Solutions/elementtree_walk.py
+    Solutions/lxml_walk.py
+
+--------------------
+
+Synopsis:
+    You need to implement a function that takes 1 argument, but you
+        need a way to give that function an additional parameter.
+    Create a closure.
+    Implement a function that takes 1 argument, but has an additional
+        argument "packed" into it.
+Usage:
+    python closure1.py infilename
+Options:
+    -h, --help      Display this help message.
+Example:
+    python elementtree_walk.py myxmldoc.xml
+Hints:
+    - Write a nested function definition.
+Solution:
+    Solutions/closure1.py
+
+--------------------
+
+Synopsis:
+    Test a function in a module with doctest.
+
+    Define a function that takes two arguments: a string and an
+    integer.  The function should convert the string to upper case
+    and multiply it by the integer. It should then return the new
+    string.
+
+    Now, create a harness in the module containing the above
+    function definition so that the function is tested with
+    ``doctest``.
+Usage:
+    python doc_test.py
+Example:
+    python doc_test.py
+Hints:
+    - module doctest in the Python standard library.
+Solution:
+    Solutions/doc_test.py

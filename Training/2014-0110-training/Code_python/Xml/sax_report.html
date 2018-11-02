@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>SAX -- Simple API for XML</title>
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="sax-simple-api-for-xml">
+<h1 class="title">SAX -- Simple API for XML</h1>
+
+<div class="section" id="print-xml-document-report-from-sax-events">
+<h1>Print XML document report from SAX events</h1>
+<p>Do the following:</p>
+<ul class="simple">
+<li>Create a SAX parser.</li>
+<li>Define an SAX content handler.  Your content handler should
+respond to the following events:<ul>
+<li>startDocument</li>
+<li>startElement</li>
+<li>characters</li>
+<li>endElement</li>
+<li>endDocument</li>
+</ul>
+</li>
+<li>Your content handler should display (print out) the following:
+(1) the tag or element name, (2) all attributes, (3) any
+character data.</li>
+<li>Parse and display an XML document.</li>
+</ul>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to create and use a SAX parser and a SAX content handler.</li>
+<li>How to parse an XML file with SAX and respond to various &quot;events&quot;
+in that file (for example, startElement, endElement, characters,
+etc.).</li>
+</ul>
+</div>
+<div class="section" id="construct-document-tree-from-sax-events">
+<h1>Construct document tree from SAX events</h1>
+<p>Do the following:</p>
+<ol class="arabic simple">
+<li>Add to your &quot;application&quot; a class that you will use to represent
+each element in an XML document.</li>
+<li>Add to your SAX content handler, the ability to create a tree of
+instances of your new class that represents the structure and
+content of the XML document.</li>
+<li>Implement a function that walks the tree and &quot;annotates&quot; it, for
+example, add an instance variable that gives the number of
+characters in the character content of this node/element.</li>
+<li>Display the tree.</li>
+</ol>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to define a class that represents a &quot;node&quot; in the XML
+document tree.</li>
+<li>How to build a tree structure from an XML document using SAX.</li>
+<li>How to walk and &quot;annotate&quot; that tree.</li>
+<li>How to walk the tree and print a report.</li>
+</ul>
+</div>
+<div class="section" id="additional-information">
+<h1>Additional information</h1>
+<ul class="simple">
+<li><a class="reference external" href="http://docs.python.org/lib/module-xml.sax.html">xml.sax -- Support for SAX2 parsers --
+http://docs.python.org/lib/module-xml.sax.html</a></li>
+<li><a class="reference external" href="http://docs.python.org/lib/module-xml.sax.handler.html">xml.sax.handler -- Base classes for SAX handlers --
+http://docs.python.org/lib/module-xml.sax.handler.html</a></li>
+<li><a class="reference external" href="http://docs.python.org/lib/module-xml.sax.saxutils.html">xml.sax.saxutils -- SAX Utilities --
+http://docs.python.org/lib/module-xml.sax.saxutils.html</a></li>
+<li><a class="reference external" href="http://docs.python.org/lib/module-xml.sax.xmlreader.html">xml.sax.xmlreader -- Interface for XML parsers --
+http://docs.python.org/lib/module-xml.sax.xmlreader.html</a></li>
+</ul>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="sax_report.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

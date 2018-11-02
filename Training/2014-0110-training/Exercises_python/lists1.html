@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Lists and tuples -- Exercises</title>
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #dddddd;
+}
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="lists-and-tuples-exercises">
+<h1 class="title">Lists and tuples -- Exercises</h1>
+
+<p>Write a function that does each of the following:</p>
+<ol class="arabic">
+<li><p class="first">Create an empty list and print it.</p>
+</li>
+<li><p class="first">Create a list containing several strings and integers.  Print it.</p>
+</li>
+<li><p class="first">Append a value to one of these lists.  Print it.</p>
+</li>
+<li><p class="first">Insert a value at the beginning of one of these lists.  Print it.</p>
+</li>
+<li><p class="first">Print the length of the list.</p>
+</li>
+<li><p class="first">Select (index) an element from one of your lists.  Print it.</p>
+</li>
+<li><p class="first">Select and print a slice from one of your lists.</p>
+</li>
+<li><p class="first">Add two lists together.  Print the result.</p>
+</li>
+<li><p class="first">Add a list to this list using the augment operator (<tt class="docutils literal">+=</tt>).
+Print it.</p>
+</li>
+<li><p class="first">Sort the list.  Print it.</p>
+</li>
+<li><p class="first">Use the <tt class="docutils literal">for:</tt> statement to print each item in one of your
+lists.</p>
+</li>
+<li><p class="first">Create a tuple with one element.  Print it.</p>
+</li>
+<li><p class="first">Create a tuple with more than one element.  Print it.</p>
+</li>
+<li><p class="first">Write a function <tt class="docutils literal">apply(fn, numbers)</tt> that takes a function
+and a list of numbers.  <tt class="docutils literal">apply</tt> should return a new list that
+contains the result of applying <tt class="docutils literal">fn</tt> to each element of
+<tt class="docutils literal">numbers</tt>.</p>
+</li>
+<li><p class="first">Given a list <tt class="docutils literal">data1</tt> (with an even number of items), create
+a list of 2-tuples <tt class="docutils literal">data2</tt> where:</p>
+<pre class="literal-block">
+data2[i] = (data1[i] , data1[i+1])
+</pre>
+<p>For example, given this list:</p>
+<pre class="literal-block">
+data1 = ['aa', 11, 'bb', 22, 'cc', 33, 'dd', 44]
+</pre>
+<p>create this list:</p>
+<pre class="literal-block">
+data2 = [('aa', 11), ('bb', 22), ('cc', 33), ('dd', 44)]
+</pre>
+</li>
+<li><p class="first">Create a list of integers, some of which are odd and some of
+which are even.  Sort this list using the <tt class="docutils literal">sort</tt> method so
+that all the odd numbers are at the beginning.  Hint: the sort
+method takes an additional, optional argument, a function
+<tt class="docutils literal">cmp(a, b)</tt> which returns:</p>
+<ul class="simple">
+<li>-1 if a &lt; b</li>
+<li>0 if a == b</li>
+<li>+1 if a &gt; b</li>
+</ul>
+</li>
+</ol>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to create lists and tuples.</li>
+<li>How to use, and modify lists.</li>
+</ul>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="lists1.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

@@ -1,0 +1,324 @@
+Numbers -- exercises
+======================
+1. Create several integers; bind them to variables.  Print them.
+2. Create several floats; bind them to variables.  Print them.
+3. Perform a variety of operations on (1) integers, (2) floats, and
+   (3) mixed floats and integers.  Print the results.
+4. Divide one integer by another, obtaining a float as an answer.
+
+Lists and tuples -- Exercises
+===============================
+Write a function that does each of the following:
+1. Create an empty list and print it.
+2. Create a list containing several strings and integers.  Print it.
+3. Append a value to one of these lists.  Print it.
+4. Insert a value at the beginning of one of these lists.  Print it.
+5. Print the length of the list.
+6. Select (index) an element from one of your lists.  Print it.
+7. Select and print a slice from one of your lists.
+8. Add two lists together.  Print the result.
+9. Add a list to this list using the augment operator (``+=``).
+   Print it.
+10. Sort the list.  Print it.
+11. Use the ``for:`` statement to print each item in one of your
+    lists.
+12. Create a tuple with one element.  Print it.
+13. Create a tuple with more than one element.  Print it.
+14. Write a function ``apply(fn, numbers)`` that takes a function
+    and a list of numbers.  ``apply`` should return a new list that
+    contains the result of applying ``fn`` to each element of
+    ``numbers``.
+15. Create a list of integers, some of which are odd and some of
+    which are even.  Sort this list using the ``sort`` method so
+    that all the odd numbers are at the beginning.
+
+Strings -- exercises
+======================
+1. Create a string.  Print it.
+2. Create a multi-line string.  Print it.
+3. Concatenate two strings together.  Print the result.
+4. Print the length of one of your strings.
+5. Search one string for a sub-string.  Print the location of the
+   sub-string.
+6. Format a string using the string formatting operator (``%``).
+   Interpolate into the string: (1) a string, (2) an integer, and
+   (3) a float.
+7. Left justify a short string within a longer field.  Print it.  Do
+   the same but right justify it.  Print it.  Center the string
+   within a longer field.  Print it.
+8. Strip white-space off (1) the left side, (2) the right side, and
+   (3) both sides of a string.  Print each result.
+9. Split a string into a list of words.
+10. Join a list of strings together with "::" between each of the
+    sub-strings.
+11. Given a word and a list of strings, write a function
+    ``collect(word, strings)`` that returns a (new) list that
+    contains the strings that contain the word.
+
+Dictionaries -- exercises
+===========================
+Write and call a function that does each of the following:
+1. Create an empty dictionary.  Print it.
+2. Create a dictionary with two initial keys and values.  Print it.
+3. Create another dictionary with several entries, then update it
+   with the items from the previous dictionary.
+4. Print (1) the keys, (2) the values, and (3) the items from one of
+   your dictionaries.
+5. Print the length of (number of items in) your dictionary.
+6. Iterate over the keys in your dictionary, printing the key and
+   its associated value.  Remember that the dictionary itself is
+   an iterator (iteratable? iterable?).
+7. Get the value associated with a key in your dictionary or None if
+   the dictionary does not contain that key.  Print them.
+8. Given a list of 2-tuples ``[(key1, value1), ...]``, create a
+   dictionary whose keys and values are ``key1`` and ``value1`` etc.
+
+Files -- exercises
+====================
+1. Write a function that takes a file name as its argument, opens
+   the file (in read mode), and reads and prints each line in the
+   file.  Don't forget to close the file.
+2. Write a function that takes a filename as its argument, opens the
+   file (in read mode), and counts the words in the file.
+   Optionally, accumulate a count of each different word.  Then
+   print the count for each word in alphabetical order.
+3. Write a function that takes (1) a file name and (2) a list of
+   strings as its arguments, opens the file in *write* mode, and
+   writes each item in the list as a line in the file.
+4. Write a function that takes the following arguments: (1) a file
+   name and (2) a transform function.  Open the file in read mode,
+   read each line, apply the transform function to the line, and
+   print the line.
+   The transform function should take one argument (a string).  This
+   function should transform that string (for example convert it to
+   upper case), and return the transformed string.  
+5. Write a script that takes its input from stdin and writes its
+   output to stdout.  Transform that content is some way, for
+   example, (1) convert it to upper case or (2) add "## " at the
+   beginning of each line.
+6. Write a function that takes a file name as its argument, opens
+   the file (in read mode), and then:
+   - read 4 bytes and print it
+   - read another 4 bytes and print it
+
+Sets -- exercises
+===================
+1. Given a list (for example, ``range(5)``), create a set from that
+   list.
+2. Given a list that contains duplicates (for example, ``[11, 22,
+   11, 33, 22]``), create a list that has the duplicates removed.
+3. Given these two lists::
+       list1 = range(0, 10)
+       list2 = range(8, 20)
+   Using sets, test for membership in:
+   - ``list1`` or ``list2``
+   - ``list1`` and ``list2``
+   - ``list1`` but not ``list2``
+   - ``list1`` or ``list2`` but not both
+4. Your wise and helpful instructor has told you that a set does not
+   contain the same object more than once.  Therefore, sets must use
+   some test for "sameness".  Your task is to find out whether sets
+   test for "sameness" using the equality relationship (operator
+   ``==``) or using the identity relationship (operator ``is``), and
+   then prove it.
+
+Assignment statement
+======================
+Write a function that contains assignment statements that do the
+following:
+1. Bind a name to a string.
+2. Bind a name to an integer, then use augmented assignment (``+=``
+   and ``-=``) to (1) increment and (2) decrement the value (by 1 or
+   2 or 3).  Print the new values.
+3. Unpack a 3-tuple into variables ``a``, ``b``, and ``c``.
+4. Use the ``range(n)`` built-in function to create a list of
+   integers.  Use an assignment statement to change the value of the
+   2nd item in the list.
+5. From your list of integers, use slice notation to do each of the
+   following:
+   - Get the 2nd through the 5th items from the list.  
+   - Get all but the first item from the list.
+   - Get all but the last item from the list.
+6. Create an empty dictionary.  Use an assignment statement to
+   create a key-value pair in that dictionary.
+
+import statement
+==================
+1. Import the ``json`` module from the Python standard library.  Use
+   the ``dumps`` function in that module to dump a Python list to a
+   string.
+2. Import the ``loads`` function from the ``json`` module.  Use it
+   to convert the string produced above into a Python data structure
+   (a list).
+3. Import the ``dumps`` function from the ``json`` module, renaming
+   it to ``jdump``.
+4. Import the ``xml.etree.ElementTree`` module.  Reference the
+   ``parse`` function in it.
+5. Import ``ElementTree`` from ``xml.etree``, renaming it to
+   ``etree``.
+
+for statement
+===============
+Define two lists (``data1`` and ``data2``) which each have four
+numeric items.  Then ...
+Write a function that does the following:
+1. Print each item from ``data1`` on a separate line using a ``for``
+   statement.
+2. Print each item from ``data1`` and an index each on a separate
+   line.
+3. Print only the items for which the index is even (not odd) each
+   on a separate line
+4. Update each item in ``data2`` by adding the corresponding item
+   from ``data1``.  -- ``data2[i] = data1[i] + data2[i]``.
+5. Using a list comprehension, create a new list from ``data1`` in
+   which each item is multiplied by 2.  Print it.
+6. Using a list comprehension, create a new list from the previous
+   list in which only the even items (divisible by 2) are each
+   multiplied by 3.  Print it.
+7. Given the following list (note the white space after the
+   commas)::
+       data1 = "aaa bbb  ,   ccc ddd  , eee fff ggg"
+   Use list comprehension to create a list of fields that are
+   separated by commas but with surrounding white space removed.
+8. Using a ``for:`` statement with an ``else:`` clause, search a
+   list for a value and if found, set a variable to that value, but
+   if not found, set a variable to "not found".
+
+if statement
+==============
+Write a function that includes each of the following:
+1. An ``if`` statement with an ``elif`` clause and an ``else``
+   clause.
+2. Several ``if`` statements that use the logical operators:
+   ``and``, ``or``, and ``not``.  Or, maybe a single ``if``
+   statement that uses them all.
+3. Use the ``range()`` built-in function to create a list, for
+   example: ``numbers = range(10)``.  Write an ``if`` statement that
+   tests a value to determine if it is in a list.
+4. Write an ``if`` statement that tests whether the value is *not*
+   in the list (above).
+5. Create a small dictionary, for example: ``fruit = {'watermelon':
+   44}``.  Write an ``if`` statement that tests whether a key is in
+   the dictionary **and** tests whether the value is equal to some
+   value (such as ``44``).
+6. Assign a value to a variable, then write an ``if`` statement to
+   determine whether that value is the same as ``None`` and another
+   ``if`` statement to test whether the value is not ``None``.
+
+while statement
+=================
+1. Use a ``while`` statement to loop through a list of words and to
+   find the first word with a specific number of characters.
+2. Use a ``while`` statement to loop through a list; pop each item
+   off the right end of the list and print the item, until the list
+   is empty.
+3. Write a function that uses a ``while`` statement and
+   ``str.find(pat, pos)`` to print out all the positions of a
+   pattern string in a target string.
+4. Convert the above function into a function that returns a
+   generator that produces all the positions of the pattern string
+   in a target string.
+
+try/except statement
+======================
+1. Define a subclass of class ``Exception``.  Call it
+   ``SpecialException``.
+2. Write 3 functions ``fn1``, ``fn2``, and ``fn3``:
+   - ``fn1`` calls ``fn2``.
+   - ``fn2`` calls ``fn3``.
+   - ``fn3`` raise ``SpecialException``.
+3. Call ``fn1`` both outside and inside a ``try:except:`` statement
+   that catches ``SpecialException``.
+
+with statement
+================
+1. Write a ``with`` statement that opens a file and prints the lines
+   in the file.  Check to determine whether the file is closed after
+   the ``with`` statement.
+2. Write a context manager that prints a message before and after a
+   suite.
+3. Use your context manager in a ``with`` statement that prints a
+   greeting ("hello" or whatever).
+
+Functions -- exercises
+========================
+1. Write a function that takes 2 plain parameters, prints their
+   values, and then returns a tuple containing those two values.
+2. Write a function that has one plain parameter and one parameter
+   with an default value.  Print the values, then return the values
+   as a tuple with each value multiplied by 2.
+3. Write a function that defines one plain argument and that
+   *correctly* defines an optional argument whose default value is a
+   list.  Append the value of the plain argument to the list.
+4. Write a function that takes one plain argument and that catches
+   any number of addition arguments and keyword arguments.  In this
+   function, print all the arguments.
+5. Create/define a global variable.  Write a function that modifies
+   that global variable.  After calling that function, print that
+   global variable to make sure that it has been modified.
+6. Write a function with default values for 4 formal parameters.
+   Call this function with a single keyword argument, accepting the
+   other default values.
+7. Implement a function that takes 1 argument (size), but which can
+   be customized to act like it takes 2 arguments (a size and a
+   color).  Suggestion: write a nested function that is a closure,
+   that is, it captures (closes upon) a variable in its scope.
+8. Write a function that calls each of the above functions and also
+   does each of the following:
+   - Catch the two values from the first function in two variables
+     using unpacking.
+   - Call the 2nd function with and without the default arguments.
+   - Call one of the functions using a keyword argument.
+   - Call the function that defines an argument with a default
+     value which is mutable.  Check to make sure that a new value is
+     created each time you call it.
+   - Creates an instance of your nested (closure) function.  Call
+     it.
+
+Classes and object-oriented programming -- exercises
+======================================================
+1. Implement a ``Point`` class.  This class should inherit from
+   ``object``.  It should have two instance variables: ``x`` and
+   ``y``.  In your ``Point`` class implement these methods:
+   - ``__init__(self, x, y)`` -- The constructor.  Save instance
+     variables ``x`` and ``y``.
+   - ``show(self)`` -- Display your ``Point`` -- Print the values of
+     ``x`` and ``y``.
+2. Implement a ``DescriptionPoint`` class.  This class should
+   inherit from class ``Point`` (above).  Add instance variable
+   ``description``.  Override method ``show``.
+3. Implement another subclass of class ``Point``.  Call it
+   ``ColorPoint``.  Override method ``show``.  Implement managed
+   access to the color instance variable using the ``property``
+   built-in function.  See:
+   http://docs.python.org/2/library/functions.html#property
+4. Implement a class named "Wrapper" that implements the context
+   manager protocol:
+   - When used in the ``with:`` statement, an instance of your class
+     should print a message before and after running the nested
+     block in the ``with:`` statement.
+   - In addition to the ``__enter__`` and ``__exit__`` methods,
+     implement a ``display`` method that prints out a message.
+   - Use your context manage class in a ``with:`` statement.  In the
+     nested block in the ``with:`` statement, call the ``display``
+     method.
+   - Use your context manager class, again, but this time raise an
+     exception in the nested block.
+   See: `Context Manager Types --
+   http://docs.python.org/2/library/stdtypes.html#context-manager-types
+   <http://docs.python.org/2/library/stdtypes.html#context-manager-types>`_.
+
+Class methods and static methods -- exercise
+==============================================
+Define a class.  In your class, do the following:
+1. Define a class variable named ``class_description`` whose initial
+   value is "A test for class methods and static methods".
+2. Define a class method named ``show_description`` -- Print out the
+   class variable ``class_description``.
+3. Define a static method named ``show_time`` -- Print out the
+   current time.
+Write a test harness (a function) for the above Class.  In your test
+function: (1) do **not** create an instance of your class; (2)
+call the class method and the static method in that class; (3)
+change the value of the class variable; (4) call the class method
+again to prove that the class variable has changed.

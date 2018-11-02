@@ -1,0 +1,130 @@
+=====================
+ Python Database API
+=====================
+
+Querying a database
+===================
+
+Use the ``sqlite3`` module in the Python standard library to
+complete the following exercises.
+
+Write a script containing a function that displays information about a
+table in a database: information about the table and all the rows in a
+database.
+
+Apply your script to the database file ``data01.db`` in this
+directory.  It contains a table named ``plants``.
+
+1. Open/create a connection to the database.
+
+2. Execute a query on the database -- example::
+
+       select * from plants
+
+3. Display the descriptions of the columns returned by the query.
+
+4. Display the number of rows returned as a result of the query.
+
+5. Display the "raw" results, that is each of the rows/tuples returned
+   by the query.
+
+6. Display each field (that is, each column) as follows:
+
+   - Name -- left justified in 12 spaces
+
+   - Description -- left justified in 30 spaces
+
+   - Rating -- right justified in 4 spaces
+
+
+What you will learn:
+
+- How to install a Python module/package.
+
+- How to use the Python database API.
+
+- How to create a connection to a database.
+
+- How to execute a query on a database.
+
+- How to process the results of a query.
+
+----------
+
+Delete a row from a database
+============================
+
+Write a function that deletes a row from the plants table in the
+sample database.
+
+First check to see whether the row exists in the database.  Print an
+error message if it does not.
+
+Modify your script so that it processes the following command lines::
+
+    python db_actions.py show
+    python db_actions.py delete plant_name
+
+What you will learn:
+
+- How to delete a row from a table in a database.
+
+- How to check for the existence of a row (that matches a query) in a
+  table in a database.
+
+- How to process arguments from the command line.
+
+
+Add a row to a database
+=======================
+
+Write a function that adds a row to the plants table in the sample
+database.
+
+Modify your script so that it processes the following additional
+command line::
+
+    python db_actions.py add plant_name description rating
+
+What you will learn:
+
+- How to insert a row into a database.
+
+
+Create a description-row dictionary
+===================================
+
+Write a function that takes the query (result) description
+(``cursor.description``) and a row as arguments, and which creates
+and returns a dictionary whose keys are the names of the columns
+and whose values are the corresponding values from that row.
+
+
+Additional information
+======================
+
+- `DatabaseProgramming -- Starting point for learning about using
+  databases from Python -- 
+  http://wiki.python.org/moin/DatabaseProgramming
+  <http://wiki.python.org/moin/DatabaseProgramming>`_
+
+- `Python Database API Specification v2.0 --
+  http://www.python.org/dev/peps/pep-0249/
+  <http://www.python.org/dev/peps/pep-0249/>`_
+
+- `GadflyB5: SQL Relational Database in Python --
+  http://gadfly.sourceforge.net/
+  <http://gadfly.sourceforge.net/>`_
+
+- `DatabaseInterfaces --
+  http://wiki.python.org/moin/DatabaseInterfaces
+  <http://wiki.python.org/moin/DatabaseInterfaces>`_
+
+- `DbApiModuleComparison --
+  http://wiki.python.org/moin/DbApiModuleComparison
+  <http://wiki.python.org/moin/DbApiModuleComparison>`_
+
+- `DbApiCheatSheet
+  http://wiki.python.org/moin/DbApiCheatSheet
+  <http://wiki.python.org/moin/DbApiCheatSheet>`_
+

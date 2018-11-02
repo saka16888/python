@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.7: http://docutils.sourceforge.net/" />
+<title>Classes and sub-classes -- the vehicles class hierarchy</title>
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="classes-and-sub-classes-the-vehicles-class-hierarchy">
+<h1 class="title">Classes and sub-classes -- the vehicles class hierarchy</h1>
+
+<ol class="arabic">
+<li><p class="first">Implement Python classes for the following class hierarchy:</p>
+<pre class="literal-block">
+Vehicle
+    Truck
+        PickupTruck
+        BigRig
+    Automobile
+        Van
+        Sedan
+PassengerStop
+</pre>
+</li>
+<li><p class="first">Support each of the following:</p>
+<ul class="simple">
+<li>All vehicles should have instance variables ID (string) and fuel
+(integer).</li>
+<li>All Trucks should have a wheel_count (integer).</li>
+<li>All BigRigs have a maximum load and a current load (both integers).</li>
+<li>Vans should have a passenger count and a maximum number of
+passengers (integers).  Vans should also have a route (a list of
+instances of class PassengerStop).</li>
+<li>Every class in the Vehicle class hierarchy should implement a
+&quot;show&quot; method, which displays information about the instance.
+When implementing the show method in sub-classes, consider
+calling the show method of the super-class.</li>
+<li>A PassengerStop has a location (a string) and a number of
+passengers (an integer).</li>
+</ul>
+</li>
+<li><p class="first">Create several instances of your classes.  Then display information
+from those instances.  For example:</p>
+<ul class="simple">
+<li>Display the fuel and number of wheels of a BigRig.</li>
+<li>Display the fuel, the number of passengers, maximum number of
+passengers, and route of a Van.</li>
+</ul>
+</li>
+</ol>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to define a Python class.</li>
+<li>How to implement a sub-class of a class.</li>
+<li>How to implement the constructor method of a class.</li>
+<li>How to call the constructor of a super-class.</li>
+<li>How to call a method in the same class (or a super-class).</li>
+<li>How to call a method in a super-class, by-passing the same method in
+the current class.</li>
+<li>How to override a method in a superclass.</li>
+<li>How to iterate over a list of instances and call a method on each
+instance.</li>
+</ul>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="vehicles.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

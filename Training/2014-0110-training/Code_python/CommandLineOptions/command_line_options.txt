@@ -1,0 +1,32 @@
+.. vim: set ft=rst:
+
+==================================================
+Exercises -- Parse command line options and args
+==================================================
+
+Write a script that uses the ``argparse`` module to parse the
+following from the command line:
+
+- ``-h --help`` -- Display help message.
+
+- ``-v --verbose`` -- Boolean: True or False
+
+- ``-c --count`` -- An integer value
+
+- arg1, arg2, ... -- Any number of arguments.
+
+Ditto, but use the ``getopt`` module.
+
+What you will learn:
+
+- How to parse and capture command line options and arguments using
+  the ``argparse`` module.
+
+- Ditto, using the ``getopt`` module.
+
+Additional information:
+
+- ``argparse`` --
+  http://docs.python.org/2/library/argparse.html#module-argparse
+
+- ``getopt`` -- http://docs.python.org/2/library/getopt.html#module-getopt

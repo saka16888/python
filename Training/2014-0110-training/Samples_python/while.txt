@@ -1,0 +1,26 @@
+
+Create a single linked list (for example, 2-tuples).  Then:
+
+1. Write a recursive function that walks the single linked list.
+
+2. Write a function that uses a ``while`` statement to walk the
+   single linked list.
+
+3. Write a function that uses a generator function (containing
+   ``yield``) in a ``for:`` statement to walk the single linked
+   list.
+
+Create a pattern string and a target string that contains the
+pattern in several locations, for example::
+
+    pat = 'abc'
+    target = '11abc22abc33abc44'
+
+Then:
+
+1. Write a function that uses a ``while:`` statement to find and
+   print all the positions of the sub-string in the target string.
+
+2. Write a function that uses a ``for:`` statement and a generator
+   function (containing ``yield``) to find and print all the
+   positions of the sub-string in the target string.

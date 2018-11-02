@@ -1,0 +1,36 @@
+===================================
+Exceptions -- raising and catching
+===================================
+
+1. Define an exception sub-type SpecialExp.
+
+2. Implement the following functions:
+
+   - inner2() -- raise an exception of type SpecialExp.
+
+   - inner1() -- call inner2.
+
+   - outer -- call inner1.  Wrap this call in a try:except: 
+     statement that catches exception SpecialExp and only that
+     specific exception.
+
+3. Run your script.
+
+4. In inner1 or inner2, generate another exception, for
+   example, by referencing an undefined variable.
+
+5. Run your script again.  Make sure that only SpecialExp
+   is caught.
+
+6. Add another clause to your try:except: statement -- Catch
+   the additional exception.
+
+
+What you will learn:
+
+- How to define an exception type.
+
+- How to raise an exception of a specific type.
+
+- How to catch an exception of a specific type (and no other).
+

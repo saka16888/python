@@ -1,0 +1,68 @@
+===============================
+Lists and tuples -- Exercises
+===============================
+
+Write a function that does each of the following:
+
+1. Create an empty list and print it.
+
+2. Create a list containing several strings and integers.  Print it.
+
+3. Append a value to one of these lists.  Print it.
+
+4. Insert a value at the beginning of one of these lists.  Print it.
+
+5. Print the length of the list.
+
+6. Select (index) an element from one of your lists.  Print it.
+
+7. Select and print a slice from one of your lists.
+
+8. Add two lists together.  Print the result.
+
+9. Add a list to this list using the augment operator (``+=``).
+   Print it.
+
+10. Sort the list.  Print it.
+
+11. Use the ``for:`` statement to print each item in one of your
+    lists.
+
+12. Create a tuple with one element.  Print it.
+
+13. Create a tuple with more than one element.  Print it.
+
+14. Write a function ``apply(fn, numbers)`` that takes a function
+    and a list of numbers.  ``apply`` should return a new list that
+    contains the result of applying ``fn`` to each element of
+    ``numbers``.
+
+15. Given a list ``data1`` (with an even number of items), create
+    a list of 2-tuples ``data2`` where::
+    
+        data2[i] = (data1[i] , data1[i+1])
+
+    For example, given this list::
+
+        data1 = ['aa', 11, 'bb', 22, 'cc', 33, 'dd', 44]
+
+    create this list::
+
+        data2 = [('aa', 11), ('bb', 22), ('cc', 33), ('dd', 44)]
+
+16. Create a list of integers, some of which are odd and some of
+    which are even.  Sort this list using the ``sort`` method so
+    that all the odd numbers are at the beginning.  Hint: the sort
+    method takes an additional, optional argument, a function
+    ``cmp(a, b)`` which returns:
+
+    - -1 if a < b
+    - 0 if a == b
+    - +1 if a > b
+
+
+What you will learn:
+
+- How to create lists and tuples.
+
+- How to use, and modify lists.

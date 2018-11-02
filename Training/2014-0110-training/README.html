@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Python Training Materials</title>
+<meta name="author" content="Dave Kuhlman" />
+<meta name="date" content="November 25, 2013" />
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #dddddd;
+}
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="python-training-materials">
+<h1 class="title">Python Training Materials</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Dave Kuhlman</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:dkuhlman&#64;davekuhlman.org">dkuhlman&#64;davekuhlman.org</a></td></tr>
+<tr><th class="docinfo-name">Address:</th>
+<td><pre class="address">
+<a class="first last reference external" href="http://www.davekuhlman.org">http://www.davekuhlman.org</a>
+</pre>
+</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>1.0a</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>November 25, 2013</td></tr>
+</tbody>
+</table>
+<!-- vim: set ft=rst: -->
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Copyright:</th><td class="field-body">Copyright (c) 2013 Dave Kuhlman.  All Rights Reserved.
+This software is subject to the provisions of the MIT License
+<a class="reference external" href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>.</td>
+</tr>
+<tr class="field"><th class="field-name">Abstract:</th><td class="field-body">This document provides notes and guidance on the use of
+the materials in this directory for teaching a beginning
+class of Python programming.</td>
+</tr>
+</tbody>
+</table>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#overview" id="id1">1&nbsp;&nbsp;&nbsp;Overview</a><ul class="auto-toc">
+<li><a class="reference internal" href="#how-to-use-these-materials-suggestions" id="id2">1.1&nbsp;&nbsp;&nbsp;How to use these Materials -- suggestions</a></li>
+<li><a class="reference internal" href="#modifying-documentation-html-files" id="id3">1.2&nbsp;&nbsp;&nbsp;Modifying documentation (HTML) files</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#directory-contents" id="id4">2&nbsp;&nbsp;&nbsp;Directory contents</a><ul class="auto-toc">
+<li><a class="reference internal" href="#materials-docs" id="id5">2.1&nbsp;&nbsp;&nbsp;Materials/Docs</a></li>
+<li><a class="reference internal" href="#materials-exercises-python" id="id6">2.2&nbsp;&nbsp;&nbsp;Materials/Exercises_python</a></li>
+<li><a class="reference internal" href="#materials-code-python" id="id7">2.3&nbsp;&nbsp;&nbsp;Materials/Code_python</a></li>
+<li><a class="reference internal" href="#materials-samples-python" id="id8">2.4&nbsp;&nbsp;&nbsp;Materials/Samples_python</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h1><a class="toc-backref" href="#id1">1&nbsp;&nbsp;&nbsp;Overview</a></h1>
+<p>The contents of this archive/directory are intended to be used by an
+instructor delivering a course on beginning Python.</p>
+<p>This README gives a brief survey of where to find things in this
+directory and its sub-directories and some guidance on how to use
+the materials.</p>
+<p>Documentation -- Look in the Docs directory.  A more detailed
+description of the contents of that directory is below.</p>
+<p>Assignments and exercises -- In several directories you will find
+pairs of files: a text (.txt) file and an HTML file (.html).
+Usually, the HTML file was generated from the text file (the source)
+using Docutils (<a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a>).  Often these
+documents give assignments and exercises that an instructor can give
+to students to work on after the completion of a given topic.  There
+is usually a solution (a Python module that solves the execercise),
+which you can show to students and discuss after they have had time
+to work on the exercise.  Often the solution is &quot;hidden&quot; in a
+sub-directory named &quot;Solutions&quot;.</p>
+<div class="section" id="how-to-use-these-materials-suggestions">
+<h2><a class="toc-backref" href="#id2">1.1&nbsp;&nbsp;&nbsp;How to use these Materials -- suggestions</a></h2>
+<p>I carry these materials to class on CDs and flash drives.  On the
+morning of the first day of class, I ask students to copy this
+directory (<tt class="docutils literal">Materials</tt>) onto their hard drive.</p>
+<p>The latest version of these materials is available at my Web site:
+<a class="reference external" href="http://www.davekuhlman.org/#materials-for-python-training">http://www.davekuhlman.org/#materials-for-python-training</a></p>
+<p>I teach most of the course from the notes in
+<tt class="docutils literal">Docs/python_course_03.html</tt>.</p>
+<p>See section <a class="reference internal" href="#directory-contents">Directory contents</a> for more detailed information on
+the contents.</p>
+</div>
+<div class="section" id="modifying-documentation-html-files">
+<h2><a class="toc-backref" href="#id3">1.2&nbsp;&nbsp;&nbsp;Modifying documentation (HTML) files</a></h2>
+<p>Many of the HTML files were produced using Docutils, which is a
+documentation preparation system written in Python.  These HTML
+files were generated from corresponding source text files containing
+reStructuredText.  For example, the file &quot;abc.txt&quot; would be used to
+generate &quot;abc.html&quot;.</p>
+<p>To do this, you will need the following:</p>
+<ul class="simple">
+<li>Install Docutils, if you do not already have it.  You can find it
+here: <a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a></li>
+<li>Learn some reStructuredText, although in many cases, you may be
+able to simply follow the layout, format, and indentation of an
+existing document (a <tt class="docutils literal">.txt</tt> file).  There is documentation at
+the Docutils site, and a quick reference is here:
+<a class="reference external" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">http://docutils.sourceforge.net/docs/user/rst/quickref.html</a></li>
+</ul>
+<p>Once Docutils is installed on your machine, you should be able to
+re-generate an HTML file with the following:</p>
+<pre class="literal-block">
+$ rst2html.py --stylesheet=Docs/pytraining_docutils.css abc.txt abc.html
+</pre>
+<p>The <tt class="docutils literal"><span class="pre">--stylesheet</span></tt> option is not strictly necessary, but will
+produce output with an appearance more consistent with other HTML
+files in these Materials.  The file <tt class="docutils literal">pytraining_docutils.css</tt> is
+in the <tt class="docutils literal">Docs/</tt> directory, so you may need to adjust the above
+command depending on your current directory.</p>
+</div>
+</div>
+<div class="section" id="directory-contents">
+<h1><a class="toc-backref" href="#id4">2&nbsp;&nbsp;&nbsp;Directory contents</a></h1>
+<p>Here is a directory listing:</p>
+<pre class="literal-block">
+Materials
+|-- Code_python                     # Code and exercises
+|   |-- Cmd
+|   |-- CommandLineOptions
+|   |-- ConfigParser
+|   |-- Database
+|   |-- Decorators
+|   |-- ExceptionSubclass
+|   |-- FixedLenRecords
+|   |-- Import
+|   |-- IteratorGenerator
+|   |-- Jython
+|   |-- Oop
+|   |   `-- Solutions
+|   |-- TextAndFiles
+|   |-- TreeStructure
+|   |-- Unittest
+|   |   `-- Solutions
+|   |-- VarialbeLenRecords
+|   |-- WrapperEnvelopeIterable
+|   |-- Xml
+|   |-- Zipfiles
+|   |-- package_sample1
+|   |   `-- sub_package
+|   `-- package_sample2
+|-- Docs
+|-- Exercises_python                # Exercises and assignments (see below)
+|   `-- Solutions
+|-- Samples_python                  # Other samples of Python code
+|-- Templates_python                # Starter templates for modules and scripts
+|-- Work                            # An empty directory for student work
+|-- bin                             # Files to set command line environment
+`-- python-2.7.6-docs-html          # The Python standard documentation (HTML)
+</pre>
+<div class="section" id="materials-docs">
+<h2><a class="toc-backref" href="#id5">2.1&nbsp;&nbsp;&nbsp;Materials/Docs</a></h2>
+<p>Documentation to be used during training.</p>
+<ul class="simple">
+<li><tt class="docutils literal">agenda_4day.html</tt> -- An overview and schedule for a 4 day
+course.</li>
+<li><tt class="docutils literal">outline_03.pdf</tt> -- Slides to be used to introduce (and in some
+cases, summarize) various topics.</li>
+<li><tt class="docutils literal">python_book_01.html</tt> and <tt class="docutils literal">python_book_01.pdf</tt> -- A Python
+course book.  Also available at <a class="reference external" href="http://www.lulu.com/shop/shop.ep">http://www.lulu.com/shop/shop.ep</a>
+and at my Web site <a class="reference external" href="http://www.davekuhlman.org">http://www.davekuhlman.org</a>.  You might consider
+printing this book as a hand-out to students, although I'm sure
+that there are better Python texts available.</li>
+<li><tt class="docutils literal">python_course_03.html</tt> -- The course notes that I use while
+teaching.  When I teach, I often have these open in a Web browser
+on my screen and in front of the students via an overhead
+projector.</li>
+<li><tt class="docutils literal">python_versions_01.txt</tt> -- During the first morning's
+introduction to Python, I show this on the screen while describing
+the different versions of Python.</li>
+</ul>
+</div>
+<div class="section" id="materials-exercises-python">
+<h2><a class="toc-backref" href="#id6">2.2&nbsp;&nbsp;&nbsp;Materials/Exercises_python</a></h2>
+<p>Exercises for various topics -- Solutions are in the <tt class="docutils literal">Solutions</tt>
+sub-directory.  For example:</p>
+<ul class="simple">
+<li><tt class="docutils literal">numbers1.html</tt> -- Exercises on ints and floats.</li>
+<li><tt class="docutils literal">lists1.html</tt> -- Exercises for lists and tuples.</li>
+<li><tt class="docutils literal">strings1.html</tt> -- Exercises for strings.</li>
+<li><tt class="docutils literal">class_static_method.html</tt> --</li>
+<li><tt class="docutils literal">dictionaries1.html</tt> -- Exercises for dictionaries.</li>
+<li><tt class="docutils literal">files1.html</tt> -- Exercises on reading and writing text files.</li>
+<li><tt class="docutils literal">statements1.html</tt> -- Exercises for Python statements.</li>
+<li><tt class="docutils literal">functions1.html</tt> -- Exercises for defining and calling
+functions.</li>
+<li><tt class="docutils literal">classes1.html</tt> -- Exercises for object-oriented programming and
+implementing classes in Python.</li>
+</ul>
+</div>
+<div class="section" id="materials-code-python">
+<h2><a class="toc-backref" href="#id7">2.3&nbsp;&nbsp;&nbsp;Materials/Code_python</a></h2>
+<ul>
+<li><p class="first"><tt class="docutils literal">Cmd</tt> -- Exercise -- Implement an interactive prompt using the
+<tt class="docutils literal">cmd</tt> module.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">CommandLineOptions</tt> -- Exercise -- Parse and capture command
+line options using <tt class="docutils literal">argparser</tt> and <tt class="docutils literal">getopt</tt>.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">ConfigParser</tt> -- Exercise -- Parse and write a <tt class="docutils literal">.ini</tt>
+configuration file.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Database</tt> -- Exercise -- Create, write, and query/read a
+relational database using the <tt class="docutils literal">sqlite3</tt> module.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Decorators</tt> -- Exercise -- Implement a function that can be
+applied as a decorator to trace other functions.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Import</tt> -- Sample -- Shows importing a module that imports a
+module, and demonstrates modifying a value that is global within a
+module.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">IteratorGenerator</tt> -- Exercise -- Implement a generator
+function -- a function the contains <tt class="docutils literal">yield</tt> and, therefore,
+returns a generator (an iterable).</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Oop</tt> -- Exercise -- Implement a class hierarchy used to track
+and display a fleet of vehicles and their routes.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">package_sample1</tt> -- An example of a Python package that makes
+several objects global within the package.  To get an idea of what
+it does, do the following from the directory immediately above
+it:</p>
+<pre class="literal-block">
+&gt;&gt;&gt; import package_sample1
+&gt;&gt;&gt; print dir(package_sample1)
+</pre>
+</li>
+<li><p class="first"><tt class="docutils literal">package_sample2</tt> -- Similar to <tt class="docutils literal">package_sample2</tt>.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">TextAndFiles</tt> -- Exercises -- Specifically:</p>
+<ul class="simple">
+<li>CSV -- Comma separated values -- Read and print a report from a
+CSV file.</li>
+<li>Count words -- Assignment is in words.html.  Sample data is in
+words.dat.  There are several solutions; words3.py is preferred.</li>
+<li>Various other exercises for string processing and text file
+processing.</li>
+</ul>
+</li>
+<li><p class="first"><tt class="docutils literal">TreeStructure</tt> -- Exercise -- Create, walk, and display tree
+structures implemented with (1) lists, (2) dictionaries, and (3)
+instances of a custom class.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Unittest</tt> -- (1) Samples of unit test classes and harnesses to
+run those tests.  (2) Exercise -- Implement a unit test class
+(sub-class of <tt class="docutils literal">unittest.TestCase</tt>) and a test harness to test
+several database access functions.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Xml</tt> -- Exercise -- <tt class="docutils literal">elementtree_walk.html</tt> for an exercise
+using <tt class="docutils literal">xml.etree.ElementTree</tt>.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">ExceptionSubclass</tt> -- Exercise -- Define an Exception subclass
+and catch it in a <tt class="docutils literal">try:except:</tt> statement.  A similar exercise
+is in <tt class="docutils literal">Exercises_python/statements1.html</tt>.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">FixedLenRecords</tt> -- Write and read fixed length records,
+specifically text records that are <em>not</em> separated by newlines.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">VarialbeLenRecords</tt> -- Write and read variable length records,
+specifically text records that are <em>not</em> separated by newlines and
+where the record length is stored in the first bytes of each
+record.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">WrapperEnvelopeIterable</tt> --</p>
+</li>
+<li><p class="first"><tt class="docutils literal">Zipfiles</tt> -- Exercise -- Create and process zip file archives
+using the <tt class="docutils literal">zipfile</tt> module.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="materials-samples-python">
+<h2><a class="toc-backref" href="#id8">2.4&nbsp;&nbsp;&nbsp;Materials/Samples_python</a></h2>
+<p>This directory contains samples of Python code.  It's the place
+where I put sample files that I do not need immediately, but think
+that I might, and that I don't want to throw away.</p>
+<p>When you need a sample of code to illustrate some Python topic and
+you can't find it in <tt class="docutils literal">Exercises_python</tt> or <tt class="docutils literal">Code_python</tt>, you
+might look for it here.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="README.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

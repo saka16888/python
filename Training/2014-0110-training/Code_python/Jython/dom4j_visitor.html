@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>dom4j visitor pattern walk</title>
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="dom4j-visitor-pattern-walk">
+<h1 class="title">dom4j visitor pattern walk</h1>
+
+<ol class="arabic simple">
+<li>Preparation -- Use the walk method in the os.path module to
+list/print the names of the directories and files in a
+directory/sub-directory hierarchy.</li>
+<li>Use the dom4j visitor pattern support to visit all the nodes in an
+XML document.</li>
+<li>Print out a bit of information about each node, e.g. the node/tag
+name.</li>
+<li>Check the type of the node, and print out only information on
+specific node types, for example, only element nodes or only text
+nodes.</li>
+<li>Add a counter to your visitor.  Initialize the counter in your
+visitor class constructor.  Increment and display the counter with
+each node.</li>
+</ol>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to use the visitor pattern.</li>
+<li>More on using dom4j.</li>
+<li>How to use the dom4j visitor pattern to walk over all the nodes in a
+document.</li>
+</ul>
+<p>Question: Can you find a difference or deficiency in the visitor
+pattern when used from Jython rather than Java?  Hint: How would you
+visit only Element nodes?</p>
+<p>Additional information:</p>
+<ul class="simple">
+<li>For more information on the visitor pattern, see
+<a class="reference external" href="http://en.wikipedia.org/wiki/Visitor_pattern">Visitor pattern (at Wikipedia.org) --
+http://en.wikipedia.org/wiki/Visitor_pattern</a></li>
+<li>For another example of the visitor pattern, see
+<a class="reference external" href="http://docs.python.org/lib/module-os.path.html">the walk function in module os.path --
+http://docs.python.org/lib/module-os.path.html</a></li>
+<li><a class="reference external" href="http://www.dom4j.org/">dom4j - dom4j: the flexible XML framework for Java --
+http://www.dom4j.org/</a></li>
+<li><a class="reference external" href="http://www.dom4j.org/apidocs/index.html">dom4j 1.6.1 API --
+http://www.dom4j.org/apidocs/index.html</a>.
+Look for class <tt class="docutils literal">VisitorSupport</tt> and interface <tt class="docutils literal">Visitor</tt>.</li>
+</ul>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="dom4j_visitor.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

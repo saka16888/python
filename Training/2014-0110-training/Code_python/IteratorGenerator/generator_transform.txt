@@ -1,0 +1,33 @@
+=============================================
+Yield, generator, transform -- exercise
+=============================================
+
+Write a function that returns a generator.  Use the ``yield``
+statement.  This function should have the following function
+prototype::
+
+    filter_and_transform(content, test_fn, transform=None)
+
+This generator should process each item in a list as follows:
+
+1. If the item fails the test_fn, skip that item.
+
+2. Else:
+
+   1. If the transform function is None, return the item as is
+      (unchanged).
+   2. Else if the transform function is actually a *list* of transform
+      functions, return each of the results of applying each
+      transform function to the item.
+   3. Else (the transform function is a single function), return the
+      result of applying the transform function to the item.
+
+
+What you will learn:
+
+- How to write a generator function using the ``yield`` statement.
+
+- How to use the generator that is produced by your generator
+  function.
+
+- How to pass functions as arguments to a function.

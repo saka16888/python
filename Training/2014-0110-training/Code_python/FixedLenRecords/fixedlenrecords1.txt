@@ -1,0 +1,81 @@
+=====================
+Fixed Length Records
+=====================
+
+Step 1: Create a file containing fixed length records
+======================================================
+
+1. Implement a function to create a file containing fixed length
+   records.  This function should take the following arguments: (1)
+   a file name and (2) the length of each record. Iterate over a
+   string,  creating one record for each letter in the string; the
+   record should contain the letter repeated ``length`` times.
+
+2. Run your script.  Check the content of the file you have
+   created.
+
+What you will learn:
+
+- How to open a file for writing and how to write to a file.
+
+- How to write fixed length records.
+
+
+Step 2: Read and process the fixed length records
+==================================================
+
+1. Implement a function that processes all the records in your
+   fixed length record file.  This function should take the
+   following parameters: (1) a file name and (2) the record length
+   (an int).
+
+2. Run your script.
+
+3. Modify your function so that it takes an additional parameter: a
+   function that processes each record in the file.
+
+4. Run your script again, passing a function that coverts a record
+   to upper case and prints it.
+
+What you will learn:
+
+- How to read records with a fixed length.
+
+- How to pass a function as an argument to a function.
+
+
+Step 3: Implement iterators and filters
+========================================
+
+1. Implement a generator function that iterates over each of the
+   records in your fixed length record file and produces (with
+   ``yield``) each one.  The generator function should take the
+   following arguments: (1) a file object open for reading, (2) a
+   record length (an int).
+
+2. Implement a generator function that acts as a filter.  This
+   function will take two arguments: (1) an iterable and (2) a
+   filter function/predicate.  The generator function applies the
+   filter function to each item in the iterable and produces only
+   those items for which the filter function/predicate returns
+   true.
+
+3. Implement a generator function that acts as a transformer.  This
+   function will take two arguments: (1) an iterable and a (2)
+   transformer function.  The generator function applies the
+   transformer function to each item in the iterable before
+   producing it.
+
+
+What you will learn
+=====================
+
+- How to implement a generator function, that is, a function that
+  returns an iterable.
+
+- How to implement a filter and a predicate.
+
+- How to implement a transformer.
+
+- How to pass your filter or transformer function as an argument to
+  the generator function.

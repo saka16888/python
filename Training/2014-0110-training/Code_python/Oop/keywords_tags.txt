@@ -1,0 +1,58 @@
+=========================
+A Keyword Annotated Tree
+=========================
+
+Step 1: A basic tree Node class
+===============================
+
+Implement a basic node class that has the following instance
+variables:
+
+- ``value`` -- a string
+
+- ``keywords`` -- a list of strings
+
+- ``children`` -- a list of child nodes
+
+Implement a constructor (``__init__``) that takes the following
+arguments: ``value``, ``keywords`` (optional), and ``children``
+(optional).
+
+Implement a ``show`` method that prints out the value and the
+keywords, then recursively calls itself to show children.
+
+Implement a ``test`` function that creates a small tree, then calls
+the ``show`` method on the root Node to show the tree.
+
+
+What you will learn:
+
+- How to implement a tree data structure from a simple class.
+
+- How to create instances of the Node class (nodes in the tree) and
+  construct a tree.
+
+- How to recursively walk a tree data structure.
+
+
+Step 2: A reverse index of keywords
+===================================
+
+Add a ``collect`` method to your Node class that takes one
+argument, a dictionary, and adds itself to the dictionary for each
+keyword that is this Node has.  The keys in the dictionary are
+strings (the keywords), and the values in the dictionary are lists
+(a list of Nodes that have the associated keyword).  The collect
+method should also (recursively) call itself on each child node.
+
+Call the ``collect`` method on the top Node of your tree, passing
+in an empty dictionary.  Print out the items in your dictionary.
+
+
+What you will learn:
+
+- How to generate a reverse index for keyword searches.
+
+
+
+

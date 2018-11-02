@@ -1,0 +1,44 @@
+============================================
+Cartesian Points and Calculations on Points
+============================================
+
+1. Define a class ``Point`` with two member variables: ``x`` and
+   ``y``.
+
+2. Define a class ``RGBPoint`` that extends (sub-classes) class
+   ``Point`` and which adds the following:
+
+   - An instance variable ``color`` (along with getter and setter
+     methods).
+
+   - A method named ``describe`` that returns a string giving the
+     ``x``, ``y``, and ``color`` of the ``RGBPoint``.
+
+3. Define a class ``CalculatingPoint`` that extends (sub-classes)
+   class ``RGBPoint`` with the following methods:
+
+   - ``difference`` -- calculate the distance between
+     two points
+
+   - ``sum`` -- calculate the sum (addition) of two points.
+
+4. Using your ``difference`` and ``sum`` methods, implement the
+   minus (dash) and plus (+) operators.
+
+5. Modify your ``Point`` class so that ``x`` and ``y`` are
+   properties.
+
+
+What you will learn:
+
+- How to define a class.
+
+- How to implement a sub-class.
+
+- How to implement methods that define the behaviors and
+  capabilities of a class.
+
+- How to implement an operator.
+
+- How to implement a property.
+

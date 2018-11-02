@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Fixed Length Records</title>
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="fixed-length-records">
+<h1 class="title">Fixed Length Records</h1>
+
+<div class="section" id="step-1-create-a-file-containing-fixed-length-records">
+<h1>Step 1: Create a file containing fixed length records</h1>
+<ol class="arabic simple">
+<li>Implement a function to create a file containing fixed length
+records.  This function should take the following arguments: (1)
+a file name and (2) the length of each record. Iterate over a
+string,  creating one record for each letter in the string; the
+record should contain the letter repeated <tt class="docutils literal">length</tt> times.</li>
+<li>Run your script.  Check the content of the file you have
+created.</li>
+</ol>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to open a file for writing and how to write to a file.</li>
+<li>How to write fixed length records.</li>
+</ul>
+</div>
+<div class="section" id="step-2-read-and-process-the-fixed-length-records">
+<h1>Step 2: Read and process the fixed length records</h1>
+<ol class="arabic simple">
+<li>Implement a function that processes all the records in your
+fixed length record file.  This function should take the
+following parameters: (1) a file name and (2) the record length
+(an int).</li>
+<li>Run your script.</li>
+<li>Modify your function so that it takes an additional parameter: a
+function that processes each record in the file.</li>
+<li>Run your script again, passing a function that coverts a record
+to upper case and prints it.</li>
+</ol>
+<p>What you will learn:</p>
+<ul class="simple">
+<li>How to read records with a fixed length.</li>
+<li>How to pass a function as an argument to a function.</li>
+</ul>
+</div>
+<div class="section" id="step-3-implement-iterators-and-filters">
+<h1>Step 3: Implement iterators and filters</h1>
+<ol class="arabic simple">
+<li>Implement a generator function that iterates over each of the
+records in your fixed length record file and produces (with
+<tt class="docutils literal">yield</tt>) each one.  The generator function should take the
+following arguments: (1) a file object open for reading, (2) a
+record length (an int).</li>
+<li>Implement a generator function that acts as a filter.  This
+function will take two arguments: (1) an iterable and (2) a
+filter function/predicate.  The generator function applies the
+filter function to each item in the iterable and produces only
+those items for which the filter function/predicate returns
+true.</li>
+<li>Implement a generator function that acts as a transformer.  This
+function will take two arguments: (1) an iterable and a (2)
+transformer function.  The generator function applies the
+transformer function to each item in the iterable before
+producing it.</li>
+</ol>
+</div>
+<div class="section" id="what-you-will-learn">
+<h1>What you will learn</h1>
+<ul class="simple">
+<li>How to implement a generator function, that is, a function that
+returns an iterable.</li>
+<li>How to implement a filter and a predicate.</li>
+<li>How to implement a transformer.</li>
+<li>How to pass your filter or transformer function as an argument to
+the generator function.</li>
+</ul>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="fixedlenrecords1.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

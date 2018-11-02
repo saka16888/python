@@ -1,0 +1,46 @@
+.. vim: set ft=rst:
+
+====================
+Files -- exercises
+====================
+
+1. Write a function that takes a file name as its argument, opens
+   the file (in read mode), and reads and prints each line in the
+   file.  Don't forget to close the file.
+
+2. Write a function that takes a filename as its argument, opens the
+   file (in read mode), and counts the words in the file.
+
+   Optionally, accumulate a count of each different word.  Then
+   print the count for each word in alphabetical order.
+
+3. Write a function that takes (1) a file name and (2) a list of
+   strings as its arguments, opens the file in *write* mode, and
+   writes each item in the list as a line in the file.
+
+4. Write a function that takes the following arguments: (1) a file
+   name and (2) a transform function.  Open the file in read mode,
+   read each line, apply the transform function to the line, and
+   print the line.
+   
+   The transform function should take one argument (a string).  This
+   function should transform that string (for example convert it to
+   upper case), and return the transformed string.  
+
+5. Write a script that takes its input from stdin and writes its
+   output to stdout.  Transform that content is some way, for
+   example, (1) convert it to upper case or (2) add "## " at the
+   beginning of each line.
+
+6. Write a function that takes a file name as its argument, opens
+   the file (in read mode), and then:
+
+   - read 4 bytes and print it
+   - read another 4 bytes and print it
+
+
+What you will learn:
+
+- How to read lines from a text file.
+
+- How to create and write lines to a text file.

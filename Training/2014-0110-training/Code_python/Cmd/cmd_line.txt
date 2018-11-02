@@ -1,0 +1,41 @@
+
+===============================
+ cmd -- Command Line Interface
+===============================
+
+1. Write an application that implements a command line interface using
+   the ``cmd`` module in that Python standard library.
+
+2. Your command line interface should respond to the following
+   commands:
+
+   - ``hello`` -- Print a "hello" message and display any arguments on
+     the command line.
+
+   - ``quit`` -- Exit the command loop and quit the application.
+
+3. Provide documentation for both commands in a doc string.
+
+4. Test your application:
+
+   - Type the "hello" and "quit" commands at the command prompt.
+
+   - Type "help" and the "help hello" to view documentation on your
+     commands.
+
+
+What you will learn:
+
+- How to use the ``cmd`` module from the Python standard library.
+
+- How to implement a text mode, command line interface.
+
+- How to add a doc string to a method/function.
+
+
+Additional information:
+
+- `cmd -- Support for line-oriented command --
+  http://docs.python.org/lib/module-cmd.html
+  <http://docs.python.org/lib/module-cmd.html>`_
+

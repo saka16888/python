@@ -1,0 +1,31 @@
+===============================
+ Comma separated values report
+===============================
+
+1. Read a text file containing comma separated values (CSVs).  For
+   input data see csv_report.csv.
+
+2. Print a report of the values in the input file.  Split each line
+   into comma separated values fields.  Left align the name and
+   description columns; right align the ratings column.
+
+3. Ignore all lines that begin with a hash ("#").
+
+Ditto, but use the ``csv`` module to parse the input (instead of
+``str.split()``).
+
+
+What you will learn:
+
+- How to open a text file for reading.
+
+- How to read and process each line in a text file.
+
+- How to trim white space off the ends of a string/line.
+
+- How to split the text line into fields.
+
+- How to print formatted text.
+
+- How to use the ``csv`` module to read and parse a comma separated
+  values file.

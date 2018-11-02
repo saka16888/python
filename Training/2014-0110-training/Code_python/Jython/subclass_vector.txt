@@ -1,0 +1,41 @@
+=====================
+Subclass a Java class
+=====================
+
+1. Implement a Jython class that is a subclass of the Java Vector
+   class: java.util.Vector.  A Java Vector is quite similar to a
+   Jython list, but the interface is different.
+
+2. Implement the following methods in your subclass:
+
+   - upperElementAt(index) -- Return the string at position index
+     converted to upper case.
+
+   - elementAt(index) -- Return the string at position index enclosed in
+     square brackets.
+
+   Assume that only strings will be added to your Vector subclass.
+
+3. Additional work -- Override the constructor and the ``add``
+   method.  Test to make sure that the items added to the vector
+   are strings.  Raise an exception if they are not.
+
+
+What you will learn:
+
+- How to implement a Jython subclass of a Java class.
+
+- How to reuse functionality of the Java class in your subclass.
+
+- How to by-pass a method defined in your subclass in order to
+  call a method of the same name in the Java superclass.
+
+
+Additional information
+======================
+
+- See documentation on the Vector class in 
+  `Java Platform, Standard Edition 6 API Specification --
+  http://java.sun.com/javase/6/docs/api/
+  <http://java.sun.com/javase/6/docs/api/>`_
+

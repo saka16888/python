@@ -1,0 +1,35 @@
+===========================
+Dictionaries -- exercises
+===========================
+
+Write and call a function that does each of the following:
+
+1. Create an empty dictionary.  Print it.
+
+2. Create a dictionary with two initial keys and values.  Print it.
+
+3. Create another dictionary with several entries, then update it
+   with the items from the previous dictionary.
+
+4. Print (1) the keys, (2) the values, and (3) the items from one of
+   your dictionaries.
+
+5. Print the length of (number of items in) your dictionary.
+
+6. Iterate over the keys in your dictionary, printing the key and
+   its associated value.  Remember that the dictionary itself is
+   an iterator (iteratable? iterable?).
+
+7. Get the value associated with a key in your dictionary or None if
+   the dictionary does not contain that key.  Print them.
+
+8. Given a list of 2-tuples ``[(key1, value1), ...]``, create a
+   dictionary whose keys and values are ``key1`` and ``value1`` etc.
+
+What you will learn:
+
+- How to create dictionaries.
+
+- How to add (insert) items into a dictionary.
+
+- How to access the keys, values, and items in your dictionaries.

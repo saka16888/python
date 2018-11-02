@@ -1,0 +1,30 @@
+=======================
+Packages -- exercises
+=======================
+
+1. Create a directory in which to implement your package.
+   Suggestion: Materials/Work/test_package.
+
+2. Create 3 files in that directory: (1) ``__init__.py``, (2)
+   ``module1.py``, and (3) ``module2.py``.
+
+3. In ``module1.py``, create one function named "function1".
+
+4. In ``module2.py``, create one function named "function2"..
+
+5. In ``__init__.py``, do each of the following:
+
+   - Make ``function1`` available at the package level.
+
+   - Make ``module2`` available at the package level.
+
+6. Test your package by changing the directory above your package,
+   starting the python interactive prompt, then importing your
+   package.  Example::
+
+        $ cd Materials/Work
+        $ python
+        Python 2.7.5 (default, Sep  1 2013, 09:04:34)
+        [GCC 4.7.3] on linux2
+        Type "help", "copyright", "credits" or "license" for more information.
+        >>> import test_package     

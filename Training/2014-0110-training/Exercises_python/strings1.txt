@@ -1,0 +1,48 @@
+.. vim: set ft=rst:
+
+======================
+Strings -- exercises
+======================
+
+1. Create a string.  Print it.
+
+2. Create a multi-line string.  Print it.
+
+3. Concatenate two strings together.  Print the result.
+
+4. Print the length of one of your strings.
+
+5. Search one string for a sub-string.  Print the location of the
+   sub-string.
+
+6. Format a string using the string formatting operator (``%``).
+   Interpolate into the string: (1) a string, (2) an integer, and
+   (3) a float.
+
+7. Left justify a short string within a longer field.  Print it.  Do
+   the same but right justify it.  Print it.  Center the string
+   within a longer field.  Print it.
+
+8. Strip white-space off (1) the left side, (2) the right side, and
+   (3) both sides of a string.  Print each result.
+
+9. Split a string into a list of words.
+
+10. Join a list of strings together with "::" between each of the
+    sub-strings.
+
+11. Given a word and a list of strings, write a function
+    ``collect(word, strings)`` that returns a (new) list that
+    contains the strings that contain the word.
+
+What you will learn:
+
+- How to create and manipulate strings.
+
+- How to concatenate two strings.
+
+- How to format a string with the string formatting operator.
+
+- How to justify a string.
+
+- How to strip white-space off a string.

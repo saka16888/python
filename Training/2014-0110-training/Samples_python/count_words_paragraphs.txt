@@ -1,0 +1,6 @@
+The file count_words_paragraphs_data.txt contains several paragraphs
+of text.
+
+Your task is to accumulate and print word counts of each separate
+word in each paragraph and also print total words counts for the
+whole passage.

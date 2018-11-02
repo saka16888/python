@@ -1,0 +1,78 @@
+==============================================
+ Regular expressions and command-line prompts
+==============================================
+
+
+Regular expression scanning, replacement, etc
+=============================================
+
+1. Implement a Python class for regular expression searching,
+   extracting and replacing text.
+
+2. The constructor of the class should take a file pattern as an
+   argument. It should save (as instance variables) the file pattern
+   and (using the glob module) a list of files that match the pattern.
+
+2. The class should also contain the following methods:
+
+   - scan(pattern)
+
+   - extract(pattern)
+
+   - replace(pattern, replacement_text) --
+
+What you will learn:
+
+- How to implement a Python class.
+
+- How to create and use instance variables.  That is, how to give your
+  instances their own private data or state.
+
+- How to use the "glob" module.
+
+- How to use several features of the regular expression module (re).
+
+- How to create an instance of a class and call its methods.
+
+
+Implementing a command-line prompt
+==================================
+
+1. Implement a command-line prompt and command processor by
+   sub-classing cmd.Cmd from the Python standard library.
+
+2. Implement commands that call each of the three methods in your
+   regular expression class.
+
+3. Add documentation to each command so that the "help" command can
+   be used to obtain a description of each command.
+
+
+What you will learn:
+
+- How to implement a sub-class of an existing class (in the
+  Python standard library).
+
+- How to write a constructor (method) that calls the constructor in
+  a super-class.
+
+- How to use features and capabilities inherited from a super-class.
+
+- How to use the "cmd" module to implement a command line prompt and
+  interpreter.
+
+- How to set or override instance variables that are inherited from
+  a super-class.
+
+
+Additional information
+======================
+
+- `re -- Regular expression operations --
+  http://docs.python.org/lib/module-re.html
+  <http://docs.python.org/lib/module-re.html>`_
+
+- `cmd -- Support for line-oriented command
+  http://docs.python.org/lib/module-cmd.html
+  <http://docs.python.org/lib/module-cmd.html>`_
+

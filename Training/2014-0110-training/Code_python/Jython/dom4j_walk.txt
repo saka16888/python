@@ -1,0 +1,53 @@
+============
+ dom4j walk
+============
+
+Note: Parts of this exercise is very similar to the minidom walk
+exercise, but requires that you use dom4j instead of minidom.
+
+1. Use the dom4j Java class library to read an XML document.  The
+   dom4j jar file is under Materials/Libraries/dom4j-1.6.1. See
+   people.xml for a sample XML document.
+
+2. Walk the DOM tree.
+   
+3. For each node in the tree, print out (1) the element (tag)
+   name, (2) the attributes of the node (name and value), and (3)
+   text content of the node.
+
+4. Modify the tree.  For example, add a date attribute to each
+   "person" element.  Then, walk and display the tree again.
+
+5. Use the dom4j XPath capability to retrieve a node in the tree,
+   then modify that node.  For example, set the value of an attribute
+   of the node.
+
+6. Use the dom4j XPath capability to retrieve a list of nodes in the
+   tree, then modify each node in the list.  For example, set the
+   value of an attribute of the node.
+
+
+What you will learn:
+
+- How to use a Java class library from Jython.
+
+- How to install a Java class library (.jar file) for use by Jython.
+
+- How to read an XML document to construct an XML DOM (document object
+  model) tree.
+
+- How to walk the DOM tree.
+
+- How to perform operations (method calls) on nodes in the DOM tree.
+
+- How to modify the DOM tree and nodes in it.
+
+- How to make a simple XPath query to obtain one or more nodes.
+
+
+Additional information:
+
+- `dom4j - dom4j: the flexible XML framework for Java --
+  http://www.dom4j.org/
+  <http://www.dom4j.org/>`_
+

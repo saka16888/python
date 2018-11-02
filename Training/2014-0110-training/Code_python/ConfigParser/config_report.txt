@@ -1,0 +1,42 @@
+.. vim: set ft=rst:
+
+===================================
+ ConfigParser -- report and modify
+===================================
+
+1. Use the ConfigParser module in the standard library to parse a
+   configuration (.ini) file.
+
+2. Print a report showing the sections, the options in each
+   section, and the value of each option.
+
+3. Construct a Python data structure containing the configuration
+   information in a form that supports easy look-up.
+
+4. Add a new value to one of the sections.  Then, write the
+   modified configuration to a new file on disk.
+
+
+What you will learn:
+
+- How to use the ``ConfigParser`` module from the Python standard
+  library.
+
+- How to retrieve information from configuration files and print a
+  formatted report.
+
+- How to add a value to a configuration.
+
+- How to construct and use a complex, nested data structure.
+
+- How to write a configuration file using the ConfigParser module.
+
+
+Additional information:
+
+- `ConfigParser -- Configuration file parser --
+  http://docs.python.org/lib/module-ConfigParser.html
+  <http://docs.python.org/lib/module-ConfigParser.html>`_
+
+
+

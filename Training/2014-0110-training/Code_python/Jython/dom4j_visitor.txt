@@ -1,0 +1,58 @@
+============================
+ dom4j visitor pattern walk
+============================
+
+1. Preparation -- Use the walk method in the os.path module to
+   list/print the names of the directories and files in a
+   directory/sub-directory hierarchy.
+
+2. Use the dom4j visitor pattern support to visit all the nodes in an
+   XML document.
+
+3. Print out a bit of information about each node, e.g. the node/tag
+   name.
+
+4. Check the type of the node, and print out only information on
+   specific node types, for example, only element nodes or only text
+   nodes.
+
+5. Add a counter to your visitor.  Initialize the counter in your
+   visitor class constructor.  Increment and display the counter with
+   each node.
+
+
+What you will learn:
+
+- How to use the visitor pattern.
+
+- More on using dom4j.
+
+- How to use the dom4j visitor pattern to walk over all the nodes in a
+  document.
+
+
+Question: Can you find a difference or deficiency in the visitor
+pattern when used from Jython rather than Java?  Hint: How would you
+visit only Element nodes?
+
+
+Additional information:
+
+- For more information on the visitor pattern, see
+  `Visitor pattern (at Wikipedia.org) --
+  http://en.wikipedia.org/wiki/Visitor_pattern
+  <http://en.wikipedia.org/wiki/Visitor_pattern>`_
+
+- For another example of the visitor pattern, see
+  `the walk function in module os.path --
+  http://docs.python.org/lib/module-os.path.html
+  <http://docs.python.org/lib/module-os.path.html>`_
+
+- `dom4j - dom4j: the flexible XML framework for Java --
+  http://www.dom4j.org/
+  <http://www.dom4j.org/>`_
+
+- `dom4j 1.6.1 API --
+  http://www.dom4j.org/apidocs/index.html
+  <http://www.dom4j.org/apidocs/index.html>`_.
+  Look for class ``VisitorSupport`` and interface ``Visitor``.

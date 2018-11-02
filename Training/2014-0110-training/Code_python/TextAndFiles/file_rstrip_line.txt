@@ -1,0 +1,21 @@
+================================
+A File Object with Newline Strip
+================================
+
+A class with a has-a relationship to a file object
+==================================================
+
+Implement a class that "wraps" a file object.  In your class:
+
+- The constructor should open the file and save the file object.
+
+- A ``readline()`` method should strip newlines from each line it
+  reads.
+
+- A ``close()`` method closes the file object.
+
+
+
+
+
+

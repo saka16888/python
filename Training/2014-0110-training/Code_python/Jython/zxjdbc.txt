@@ -1,0 +1,57 @@
+=============================
+ Database access with zxJDBC
+=============================
+
+1. Create a connection (object).
+
+2. Create a cursor (object).
+
+3. Execute a query.
+
+4. Retrieve the rowset.
+
+5. Get and display the descriptions of the columns.
+
+6. Iterate over and display the rows in the rowset.
+
+7. Add a row to the table.  Before adding, check for the existence of
+   a row with the key to be added.
+
+8. Delete a row from a table.  Before deleting, determine whether the
+   row exists, and display a message if it does not.
+
+
+What you will learn:
+
+1. Some of the features of the Python DB API 2.0.
+
+2. How to use zxJDBC to perform a simple query and display the
+   results.
+
+3. How to use zxJDBC to retrieve and show the description of the
+   columns in a table.
+
+4. How to use zxJDBC to delete a row from a table.
+
+5. How to use zxJDBC to add a row to a table.
+
+
+Additional information:
+
+- For a description of the Python database API, see
+  `PEP: 249 -- Python Database API Specification v2.0 --
+  http://python.org/dev/peps/pep-0249/
+  <http://python.org/dev/peps/pep-0249/>`_
+
+- For information on zxJDBC, see
+  `Database connectivity in Jython
+  http://www.jython.org/docs/zxjdbc.html
+  <http://www.jython.org/docs/zxjdbc.html>`_
+  This document is also in your Jython distribution.
+
+- And here is an article on zxJDBC:
+  `Database Development in Jython with zxJDBC --
+  http://www.informit.com/articles/article.aspx?p=26143
+  <http://www.informit.com/articles/article.aspx?p=26143>`_
+
+

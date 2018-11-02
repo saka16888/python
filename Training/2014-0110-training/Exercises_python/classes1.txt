@@ -1,0 +1,76 @@
+.. vim: set ft=rst:
+
+======================================================
+Classes and object-oriented programming -- exercises
+======================================================
+
+1. Implement a ``Point`` class.  This class should inherit from
+   ``object``.  It should have two instance variables: ``x`` and
+   ``y``.  In your ``Point`` class implement these methods:
+
+   - ``__init__(self, x, y)`` -- The constructor.  Save instance
+     variables ``x`` and ``y``.
+
+   - ``show(self)`` -- Display your ``Point`` -- Print the values of
+     ``x`` and ``y``.
+
+2. Implement a ``DescriptionPoint`` class.  This class should
+   inherit from class ``Point`` (above).  Add instance variable
+   ``description``.  Override method ``show``.
+
+3. Implement another subclass of class ``Point``.  Call it
+   ``ColorPoint``.  Override method ``show``.  Implement managed
+   access to the color instance variable using the ``property``
+   built-in function.  See:
+   http://docs.python.org/2/library/functions.html#property
+
+4. Implement a class named "Wrapper" that implements the context
+   manager protocol:
+   
+   - When used in the ``with:`` statement, an instance of your class
+     should print a message before and after running the nested
+     block in the ``with:`` statement.
+
+   - In addition to the ``__enter__`` and ``__exit__`` methods,
+     implement a ``display`` method that prints out a message.
+
+   - Use your context manage class in a ``with:`` statement.  In the
+     nested block in the ``with:`` statement, call the ``display``
+     method.
+
+   - Use your context manager class, again, but this time raise an
+     exception in the nested block.
+
+   See: `Context Manager Types --
+   http://docs.python.org/2/library/stdtypes.html#context-manager-types
+   <http://docs.python.org/2/library/stdtypes.html#context-manager-types>`_.
+
+
+What you will learn:
+
+- How to implement a simple class.
+
+- How to implement a class that saves instance variables.
+
+- How to implement methods in a class.
+
+- How to implement a subclass that inherits from another class.
+
+- How to call a method of the same name in the superclass.
+
+- How to call a method in the current class or its superclass,
+  whichever.
+
+- How to implement properties, that is, managed access to instance
+  variables.
+
+- How to write a class that implements a specific protocol, in this
+  case the context manager protocol.
+
+Points to think about:
+
+- Do you want to allow direct access to instance variables ``x`` and
+  ``y``?  Perhaps you should consider implementing getters and
+  setters (``get_x()`` and ``set_x()``), or maybe properties.  What
+  if you later want to switch from a Cartesian to a polar coordinate
+  system, for example?

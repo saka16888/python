@@ -1,0 +1,50 @@
+================
+Python versions
+================
+
+
+    Python      Java        Jython      IronPython
+
+    Python      Java        Python      Python
+    -------     ------      --------    -----------
+    C/C++
+    CPython     JVM         JVM/Java    .Net/CLR
+    C PVM
+    
+    C/C++       Java        Java
+                C/C++
+
+    ctypes      JNI
+    Cython
+    SWIG
+    C/C++
+
+----------------------------------------------------------
+
+PyPy -- PyPy is a Python interpreter and just-in-time compiler. PyPy
+focuses on speed, efficiency and compatibility with the original
+CPython interpreter.  PyPy started out as a Python interpreter
+written in the Python language itself. Current PyPy versions are
+translated from RPython to C code and compiled. The PyPy JIT (short
+for "Just In Time") compiler is capable of turning Python code into
+machine code at run time.  PyPy has a "stackless mode" that supports
+microthreads.
+
+Stackless -- A Python programming language interpreter, so named
+because it avoids depending on the C call stack for its own stack.
+The most prominent feature of Stackless is microthreads, which avoid
+much of the overhead associated with usual operating system threads.
+In addition to Python features, Stackless also adds support for
+coroutines, communication channels and task serialization.
+
+Python 3.x (currently 3.3) -- Python 2.7.x code is not upward
+compatible with Python 3.x, but there is a conversion tool (2to3) to
+assist with the conversion process.
+
+Summary of Python versions:
+
+- IronPython -- Python running on .NET
+- Jython -- Python running on the Java Virtual Machine
+- PyPy -- A fast python implementation with a JIT compiler
+- Stackless Python -- Branch of CPython supporting microthreads
+- CPython -- We will be using v. 2.7.5 or v. 2.7.6.

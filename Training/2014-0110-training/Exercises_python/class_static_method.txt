@@ -1,0 +1,29 @@
+==============================================
+Class methods and static methods -- exercise
+==============================================
+
+Define a class.  In your class, do the following:
+
+1. Define a class variable named ``class_description`` whose initial
+   value is "A test for class methods and static methods".
+
+2. Define a class method named ``show_description`` -- Print out the
+   class variable ``class_description``.
+
+3. Define a static method named ``show_time`` -- Print out the
+   current time.
+
+Write a test harness (a function) for the above Class.  In your test
+function: (1) do **not** create an instance of your class; (2)
+call the class method and the static method in that class; (3)
+change the value of the class variable; (4) call the class method
+again to prove that the class variable has changed.
+
+
+What you will learn:
+
+1. How to define and use a class variable.
+
+2. How to define and use a class method.
+
+3. How to define and use a static method.

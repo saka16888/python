@@ -1,0 +1,50 @@
+=============================
+Tree and Node Data Structures
+=============================
+
+1. Define a binary tree structure using a list for each node.  Each
+   node should have the following structure::
+
+       ['name', left_sibling, right_sibling]
+   
+   where ``left_sibling`` and ``right_sibling`` are either the node
+   list data structure or None.
+
+   Write a recursive function that walks the tree and shows the
+   name of each node.
+
+2. Define a binary tree structure using a dictionary for each node.  Each
+   node should have the following structure::
+
+       {'name': 'the name', 'lsib': left_sibling, 'rsib': right_sibling}
+
+   where ``left_sibling`` and ``right_sibling`` are either the node
+   dictionary data structure or None.
+
+   Write a recursive function that walks the tree and shows the
+   name of each node.
+
+3. Define a class ``Node`` to represent each node of a binary tree.  The
+   class should have the following instance variables:
+
+   - name -- a string
+
+   - lsib -- an instance of class Node or None.
+
+   - rsib -- an instance of class Node or None.
+
+   Also implement a method in class Node to recursive walk the tree
+   and show the name of each node.
+
+
+What you will learn:
+
+- How to create a complex data structure from lists.
+
+- How to create a complex data structure from dictionaries.
+
+- How to implement a class (a Python data type) that represents a
+  node in a tree structure.
+
+- How to write a recursive function (or method) that walks a tree
+  structure.

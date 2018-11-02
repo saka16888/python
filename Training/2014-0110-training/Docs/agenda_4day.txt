@@ -1,0 +1,112 @@
+========================
+ Python Training Agenda
+========================
+
+This document provides an agenda for a four-day course in beginning
+Python programming.
+
+--------------------
+
+Day 1 AM:
+
+- Introductions, administrative matters.
+
+- Agenda and outline of the course.  Goals for the course.
+
+- Introduction to Python: (1) description of Python; (2) comparison
+  and differences between Python and other scripting languages (Perl,
+  Tcl, etc); (3) comparison with other languages (C, C++, Java, etc);
+  (4) comparison of Python and Jython.
+
+- Guidance to available on-line resources: http:/www.python.org, the
+  standard Python documentation, SIGs (special interest groups), etc.
+
+- Lexical matters: (1) variables and names, (2) line structure, (3)
+  comments, (4) block structure, (5) operators.
+
+Day 1 PM:
+
+- Preview of Python execution model: (1) how Python evaluates
+  and runs code; (2) the Python object model.
+
+- Preview of selected statements, for example assignment, print, and
+  for statements.
+
+- Built-in data types and operations on built-in types: numerical
+  types, lists/arrays, dictionaries, strings, etc.
+
+- Practical exercises: (1) creating and using tuples and lists; (2)
+  creating and using dictionaries; (3) creating strings, string
+  operations, and formatting strings.
+
+
+--------------------
+
+Day 2 AM:
+
+- Built-in data types, continued.
+
+- Introduction to structured Python: (1) functions, (2) classes,
+  (3) modules, (4) packages.
+
+- Practical exercises: (1) functions; (2) simple classes; (3)
+  modules.
+
+- Python statements: (1) assignment, (2) import, (3) print,
+  (4) if-then-else.
+
+Day 2 PM:
+
+- Python statements, continued: (1) for; (2) while; (3) continue and
+  break; (4) try-except; (5) raise.
+
+- Practical exercises -- statements.
+
+
+--------------------
+
+Day 3 AM:
+
+- Statements continued: (1) del, (2) exec and eval().
+
+- Structured Python -- functions.
+
+- Practical exercises: statements and functions.
+
+Day 3 PM:
+
+- Structured Python, continued -- Object-oriented programming,
+  classes, and instances.
+
+- More structured Python -- modules and packages.
+
+- Review of Python execution model.
+
+- Iterators and generators.
+
+- Practical exercises: (1) functions; (2) classes and object-oriented
+  programming; (3) iterators and generators.
+
+
+--------------------
+
+Day 4 AM:
+
+- Object-oriented Python -- Implementing and using classes.
+
+- The Python standard libraries -- A review of some significant
+  modules.
+
+- Practical exercises -- Using the Python standard library.
+
+
+Day 4 PM:
+
+- Practical exercises: (1) functions; (2) classes; (3) modules.
+
+- Practical exercises -- Application related tasks and problems
+  suggested by class members.  Possible topics: (1) XML processing in
+  Python; (2) database access with Python; (3) more text processing;
+  (4) etc.
+
+

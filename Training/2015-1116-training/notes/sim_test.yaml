@@ -1,0 +1,100 @@
+testbed:
+    name: qos-reg21
+devices:
+    reg3850-r3:
+        type: "router"
+        tacacs:
+          login_prompt: "Username:"
+          password_prompt: "Password:"
+          username: "admin"
+        passwords:
+          tacacs: lab
+          enable: lab
+          line: lab
+        connections:
+          a:
+            protocol: telnet
+            ip: "172.27.121.219"
+            port: 2138
+        clean:
+          pre_clean: |
+              switchname %{self}
+              license grace-period
+              feature telnet
+          post_clean: |
+              switchname %{self}
+              license grace-period
+              feature telnet
+
+    qos-reg21-r3:
+        type: pagent
+        tacacs:
+          login_prompt: "Username:"
+          password_prompt: "Password:"
+          username: "admin"
+        passwords:
+          tacacs: lab
+          enable: lab
+          line: lab
+        connections:
+          a:
+            protocol: telnet
+            ip: "172.27.122.167"
+            port: 2008
+        clean:
+          pre_clean: |
+              switchname %{self}
+              license grace-period
+              feature telnet
+          post_clean: |
+              switchname %{self}
+              license grace-period
+              feature telnet
+
+    qos-reg21-r4:
+        type: pagent
+        tacacs:
+          login_prompt: "Username:"
+          password_prompt: "Password:"
+          username: "admin"
+        passwords:
+          tacacs: lab
+          enable: lab
+          line: lab
+        connections:
+          a:
+            protocol: telnet
+            ip: "172.27.122.167"
+            port: 2002
+        clean:
+          pre_clean: |
+              switchname %{self}
+              license grace-period
+              feature telnet
+          post_clean: |
+              switchname %{self}
+              license grace-period
+              feature telnet
+
+topology:
+  qos-reg21-r3:
+    interfaces:
+      FastEthernet0/0:
+        link: eth-tgn-uut-1
+        type: ethernet
+
+  reg3850-r3:
+    interfaces:
+      GigabitEthernet1/0/1:
+        link: eth-tgn-uut-1
+        type: ethernet
+
+      GigabitEthernet1/0/2:
+        link: eth-pkts-uut-1
+        type: ethernet
+
+  qos-reg21-r4:
+    interfaces:
+      GigabitEthernet0/2:
+        link: eth-pkts-uut-1
+        type: ethernet

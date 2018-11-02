@@ -1,0 +1,25 @@
+.. vim: set ft=rst:
+
+=========================
+Exercises -- Decorators
+=========================
+
+Write a function that can be applied as a decorator.  When applied,
+this decorator (wrapper) function show trace calls to the functions
+to which it is applied.  Specifically:
+
+- Before execution of the function, the decorator should print a
+  message showing the function name and arguments.
+
+- The decorator should execute/call the function.  It should pass in
+  all arguments.  It should return the value returned by the
+  decorated function.
+
+- After execution of the decorated function, the decorator should
+  print a message showing that the function has returned/exited.
+
+What you will learn:
+
+- How to write a nested function, a closure, actually.
+
+- How to implement a function that can be used as a decorator.

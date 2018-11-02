@@ -1,0 +1,81 @@
+==============================
+ Wrapper/Envelope for opencsv
+==============================
+
+The ConfigParser wrapper
+========================
+
+General
+-------
+
+Create a wrapper class for the ConfigParser class in the Python
+standard library.
+
+Implement your class so that instances of it are iterable.  When
+used in an iterator context, an instance of your wrapper class
+should produce each option of each section in an config file.
+
+
+Specific
+--------
+
+In order to make your class iterable, expose the following methods:
+
+- next(self) -- Return the next option-value pair as a tuple.  Raise the
+  StopIteration exception when there are items.
+
+- __iter__(self) -- Return self.
+
+
+
+What you will learn
+-------------------
+
+- How to implement a wrapper/envelope class.
+
+- How to delegate functionality to enclosed (payload, body) class.
+
+- How to use the ConfigParser module in the Python standard library.
+
+- How to implement a Python iterator class.
+
+
+
+The opencsv wrapper
+===================
+
+General
+-------
+
+Create a wrapper class for CSVReader in opencsv.
+
+Implement your class so that instances of it are iterable.
+
+
+Specific
+--------
+
+In order to make your class iterable, expose the following methods:
+
+- next(self) -- Return the next row as a list of strings.  Raise the
+  StopIteration exception when there are no more.
+
+- __iter__(self) -- Return self.
+
+
+What you will learn
+-------------------
+
+- How to implement a wrapper/envelope class.
+
+- How to delegate functionality to enclosed (payload, body) class.
+
+- How to use the opencsv Java class library.
+
+- How to implement a Python iterator class.
+
+
+
+
+
+

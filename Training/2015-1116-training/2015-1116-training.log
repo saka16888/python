@@ -1,0 +1,14 @@
+download
+bit.ly/py-install3
+https://dl.dropboxusercontent.com/u/3967849/shared/install3.html
+
+1.
+ x=10
+ hex(id(x))
+ 
+2. x=10
+
+y=5+5
+
+
+for i in range(5)    print(i)

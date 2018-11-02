@@ -1,0 +1,30 @@
+=============================
+ Zip files -- create archive
+=============================
+
+1. Use the zipfile module in the standard library to create a new
+   zip file archive.
+
+2. Add several files to the archive.  Make sure that your files are
+   compressed (deflated), not stored.
+
+3. Use some Zip archiving tool (for example, 7z, WinZip, zip/unzip,
+   etc) to check the contents of your new archive.
+
+
+What you will learn:
+
+- How to create a Zip file using Python.
+
+- How to add items (files) to your Zip file.
+
+- How to use values (names) defined inside a module.
+
+
+Additional information:
+
+- `zipfile -- Work with ZIP archives --
+  http://docs.python.org/lib/module-zipfile.html
+  <http://docs.python.org/lib/module-zipfile.html>`_
+
+

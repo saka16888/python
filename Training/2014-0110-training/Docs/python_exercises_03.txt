@@ -1,0 +1,807 @@
+==================
+ Python Exercises
+==================
+
+:Author: Dave Kuhlman
+:address: dkuhlman@rexx.com
+    http://www.rexx.com/~dkuhlman
+
+:revision: 1.3b
+:date: |date|
+
+.. |date| date:: %B %d, %Y
+
+:Copyright: Copyright (c) 2007 Dave Kuhlman.  All Rights Reserved.
+    This software is subject to the provisions of the MIT License
+    http://www.opensource.org/licenses/mit-license.php.
+
+:Abstract: This document provides exercises for an introductory
+    course on programming in Python.
+
+.. sectnum::
+
+.. contents::
+
+
+Built-in Datatypes
+==================
+
+Numbers
+-------
+
+1. Create a positive integer, a negative integer, and zero.  Assign
+   them to variables
+
+2. Write several arithmetic expressions.  Bind the values to
+   variables.  Use a variety of operators, e.g. ``+``, ``-``, ``/``,
+   ``*``, etc.  Use parentheses to control operator scope.
+
+3. Create several floats and assign them to variables.
+
+4. Write several arithmetic expressions containing your float
+   variables.
+
+5. Write several expressions using mixed arithmetic (integers and
+   floats).  Obtain a float as a result of division of one integer by
+   another; do so by explicitly converting one integer to a float.
+
+
+
+Tuples and Lists
+----------------
+
+1. Create (define) the following tuples and lists using a literal:
+
+   1. A tuple of integers
+
+   2. A tuple of strings
+
+   3. A list of integers
+
+   4. A list of strings
+
+   5. A list of tuples or tuple of lists
+
+   6. A list of integers and strings and tuples
+
+   7. A tuple containing exactly one item
+
+2. Do each of the following:
+
+   1. Print the length of a list.
+
+   2. Print each item in the list -- Iterate over the items in one of
+      your lists.  Print each item.
+
+   3. Append an item to a list.
+
+   4. Insert an item at the beginning of a list.  Insert an item in
+      the middle of a list.
+
+   5. Add two lists together.  Do so by using both the extend
+      method and the plus (+) operator.  What is the difference
+      between extending a list and adding two lists?
+
+   6. Retrieve the 2nd item from one of your tuples or lists.
+
+   7. Retrieve the 2nd, 3rd, and 4th items (a slice) from one of your
+      tuples or lists.
+
+   8. Retrieve the last (right-most) item in one of your lists.
+
+   9. Replace an item in a list with a new item.
+
+   10. Pop one item off the end of your list.
+
+   11. Delete an item from a list.
+
+   12. Do the following list manipulations:
+
+       1. Write a function that takes two arguments, a list and an
+          item, and that appends the item to the list.
+
+       2. Create an empty list,
+
+       3. Call your function several times to append items to the list.
+
+       4. Then, print out each item in the list.
+
+3. Write a script -- (1) Define a list of lists of integers.  (2)
+   Implement a function that prints out the length of each inner
+   list and prints each item in each (inner) list.
+
+
+Strings
+-------
+
+1. Create (define) the following strings:
+
+   - An empty string
+
+   - A string containing a single-quote character
+
+   - A string containing a double-quote character
+
+   - A string containing a single-quote character *and* a double-quote
+     character
+
+   - A multi-line string
+
+2. Use the string formatting operator to insert your name and the
+   number of characters in your name into a string.
+
+3. Build up a list of strings, then convert them to a single string
+   with (1) two colons between the original strings, (2) a new-line
+   between each string, (3) nothing between each string.
+
+4. Create a list of integers.  Now "join" them together to form a
+   string of comma-separated values.  (Hint: look at the ``map``
+   built-in function or consider using a list comprehension.)
+
+5. Create a sample string, then try each of the following string
+   methods:
+
+   - samplestring.strip()
+   - samplestring.lstrip()
+   - samplestring.rstrip()
+   - samplestring.find()
+   - samplestring.replace()
+   - samplestring.center()
+   - samplestring.ljust()
+   - samplestring.rjust()
+   - samplestring.split()
+   - samplestring.upper()
+   - samplestring.lower()
+   - samplestring.join()
+
+6. Implement a function that takes a string as an argument.  Split
+   the string into "words".  Return (1) a count of the number of words
+   and (2) the list of words.
+
+7. Given the following data::
+
+       Alice Appleby:501-511-5111:1.5:bird watching
+       Bill Barnaby:501-511-5111:4009.2:gardening
+
+   Print a report that has column headers ("Name", "Phone",
+   "Activity", and "Interest/hobby") and prints the data in aligned
+   columns.
+
+
+
+Dictionaries
+------------
+
+1. Create (define) the following dictionaries:
+
+   - An empty dictionary
+
+   - A dictionary containing several key-value pairs.  Use strings as
+     your keys, and use integers as the values associated with the
+     keys.
+
+   - A dictionary that emulates a struct or record having the
+     following named fields: name, address, phone number.
+
+2. Perform each of the following operations on one of your
+   dictionaries:
+
+   - Insert several additional items (key-value pairs) into your
+     dictionary.
+
+   - Print the keys in your dictionary.
+
+   - Print the values in your dictionary.
+
+   - Print the items in your dictionary.
+
+   - Check for the existence of a specific key in your dictionary.
+
+   - Get the value associated with a key in your dictionary.
+
+3. Write a function to do word counts:
+
+   1. Count the number of occurances of each word in a single string.
+
+   2. Count the words in a list or collection of strings.
+
+   3. Print out the count for each word.
+
+   4. Modify your solution so that it prints word counts in alphabetical
+      order.
+
+   5. Modify you application so that it "collapses" lower and upper case
+      words, for example, so that it treats "Tomato" and "tomato" as the
+      same word.
+
+
+
+Files
+-----
+
+1. Open an existing file for input.  Read in the entire contents of
+   the file as a single string. Close the file.  Print the contents.
+
+   Now, split the contents into lines.  Then print each line.
+
+2. Open an existing file for input.  Read each line and print out each
+   line in the file with a line number.
+
+   Now, add to this solution, code that splits each line on blanks and
+   counts the "words" in the file.  Or, for a CSV (comma separated
+   value) file, split on comma.
+
+3. Open a file (that does not exist) for output.  Write 3 lines of
+   text to your file.  Close the file.  Now, check the contents of
+   your new file to see if it is as you expect.
+
+   Question: How can you check to ensure that the file you are about
+   to write to does not already exist?  Hint: Look in module
+   ``os.path``.
+
+4. Open an existing file and append two lines of text to it.
+
+   Question: How do you obtain a list of files in a directory?  Hint:
+   Look at module ``glob``.
+
+   Question: How do you obtain a list of files in a directory and its
+   sub-directories?  Hint: Look at the walk function in module
+   ``os.path``.
+
+5. Create a file name in a platform independent way.  Hint: Look at
+   ``os.sep``.
+
+6. Write a script that reads standard input (``sys.stdin``) and writes
+   to standard output (``sys.stdout``).  Add the string "## " to
+   the beginning of each line.
+
+
+Statements
+==========
+
+Assignment statement
+--------------------
+
+1. Write a simple assignment statements that have the following on the
+   right-hand side: (1) an arithmetic expression; (2) a function call
+   (for example, ``str(25)``); (3) a boolean expression (hint:
+   ``not``, ``and``, and ``or`` are a few of Python's boolean
+   operators).
+
+2. Write an assignment statement that uses unpacking for a tuple with
+   3 integers.
+
+3. Write assignment statements that uses "augmented assignment" with
+   the following operations: addition, subtraction, multiplication.
+
+4. Write an assignment statement that assigns to (1) a slice of a
+   list, (2) a key in a dictionary, (3) and item in a list.
+
+
+
+import statement
+----------------
+
+Perform the following import operations:
+
+1. Import the ``sys`` module.  Display the ``path`` and ``version``
+   properties.
+
+2. Import the ``minidom`` member from the ``dom`` in ``xml``.  Display
+   the members of ``minidom``.  What is the type of member ``parse``?
+
+3. Import the ``ConfigParser`` member from the ``ConfigParser``
+   module.  What is its type?
+
+4. Import ``urlopen`` from module ``urllib`` renaming it to ``uo``.
+   What is its type?  Use it to retrieve the contents of a Web page.
+
+
+print statement
+---------------
+
+1. Write a print statement that prints 3 values.
+
+2. Write a print statement that does not add a newline character to
+   the end of the printed values.
+
+3. Write a print statement that prints a string formatted with the
+   string formatting operator.
+
+4. Write content to standard-out (stdout), using the ``sys`` module.
+
+
+if/then/else statement
+----------------------
+
+1. Write the following boolean expressions (that answer the following
+   questions) and print the resulting values:
+
+   1. Is the value of a variable greater than a constant value?
+
+   2. Is the value of a variable between two constant values.
+
+   3. Is the value of a variable outside of (the range of) two
+      constant values.
+
+2. Write a simple ``if`` statement.  Print a message if the condition
+   is true.
+
+3. Write an ``if`` statement with an ``else`` clause.  Print messages
+   in the true and false clauses.
+
+4. Write the equivalent of a C/C++/Java ``switch`` statement using
+   ``if:elif:else:``.  Check for the following values: "red", "green",
+   "blue".
+
+
+for statement
+-------------
+
+1. Use a ``for`` statement to iterate over and print all the items in
+   a list.
+
+2. Use a ``for`` statement to iterate over all the items in a list.
+   If an item is a string, print "string: <value>".  If an item is an
+   integer, print "integer: <value>".  If an item is a list, iterate
+   over its contains and print them as above.
+
+3. Write a function that (1) uses a ``for`` statement to iterate over
+   all the *items* in a dictionary, (2) uses unpacking to "catch" the key
+   and value of each item, and (3) prints out the key and value.
+
+4. Write a ``for`` statement to search for a given value in a list.
+   Exit the loop when found.  After the loop, check to determine
+   whether the value was found.
+
+5. Write a ``for`` statement that uses the ``continue`` statement to
+   skip a given value in a list.  Print out all the *other* values.
+
+
+while statement
+---------------
+
+1. Implement a loop using the ``while`` statement: Before the loop,
+   initialize a counter to zero.  In the body of the loop, (1) check
+   the value of the counter and exit if it is greater than 5 and (2)
+   print the value of the counter.
+
+2. Create a list.  Now implement a ``while`` loop that "pops" items
+   off the list until it is empty.
+
+3. Implement a function that (1) takes a file name as an argument; (2)
+   opens that file for input; then (3) uses a ``while`` statement to
+   read and print each line of the file.
+
+
+break and continue statements
+-----------------------------
+
+1. Implement a ``while`` loop that "breaks out" when a counter exceeds
+   the value 5.
+
+2. Implement a ``while`` loop that uses the ``continue`` statement to
+   skip execution of a nested block of code.
+
+
+Exceptions -- try/except, raise statements
+------------------------------------------
+
+1. Write a ``try/except`` statement.  In the body of the ``try``
+   clause, attempt to open a non-existent file for reading.  Catch the
+   resulting exception.  Question: What exception type should you be
+   trying to catch?  And, how do you find out?
+
+2. Add, to your solution to the previous exercise, an attempt to use a
+   non-exiting key in a dictionary.  Put this error before the attempt
+   to open the non-existing file.  This should show that your
+   ``except`` clause is catching *only* the I/O exception.
+
+3. Now, add to the same solution, another ``except`` clause that
+   catches the dictionary look-up exception.
+
+4. Define your own exception class.
+
+5. Write a function that raises your exception.  Write another
+   function that calls the first function.
+
+6. Write a function that calls the above function and catches the
+   exeption that it throws.  Print the value of the exception.
+
+
+Functions
+=========
+
+1. Write a function that takes no arguments and returns an integer.
+
+2. Write a function that takes two strings as arguments and returns
+   the concatenated value of those strings.
+
+3. Write a function that has one regular argument and one argument
+   with a default value.  Print out both values.  Now, call your
+   function both with and without the optional, second argument.
+
+4. Write a function that takes a string and a list as arguments.
+   Search the list for the string.  Return true if the string is in
+   the list, else return false.
+
+5. Call one of your functions using keyword arguments.
+
+6. Write a function that takes two arguments: (1) a function that
+   takes one argument and (2) a list.  This (outer) function should
+   apply the function argument to each item in the list argument.
+   Next, define another function that takes one argument.  Call the
+   first function, passing it the second function.
+
+7. Implement the a generator function -- The generator produced
+   should ``yield`` all values from a list/iterable that satisfy a
+   predicate.  It should apply the transforms before return each
+   value.  The function takes these arguments:
+   
+   1. ``values`` -- A list of values 
+
+   2. ``predicate`` -- A function that takes a single argument,
+      performs a test on that value, and returns True or False.
+
+   3. ``transforms`` -- (optional) A list of functions.  Apply each
+      function in this list and returns the resulting value.  So,
+      for example, if the function is called like this::
+
+	      result = transforms([11, 22], p, [f, g])
+
+      then the resulting generator might return::
+
+          g(f(11))
+
+
+
+Classes
+=======
+
+1. Implement a very simple class containing *no* members.
+
+   Create an instance of your class; set and get a attribute ``x``.
+
+2. Implement a simple class containing getters and setters for data
+   members ``name`` (a string) and ``size`` (an integer).
+
+   Create an instance of your class; set the ``name`` and ``size``
+   member variables; then get these values from your instance and
+   print them.
+
+3. Add a ``show`` method, which prints out the ``name`` and ``size``.
+
+4. Implement a simple class containing getters and setters for data
+   members ``name`` (a string) and ``size`` (an integer).  Add a
+   constructor that initializes the ``name`` and ``size`` data
+   members.
+
+5. Implement a subclass of the above class.  Add a ``description``
+   data member.  Add getter and setter for ``description``.  Add a
+   constructor that (1) calls the super-class ctor and (2) sets the
+   ``description`` member variable.
+
+6. Add ``show`` method to your sub-class, overriding the ``show``
+   method in the super-class.  Also, call the super-class method from
+   the sub-class.
+
+7. Implement a class that represents a node in a binary tree.  Each
+   node should have a ``name`` and a ``left_child`` (a node) and
+   ``right_child``.  Also implement a (recusive) method that
+   displays the node and the two children under it.
+
+8. Implement a tree data structure in one of the following ways:
+
+   1. Implement a class that represents a Node in a tree structure. 
+      Each node should have a ``name`` and a list of ``children``. 
+      Implement methods that get and set each of these instance
+      members.  Implement a method ``show`` that walks the tree and
+      prints out the name of each node.
+
+   2. Implement a class that represents a Node in a tree structure. 
+      Each node should have a ``name`` and a ``left_child`` and
+      ``right_child``.  Implement methods that get and set each of
+      these instance members.  Implement a method ``show`` that
+      walks the tree and prints out the name of each node.
+
+9. Implement the Vehicle class hierarchy described by your
+   instructor.  Here is an outline of that hierarchy:
+
+   1. Vehicle -- Methods: set_fuel, get_fuel
+
+      1. Truck -- Methods: get_load
+
+         1. LightTruck -- Ctor: __init__(self, maxload).  Methods:
+            set_load, get_load.
+
+         2. BigRig -- Methods: set_wheels, get_wheels
+
+      2. Automobile
+
+   Suggestion: Try to think of your classes (and instances of them) as
+   modeling objects (vehicles) out in the real world.  Imagine that
+   you are implementing the data model for a vehicle tracking system.
+
+10. Implement a command line interface. Use (subclass) the ``cmd``
+    module in the Python standard library.  Example::
+
+        import cmd
+
+        class MySimpleCmd(cmd.Cmd):
+
+
+
+Modules (and packages)
+======================
+
+1. Write a module that contains two (or more functions).  Add one more
+   function that calls these two functions.  (1) Run your script from
+   the command line.  (2) Import your script from within the
+   interactive interpreter, then call your functions.
+
+2. Move your module to a sub-directory under your current directory.
+   Now import your module and call a function in it.  (Hint: You will
+   need an ``__init__.py`` file.
+
+   Add a ``print`` statement to your ``__init__.py`` file, to show
+   that it is really being evaluated.
+
+3. Move your module to a separate directory that is *not* under your
+   current directory.  Now import your module and call a function in
+   it.  (Hint: You will need to add the path to your directory to your
+   PYTHONPATH environment variable.)
+
+   Congratulations.  You have implemented a Python/Python
+   (mini-)package.
+
+
+More Python Exercises
+=====================
+
+The remaining sections of this document describe additional Python
+exercises.  These additional exercises focus on text processing, XML
+processing, processing several special file formats, object-oriented
+programming, and handling files and directories.
+
+
+Text processing
+===============
+
+- Calculate the average length of the words in a text file.  Note: You
+  will need to process every line in the file and every word in the
+  line.
+
+- Read a text file.  Print out the number of characters and number of
+  words in each line.  Print totals at the end.  Also, print the
+  average number of characters per line and average number of words
+  per line.
+
+- Read a text file and accumulate the number of occurances of each
+  word in the file.  Print out a list of words and the number of
+  occurance of each word.
+
+- Modify the above solution so that upper and lower cased words are
+  counted as the same.
+
+- Calculate the number of characters, words, and lines in a text
+  file.  Display each count.
+
+- (1) Use a regular expression to search each line in a text file.
+  Print out the lines that match.  (2) Same, but read the regular
+  expression from the command line.  (3) Same, except add a command
+  line flag "-r", which if present, use a regular expression and if
+  not, use a fixed pattern.
+
+- Use a regular expression to search each line in a text file.
+  Extract a substring and print the line and the matching substring.
+
+- Use a regular expression to search each line in a text file.
+  Substitute a string for the matching substring.  Print out the
+  original line and the modified line.
+
+- Same as the previous exercise, except use a function to insert the
+  matched string in all caps (or some other transformation) and the
+  length of the matched substring in parentheses.
+
+
+XML processing
+==============
+
+- Use minidom (xml.dom.minidom) to parse an XML document and display
+  the document tree.
+
+- Add functions to the above solution to modify a specific node (for
+  example, add a particular attribute and its value).
+
+- Use dom4j (http://www.dom4j.org/) to parse an XML document and
+  display the document tree.
+
+
+
+
+Python programming techniques and idioms
+========================================
+
+- Dispatch to a function based on an action name or keyword using a
+  dictionary.  Use mydict.get() to get the function object or a
+  default function if the command name is not in the dictionary.
+
+- Write a "switch" statement using a dictionary whose values are
+  functions.
+
+Special file formats
+====================
+
+Zip files
+---------
+
+- Find a .zip or .jar file or an ODF/.odt (OpenOfficeWriter).  (1)
+  Read the contents and print a list of the contents.  (2) Create a Zip
+  archive, add several files to it, and write it to disk.
+
+  Hint: The Python standard library contains a zipfile module.
+
+
+Other archive/compression modules: tarfile, bz2, gzip
+-----------------------------------------------------
+
+The Zip file exercise above can also be performed using tarfile for
+archiving and one of gzip, bz2, or zlib for compression.
+
+
+CSV -- comma separated values files
+-----------------------------------
+
+(Note: The csv module is in the Python standard library, but not (as of
+Jython 2.2.1) in the Jython standard library.)
+
+- Read a CSV (comma separated values) file.  (1) Print out a report of
+  the contents of file with columns that are 10 characters wide.  (2)
+  Create a CSV file, add several lines to it, and save it to disk.
+
+  Hints: The Python standard library contains a csv module.  Consider
+  using ``my_str_variable.ljust(n)`` (or ``.rjust()``) to align
+  columns.
+
+
+Configuration files -- ConfigParser
+-----------------------------------
+
+- Read a .ini file.  Print out a report of the contents of this file.
+  Hint: The Python standard library contains the ConfigParser module.
+
+  Example data::
+
+      [general]
+      title: The Python Programming Language
+      version: 2.5.1
+
+      [details]
+      location: http://python.org/download/
+      formats: gzipped-tar bzipped-tar ms-windows-installer
+
+  Now, write a function that extracts a value, given the section name
+  and option name entered on the command line.
+
+- Write the following scripts:
+
+  1. Use module ConfigParser to create a configuration file containing
+     two sections with several name-value pairs in each one.
+
+  2. Use module ConfigParser to read the config file and displays
+     several of the values in it.
+
+
+XML documents
+-------------
+
+(Note: Jython support for ElementTree is not there yet.  Consider
+using dom4j instead: http://www.dom4j.org/ )
+
+- Use xml.etree.ElementTree to read and parse an XML file.  (1) Print out
+  all the tags in the file.  (2) Now, try to indent your print-out to show
+  level of nesting. (3) Add display of the attributes.
+
+  Sample data::
+
+      <?xml version="1.0" encoding="UTF-8"?>
+      <vegetables version="1.0">
+        <tomato id="001">
+          <name>Tomato</name>
+          <colors>
+            <color>pink</color>
+            <color>red</color>
+            <color>purple</color>
+          </colors>
+        </tomato>
+        <eggplant id="002">
+          <name>Eggplant</name>
+          <colors>
+            <color>purple</color>
+          </colors>
+        </eggplant>
+      </vegetables>
+
+  Now, write code that does each of the following tasks:
+
+  1. Extract the "id" attribute of the eggplant element.
+
+  2. Extract the text (character data) in the eggplant/name element.
+
+  3. Add a "<recipe>" element in the eggplant with attribute
+     "category" and value "main course" and with character data
+     "ratatouille", that is::
+
+         <recipe category="main course">ratatouille</recipe>
+
+- Add a node to the XML tree, for example, add an additional
+  vegetable..  (1) From the XML tree producea string. (2) Then write
+  the string representation out to disk.
+
+
+Object-oriented programming
+===========================
+
+- Expand the Vehicle/Truck example.  Add a Automobile class.
+  Give one of your subclasses a method that overrides and calls
+  a method in its superclass.
+
+- Implement a tree data structure in which each node has a value and
+  any number of child nodes.  Your Node class should implement the
+  following methods:
+
+  - get_value
+  - set_value
+  - get_children
+  - set_children
+  - show -- show the value of the node
+
+  Write a function that walks the tree and "shows" each node.
+
+- Delegation -- (1) Define an interface using a class containing empty
+  methods.  (2) Define two classes that implement this interface.  (3)
+  Implement a class whose constructor takes an object that satisfies
+  the interface and delegates operations to it.
+
+- Modify your solution to the word count exercise so that it can take
+  a command line argument that is either a path on the file system or
+  a URL, for example::
+
+      file:///path/to/file.txt
+
+  or::
+
+      http://en.wikipedia.org/wiki/Python_(programming_language)
+
+- Modify the solution to the previous exercise so that it responds to
+  the following command line options:
+
+  - -w, --word-count -- Compute and display word count.
+  - -c, --character-count -- Compute and display character count.
+
+- Implement a class hierarchy different from but similar to the
+  Vehicle/Truck class hierarchy.  For example:
+  
+  - Plants/Trees/PineTrees/JefferyPine.
+
+  - EMailBox/FilteredEmailBox/...
+
+  - [Choose/design your own]
+
+
+Files and directories
+=====================
+
+- Print out the names of all the files in a directory that are not
+  sub-directories.  Hints: Consider the folowing: (1) the glob module;
+  (2) the stat module.
+
+- Modify the solution in the previous module so that you can enter a
+  wild card file name on the command line and display the names of all
+  matching files.
+
+- Now, reuse your character/word/line count module.  Modify the
+  previous solution so that it imports your module that does
+  character, word, and line counts, then call the function that does
+  so for each file that matches the wild card file name spec.
+

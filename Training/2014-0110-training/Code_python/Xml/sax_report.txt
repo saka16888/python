@@ -1,0 +1,92 @@
+==========================
+SAX -- Simple API for XML
+==========================
+
+
+Print XML document report from SAX events
+==========================================
+
+Do the following:
+
+- Create a SAX parser.
+
+- Define an SAX content handler.  Your content handler should
+  respond to the following events:
+
+  - startDocument
+
+  - startElement
+  
+  - characters
+
+  - endElement
+
+  - endDocument
+
+- Your content handler should display (print out) the following:
+  (1) the tag or element name, (2) all attributes, (3) any
+  character data.
+
+- Parse and display an XML document.
+
+What you will learn:
+
+- How to create and use a SAX parser and a SAX content handler.
+
+- How to parse an XML file with SAX and respond to various "events"
+  in that file (for example, startElement, endElement, characters,
+  etc.).
+
+
+Construct document tree from SAX events
+========================================
+
+Do the following:
+
+1. Add to your "application" a class that you will use to represent
+   each element in an XML document.
+
+2. Add to your SAX content handler, the ability to create a tree of
+   instances of your new class that represents the structure and
+   content of the XML document.
+
+3. Implement a function that walks the tree and "annotates" it, for
+   example, add an instance variable that gives the number of
+   characters in the character content of this node/element.
+
+4. Display the tree.
+
+What you will learn:
+
+- How to define a class that represents a "node" in the XML
+  document tree.
+
+- How to build a tree structure from an XML document using SAX.
+
+- How to walk and "annotate" that tree.
+
+- How to walk the tree and print a report.
+
+
+Additional information
+======================
+
+- `xml.sax -- Support for SAX2 parsers --
+  http://docs.python.org/lib/module-xml.sax.html
+  <http://docs.python.org/lib/module-xml.sax.html>`_
+
+- `xml.sax.handler -- Base classes for SAX handlers --
+  http://docs.python.org/lib/module-xml.sax.handler.html
+  <http://docs.python.org/lib/module-xml.sax.handler.html>`_
+
+- `xml.sax.saxutils -- SAX Utilities --
+  http://docs.python.org/lib/module-xml.sax.saxutils.html
+  <http://docs.python.org/lib/module-xml.sax.saxutils.html>`_
+
+- `xml.sax.xmlreader -- Interface for XML parsers --
+  http://docs.python.org/lib/module-xml.sax.xmlreader.html
+  <http://docs.python.org/lib/module-xml.sax.xmlreader.html>`_
+
+
+
+

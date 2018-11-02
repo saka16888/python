@@ -1,0 +1,10 @@
+======================
+doctest -- exercises
+======================
+
+Define a function that takes two arguments: a string and an integer.
+The function should convert the string to upper case and multiply it
+by the integer. It should then return the new string.
+
+Now, create a harness in the module containing the above function
+definition so that the function is tested with ``doctest``.

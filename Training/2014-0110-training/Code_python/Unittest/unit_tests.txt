@@ -1,0 +1,32 @@
+=================================
+Unit test framework -- exercise
+=================================
+
+The file ``unit_tests_lib.py`` contains several functions:
+``fetch_rows`` and ``fetch_column``, which need a test harness.
+
+1. Write a test class (a subclass of ``unittest.TestCase``) that provides two
+   tests, one for each of these functions.
+   
+   You can use the file ``data1.db`` as a test database.  Find out
+   about its contents by running the following::
+
+       $ python unit_tests_lib.py data1.db
+
+   When you call ``fetch_column``, you will need the name of one of
+   the columns in this database.  The column names are "name",
+   "desc", and "cat".
+
+2. Create and load a test suite using the ``unittest`` framework.
+
+3. Run your test suite from the command line.
+
+What you will learn:
+
+- How to create a set of tests in a ``unittest`` class.
+
+- How to test for success or failure.
+
+- How to load a test suite.
+
+- How to run the tests in a test suite.

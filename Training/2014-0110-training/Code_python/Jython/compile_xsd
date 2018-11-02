@@ -1,0 +1,4 @@
+#!/bin/bash -v
+rm -f plantcatalog.jar
+rm -rf src_beans
+scomp -out plantcatalog.jar -src src_beans plants.xsd

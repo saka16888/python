@@ -1,0 +1,33 @@
+============
+ Word count
+============
+
+1. Write a script that counts the number of occurrences of each word
+   in a text file.
+
+2. Print out the word and its count for each word in the document.
+
+3. Print out the total word count and the total line count.
+
+Additional tasks:
+
+- Format the words and counts so that words are left-aligned
+  and the counts are right aligned in columns.
+
+- Print the word counts with the words sorted in alphabetic order.
+
+- Also display a count of the number of lines.
+
+- Skip all lines that begin with a "#" character.
+
+- Quit processing lines when you find a specific string in a line.
+
+
+What you will learn:
+
+- How to open a text file and read the lines in it.
+
+- How to split a line/string into "words".
+
+- How to collect totals in a complex data structure (probably a
+  dictionary).

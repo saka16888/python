@@ -1,0 +1,33 @@
+==================
+Thought problems
+==================
+
+Specify which data structures and what algorithm you might use to
+solve each of the following:
+
+- Count the lines in a file.
+
+- Count the number of unique (non-equal) lines in a file.
+
+- Count the number of occurances of each different word in a file.
+
+- Print out all the lines in a file in alphabetical order.
+
+- Print out all the unique lines in a file in alphabetical order.
+
+- Each line in a file begins with a 6 digit ID number.  Process
+  (print) each line in the file *but* skip any line after you have
+  seen that ID number.  Also, skip all blank lines.
+
+- Ditto, but process the *last* line for any lines that have the
+  same ID number.
+
+- Given this regular expression pattern ``"#\((.*?)\)"`` and data
+  file ``data02.txt``, solve each of the following:
+
+  - Process each line in a file that contains a pattern.
+
+  - Ditto, but process each of the lines in alphabetical order.
+
+  - Ditto, but process each of the lines in alphabetical order by the
+    pattern found.

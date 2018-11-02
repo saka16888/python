@@ -1,0 +1,9 @@
+
+Write a function that takes a file name as its argument, opens the
+file in read mode, and counts and prints the number of lines in the
+file.
+
+Then call your function with a file name that exists and one that
+does not.  Find out which specific exception is produced with that
+non-existent file.  Write a ``try:except:`` statement around your
+function calls that protects you from that specific exception.

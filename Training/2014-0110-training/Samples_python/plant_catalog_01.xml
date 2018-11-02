@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plnt:plant-catalog creation-date="Tue Jan  1 19:43:30 2008" xmlns:plnt="http://www.openuri.org/domain/plant-catalog/plnt">
+    <plnt:plant id="1">
+        <plnt:name>Eggplant</plnt:name>
+        <plnt:description>Shiny and purple</plnt:description>
+    </plnt:plant>
+    <plnt:plant id="2">
+        <plnt:name>Tomato</plnt:name>
+        <plnt:description>Juicy</plnt:description>
+    </plnt:plant>
+    <plnt:plant id="3">
+        <plnt:name>Cucumber</plnt:name>
+        <plnt:description>Crunch but not a lot of flavor</plnt:description>
+    </plnt:plant>
+    <plnt:plant id="101">
+        <plnt:name>Peach</plnt:name>
+        <plnt:description>Succulent</plnt:description>
+    </plnt:plant>
+</plnt:plant-catalog>

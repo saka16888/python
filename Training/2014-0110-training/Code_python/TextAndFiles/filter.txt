@@ -1,0 +1,49 @@
+=====================================
+ Filter -- Implementing Text Filters
+=====================================
+
+1. Implement a Python script that reads standard input (stdin) and
+   writes to standard output (stdout).
+
+2. Write a function that reads all lines from standard input, performs
+   a transformation on each line, and writes each line to standard
+   output.
+
+3. Write several functions that either filter or transform a single
+   line.  This function should take one argument (a string). It should
+   return a string or None (if the line is to be skipped).
+
+   Here are a few possible filters:
+
+   - Select all lines that contain "def" or "class".
+
+   - Select all non-empty lines, that is, lines that (1) have a length
+     greater than zero and (2) contain characters other than
+     whitespace.
+
+   Here are a few possible transformations:
+
+   - Insert "## " at the beginning of each line.
+
+   - Remove "## " from the beginning of each line.
+
+   - Center the line (for example, within a width of 80 columns).
+
+4. Pass your single-line function to the function that reads from
+   standard input and writes to standard output.
+
+
+What you will learn:
+
+- How to write a text filter.
+
+- How to read from standard input and write to standard output.
+
+- How to perform several formatting and transformation tasks on
+  strings.
+
+- How to use polymorphism in Python.  Specifically, how to write a
+  function that takes a function as an argument, provided that the
+  function satisfies an interface.
+
+

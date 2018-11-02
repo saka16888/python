@@ -1,0 +1,110 @@
+'''Our team history:
+    Segment- fault
+    Segmentation fault
+    Segment fault
+    segfault
+    delta_ag6248c->
+    * Open Network Linux Loader
+    Temp C....................................... 39 \
+    Fan Speed, RPM................................. 13700
+    Fan Duty Level................................. 59%
+    Temperature traps range: 0 to 45 degrees (Celsius)
+
+    Temperature Sensors:
+    Unit     Sensor  Description       Temp (C)    State           Max_Temp (C)
+    ----     ------  ----------------  ----------  --------------  --------------
+    1        1       CPU-1             17          Normal          18
+    1        2       CPU-2             17          Normal          18
+    1        3       CPU-3             18          Normal          18
+    1        4       CPU-4             18          Normal          19
+    1        5       CPU-protect       27          Normal          27
+    1        6       MAC-0             39          Normal          40
+    1        7       MAC-1             32          Normal          32
+    1        8       ETH               26          Normal          26
+    1        9       FAN               28          Normal          28
+
+    Fans:
+    Unit Fan Description    Type      Speed         Duty level    State
+    ---- --- -------------- --------- ------------- ------------- --------------
+    1    1   Fan1-1         Removable 13700         59%           Operational
+    1    2   Fan2-1         Removable 13845         60%           Operational
+    1    3   Fan3-1         Removable 13748         59%           Operational
+    1    4   Fan4-1         Removable 13845         60%           Operational
+    1    5   Fan5-1         Removable 13797         59%           Operational
+    1    6   Fan1-2         Removable 13797         59%           Operational
+    1    7   Fan2-2         Removable 13748         59%           Operational
+    1    8   Fan3-2         Removable 13943         60%           Operational
+    1    9   Fan4-2         Removable 13845         60%           Operational
+    1    10  Fan5-2         Removable 13845         60%           Operational
+
+    Power Modules:
+    Unit     Power supply   Description        Type          State
+    ----     ------------   ----------------   ----------    --------------
+    1        1              PSU-1              Removable     Operational
+    1        2              PSU-2              Removable     Not present
+
+^
+Linux AG9032v1-53 3.2.65-1+deb7u2-OpenNetworkLinux #1 SMP Mon Feb 6 20:42:48 UTC 2017 x86_64 GNU/Linux
+
+ +----------------------------------------------------------------------------+
+ | Open Network Linux                                                         |
+ |*ICSO                                                                       |
+ |*ONIE                                                                       |
+ | ONIE: Install OS                                                           |
+ | ONIE: Rescue                                                               |
+ | ONIE: Uninstall OS                                                         |
+ | ONIE: Update ONIE                                                          |
+ |*ONIE: Embed ON                                                             |
+   ODM : DIAG                                                                 |
+ | ODM : Memtest86+                                                           |
+
+ONIE:/ #
+ONIE:/bin #
+ONIE:/bin#
+[sudo] password for admin:
+AG7648-DIAG>
+
+#ICOS
+admin@AG9032v1-54:~$
+admin@AG9032v1-54:~/onlpd-test$
+(AG9032v1-54) #
+(AG9032v1-54) #
+(AG9032v1-54) (Config)#
+(localhost) (config-macal)#
+admin@localhost:~$
+login:
+Last login: Fri Sep  1 21:44:30 UTC 2017 on ttyS0
+
+#ONL
+root@localhost:~#
+root@localhost:~/onlpd-test#
+root@localhost:/bin#
+root@AG9032v1-53:~/onlpd-test#
+roo2t@localhost:~#
+root@AG9032v1-53:#
+root@AG9032v1-53:~/libr#
+
+* On 3/14/2013, we scored 14 points and lost the game.
+* On 6/2/2013, we scored 15 points and lost the game.
+* On 9/15/2013, we scored only 1 point and won the game.
+ (abc)#
+ (AG9032-36) (Config)#
+
+  00:A0:c9:00:01:02
+  00:A0:C9:03:04:05
+  00:a0:c8:06:07:08
+  00.A0.C9.09.a0.01
+  00-A0-C9-09-a0-01
+
+  10.21.3.4
+  0.2.3.435436
+  0.2.3.6.8.9
+  256.3.2.435436
+  256.3.2.46
+  1.0.0.0
+  b10.2.3.4
+  a11.56.7.89
+
+  []
+Go figure!
+'''

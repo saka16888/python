@@ -1,0 +1,64 @@
+=========================================================
+ Classes and sub-classes -- the vehicles class hierarchy
+=========================================================
+
+1. Implement Python classes for the following class hierarchy::
+
+       Vehicle
+           Truck
+               PickupTruck
+               BigRig
+           Automobile
+               Van
+               Sedan
+       PassengerStop
+
+2. Support each of the following:
+
+   - All vehicles should have instance variables ID (string) and fuel
+     (integer).
+
+   - All Trucks should have a wheel_count (integer).
+
+   - All BigRigs have a maximum load and a current load (both integers).
+
+   - Vans should have a passenger count and a maximum number of
+     passengers (integers).  Vans should also have a route (a list of
+     instances of class PassengerStop).
+
+   - Every class in the Vehicle class hierarchy should implement a
+     "show" method, which displays information about the instance.
+     When implementing the show method in sub-classes, consider
+     calling the show method of the super-class.
+
+   - A PassengerStop has a location (a string) and a number of
+     passengers (an integer).
+
+3. Create several instances of your classes.  Then display information
+   from those instances.  For example:
+
+   - Display the fuel and number of wheels of a BigRig.
+
+   - Display the fuel, the number of passengers, maximum number of
+     passengers, and route of a Van.
+
+
+What you will learn:
+
+- How to define a Python class.
+
+- How to implement a sub-class of a class.
+
+- How to implement the constructor method of a class.
+
+- How to call the constructor of a super-class.
+
+- How to call a method in the same class (or a super-class).
+
+- How to call a method in a super-class, by-passing the same method in
+  the current class.
+
+- How to override a method in a superclass.
+
+- How to iterate over a list of instances and call a method on each
+  instance.

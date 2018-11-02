@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Python Exercises</title>
+<meta name="author" content="Dave Kuhlman" />
+<meta name="date" content="September 13, 2013" />
+<style type="text/css">
+
+/* css */
+
+body {
+  font: 90% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 2em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  text-decoration: none;
+  color: #fcb100;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+p a {
+  text-decoration: underline;
+}
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+p img {
+  border: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003a6b;
+  background-color: transparent;
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #fcb100;
+}
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+}
+h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+h6 {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dt a {
+  text-decoration: none;
+}
+
+dd {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+legend {
+  background: #ffffff;
+  padding: 0.5em;
+}
+
+form {
+  margin: 0;
+}
+
+
+dl.form {
+  margin: 0;
+  padding: 1em;
+}
+
+dl.form dt {
+  width: 30%;
+  float: left;
+  margin: 0;
+  padding: 0 0.5em 0.5em 0;
+  text-align: right;
+}
+
+input {
+  font: 100% 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  vertical-align: middle;
+}
+
+abbr, acronym, .explain {
+  color: black;
+  background-color: transparent;
+}
+
+q, blockquote {
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border: 1px solid #838183;
+  background-color: #eee;
+  color: #000;
+  overflow: auto;
+  margin: 0.5em 1em;
+}
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+tt.docutils {
+  background-color: #eeeeee;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="python-exercises">
+<h1 class="title">Python Exercises</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Dave Kuhlman</td></tr>
+<tr><th class="docinfo-name">Address:</th>
+<td><pre class="address">
+<a class="first reference external" href="mailto:dkuhlman&#64;rexx.com">dkuhlman&#64;rexx.com</a>
+<a class="last reference external" href="http://www.rexx.com/~dkuhlman">http://www.rexx.com/~dkuhlman</a>
+</pre>
+</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>1.3b</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>September 13, 2013</td></tr>
+</tbody>
+</table>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Copyright:</th><td class="field-body">Copyright (c) 2007 Dave Kuhlman.  All Rights Reserved.
+This software is subject to the provisions of the MIT License
+<a class="reference external" href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>.</td>
+</tr>
+<tr class="field"><th class="field-name">Abstract:</th><td class="field-body">This document provides exercises for an introductory
+course on programming in Python.</td>
+</tr>
+</tbody>
+</table>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#built-in-datatypes" id="id1">1&nbsp;&nbsp;&nbsp;Built-in Datatypes</a><ul class="auto-toc">
+<li><a class="reference internal" href="#numbers" id="id2">1.1&nbsp;&nbsp;&nbsp;Numbers</a></li>
+<li><a class="reference internal" href="#tuples-and-lists" id="id3">1.2&nbsp;&nbsp;&nbsp;Tuples and Lists</a></li>
+<li><a class="reference internal" href="#strings" id="id4">1.3&nbsp;&nbsp;&nbsp;Strings</a></li>
+<li><a class="reference internal" href="#dictionaries" id="id5">1.4&nbsp;&nbsp;&nbsp;Dictionaries</a></li>
+<li><a class="reference internal" href="#files" id="id6">1.5&nbsp;&nbsp;&nbsp;Files</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#statements" id="id7">2&nbsp;&nbsp;&nbsp;Statements</a><ul class="auto-toc">
+<li><a class="reference internal" href="#assignment-statement" id="id8">2.1&nbsp;&nbsp;&nbsp;Assignment statement</a></li>
+<li><a class="reference internal" href="#import-statement" id="id9">2.2&nbsp;&nbsp;&nbsp;import statement</a></li>
+<li><a class="reference internal" href="#print-statement" id="id10">2.3&nbsp;&nbsp;&nbsp;print statement</a></li>
+<li><a class="reference internal" href="#if-then-else-statement" id="id11">2.4&nbsp;&nbsp;&nbsp;if/then/else statement</a></li>
+<li><a class="reference internal" href="#for-statement" id="id12">2.5&nbsp;&nbsp;&nbsp;for statement</a></li>
+<li><a class="reference internal" href="#while-statement" id="id13">2.6&nbsp;&nbsp;&nbsp;while statement</a></li>
+<li><a class="reference internal" href="#break-and-continue-statements" id="id14">2.7&nbsp;&nbsp;&nbsp;break and continue statements</a></li>
+<li><a class="reference internal" href="#exceptions-try-except-raise-statements" id="id15">2.8&nbsp;&nbsp;&nbsp;Exceptions -- try/except, raise statements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#functions" id="id16">3&nbsp;&nbsp;&nbsp;Functions</a></li>
+<li><a class="reference internal" href="#classes" id="id17">4&nbsp;&nbsp;&nbsp;Classes</a></li>
+<li><a class="reference internal" href="#modules-and-packages" id="id18">5&nbsp;&nbsp;&nbsp;Modules (and packages)</a></li>
+<li><a class="reference internal" href="#more-python-exercises" id="id19">6&nbsp;&nbsp;&nbsp;More Python Exercises</a></li>
+<li><a class="reference internal" href="#text-processing" id="id20">7&nbsp;&nbsp;&nbsp;Text processing</a></li>
+<li><a class="reference internal" href="#xml-processing" id="id21">8&nbsp;&nbsp;&nbsp;XML processing</a></li>
+<li><a class="reference internal" href="#python-programming-techniques-and-idioms" id="id22">9&nbsp;&nbsp;&nbsp;Python programming techniques and idioms</a></li>
+<li><a class="reference internal" href="#special-file-formats" id="id23">10&nbsp;&nbsp;&nbsp;Special file formats</a><ul class="auto-toc">
+<li><a class="reference internal" href="#zip-files" id="id24">10.1&nbsp;&nbsp;&nbsp;Zip files</a></li>
+<li><a class="reference internal" href="#other-archive-compression-modules-tarfile-bz2-gzip" id="id25">10.2&nbsp;&nbsp;&nbsp;Other archive/compression modules: tarfile, bz2, gzip</a></li>
+<li><a class="reference internal" href="#csv-comma-separated-values-files" id="id26">10.3&nbsp;&nbsp;&nbsp;CSV -- comma separated values files</a></li>
+<li><a class="reference internal" href="#configuration-files-configparser" id="id27">10.4&nbsp;&nbsp;&nbsp;Configuration files -- ConfigParser</a></li>
+<li><a class="reference internal" href="#xml-documents" id="id28">10.5&nbsp;&nbsp;&nbsp;XML documents</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#object-oriented-programming" id="id29">11&nbsp;&nbsp;&nbsp;Object-oriented programming</a></li>
+<li><a class="reference internal" href="#files-and-directories" id="id30">12&nbsp;&nbsp;&nbsp;Files and directories</a></li>
+</ul>
+</div>
+<div class="section" id="built-in-datatypes">
+<h1><a class="toc-backref" href="#id1">1&nbsp;&nbsp;&nbsp;Built-in Datatypes</a></h1>
+<div class="section" id="numbers">
+<h2><a class="toc-backref" href="#id2">1.1&nbsp;&nbsp;&nbsp;Numbers</a></h2>
+<ol class="arabic simple">
+<li>Create a positive integer, a negative integer, and zero.  Assign
+them to variables</li>
+<li>Write several arithmetic expressions.  Bind the values to
+variables.  Use a variety of operators, e.g. <tt class="docutils literal">+</tt>, <tt class="docutils literal">-</tt>, <tt class="docutils literal">/</tt>,
+<tt class="docutils literal">*</tt>, etc.  Use parentheses to control operator scope.</li>
+<li>Create several floats and assign them to variables.</li>
+<li>Write several arithmetic expressions containing your float
+variables.</li>
+<li>Write several expressions using mixed arithmetic (integers and
+floats).  Obtain a float as a result of division of one integer by
+another; do so by explicitly converting one integer to a float.</li>
+</ol>
+</div>
+<div class="section" id="tuples-and-lists">
+<h2><a class="toc-backref" href="#id3">1.2&nbsp;&nbsp;&nbsp;Tuples and Lists</a></h2>
+<ol class="arabic simple">
+<li>Create (define) the following tuples and lists using a literal:<ol class="arabic">
+<li>A tuple of integers</li>
+<li>A tuple of strings</li>
+<li>A list of integers</li>
+<li>A list of strings</li>
+<li>A list of tuples or tuple of lists</li>
+<li>A list of integers and strings and tuples</li>
+<li>A tuple containing exactly one item</li>
+</ol>
+</li>
+<li>Do each of the following:<ol class="arabic">
+<li>Print the length of a list.</li>
+<li>Print each item in the list -- Iterate over the items in one of
+your lists.  Print each item.</li>
+<li>Append an item to a list.</li>
+<li>Insert an item at the beginning of a list.  Insert an item in
+the middle of a list.</li>
+<li>Add two lists together.  Do so by using both the extend
+method and the plus (+) operator.  What is the difference
+between extending a list and adding two lists?</li>
+<li>Retrieve the 2nd item from one of your tuples or lists.</li>
+<li>Retrieve the 2nd, 3rd, and 4th items (a slice) from one of your
+tuples or lists.</li>
+<li>Retrieve the last (right-most) item in one of your lists.</li>
+<li>Replace an item in a list with a new item.</li>
+<li>Pop one item off the end of your list.</li>
+<li>Delete an item from a list.</li>
+<li>Do the following list manipulations:<ol class="arabic">
+<li>Write a function that takes two arguments, a list and an
+item, and that appends the item to the list.</li>
+<li>Create an empty list,</li>
+<li>Call your function several times to append items to the list.</li>
+<li>Then, print out each item in the list.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Write a script -- (1) Define a list of lists of integers.  (2)
+Implement a function that prints out the length of each inner
+list and prints each item in each (inner) list.</li>
+</ol>
+</div>
+<div class="section" id="strings">
+<h2><a class="toc-backref" href="#id4">1.3&nbsp;&nbsp;&nbsp;Strings</a></h2>
+<ol class="arabic">
+<li><p class="first">Create (define) the following strings:</p>
+<ul class="simple">
+<li>An empty string</li>
+<li>A string containing a single-quote character</li>
+<li>A string containing a double-quote character</li>
+<li>A string containing a single-quote character <em>and</em> a double-quote
+character</li>
+<li>A multi-line string</li>
+</ul>
+</li>
+<li><p class="first">Use the string formatting operator to insert your name and the
+number of characters in your name into a string.</p>
+</li>
+<li><p class="first">Build up a list of strings, then convert them to a single string
+with (1) two colons between the original strings, (2) a new-line
+between each string, (3) nothing between each string.</p>
+</li>
+<li><p class="first">Create a list of integers.  Now &quot;join&quot; them together to form a
+string of comma-separated values.  (Hint: look at the <tt class="docutils literal">map</tt>
+built-in function or consider using a list comprehension.)</p>
+</li>
+<li><p class="first">Create a sample string, then try each of the following string
+methods:</p>
+<ul class="simple">
+<li>samplestring.strip()</li>
+<li>samplestring.lstrip()</li>
+<li>samplestring.rstrip()</li>
+<li>samplestring.find()</li>
+<li>samplestring.replace()</li>
+<li>samplestring.center()</li>
+<li>samplestring.ljust()</li>
+<li>samplestring.rjust()</li>
+<li>samplestring.split()</li>
+<li>samplestring.upper()</li>
+<li>samplestring.lower()</li>
+<li>samplestring.join()</li>
+</ul>
+</li>
+<li><p class="first">Implement a function that takes a string as an argument.  Split
+the string into &quot;words&quot;.  Return (1) a count of the number of words
+and (2) the list of words.</p>
+</li>
+<li><p class="first">Given the following data:</p>
+<pre class="literal-block">
+Alice Appleby:501-511-5111:1.5:bird watching
+Bill Barnaby:501-511-5111:4009.2:gardening
+</pre>
+<p>Print a report that has column headers (&quot;Name&quot;, &quot;Phone&quot;,
+&quot;Activity&quot;, and &quot;Interest/hobby&quot;) and prints the data in aligned
+columns.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="dictionaries">
+<h2><a class="toc-backref" href="#id5">1.4&nbsp;&nbsp;&nbsp;Dictionaries</a></h2>
+<ol class="arabic simple">
+<li>Create (define) the following dictionaries:<ul>
+<li>An empty dictionary</li>
+<li>A dictionary containing several key-value pairs.  Use strings as
+your keys, and use integers as the values associated with the
+keys.</li>
+<li>A dictionary that emulates a struct or record having the
+following named fields: name, address, phone number.</li>
+</ul>
+</li>
+<li>Perform each of the following operations on one of your
+dictionaries:<ul>
+<li>Insert several additional items (key-value pairs) into your
+dictionary.</li>
+<li>Print the keys in your dictionary.</li>
+<li>Print the values in your dictionary.</li>
+<li>Print the items in your dictionary.</li>
+<li>Check for the existence of a specific key in your dictionary.</li>
+<li>Get the value associated with a key in your dictionary.</li>
+</ul>
+</li>
+<li>Write a function to do word counts:<ol class="arabic">
+<li>Count the number of occurances of each word in a single string.</li>
+<li>Count the words in a list or collection of strings.</li>
+<li>Print out the count for each word.</li>
+<li>Modify your solution so that it prints word counts in alphabetical
+order.</li>
+<li>Modify you application so that it &quot;collapses&quot; lower and upper case
+words, for example, so that it treats &quot;Tomato&quot; and &quot;tomato&quot; as the
+same word.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="files">
+<h2><a class="toc-backref" href="#id6">1.5&nbsp;&nbsp;&nbsp;Files</a></h2>
+<ol class="arabic">
+<li><p class="first">Open an existing file for input.  Read in the entire contents of
+the file as a single string. Close the file.  Print the contents.</p>
+<p>Now, split the contents into lines.  Then print each line.</p>
+</li>
+<li><p class="first">Open an existing file for input.  Read each line and print out each
+line in the file with a line number.</p>
+<p>Now, add to this solution, code that splits each line on blanks and
+counts the &quot;words&quot; in the file.  Or, for a CSV (comma separated
+value) file, split on comma.</p>
+</li>
+<li><p class="first">Open a file (that does not exist) for output.  Write 3 lines of
+text to your file.  Close the file.  Now, check the contents of
+your new file to see if it is as you expect.</p>
+<p>Question: How can you check to ensure that the file you are about
+to write to does not already exist?  Hint: Look in module
+<tt class="docutils literal">os.path</tt>.</p>
+</li>
+<li><p class="first">Open an existing file and append two lines of text to it.</p>
+<p>Question: How do you obtain a list of files in a directory?  Hint:
+Look at module <tt class="docutils literal">glob</tt>.</p>
+<p>Question: How do you obtain a list of files in a directory and its
+sub-directories?  Hint: Look at the walk function in module
+<tt class="docutils literal">os.path</tt>.</p>
+</li>
+<li><p class="first">Create a file name in a platform independent way.  Hint: Look at
+<tt class="docutils literal">os.sep</tt>.</p>
+</li>
+<li><p class="first">Write a script that reads standard input (<tt class="docutils literal">sys.stdin</tt>) and writes
+to standard output (<tt class="docutils literal">sys.stdout</tt>).  Add the string &quot;## &quot; to
+the beginning of each line.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="statements">
+<h1><a class="toc-backref" href="#id7">2&nbsp;&nbsp;&nbsp;Statements</a></h1>
+<div class="section" id="assignment-statement">
+<h2><a class="toc-backref" href="#id8">2.1&nbsp;&nbsp;&nbsp;Assignment statement</a></h2>
+<ol class="arabic simple">
+<li>Write a simple assignment statements that have the following on the
+right-hand side: (1) an arithmetic expression; (2) a function call
+(for example, <tt class="docutils literal">str(25)</tt>); (3) a boolean expression (hint:
+<tt class="docutils literal">not</tt>, <tt class="docutils literal">and</tt>, and <tt class="docutils literal">or</tt> are a few of Python's boolean
+operators).</li>
+<li>Write an assignment statement that uses unpacking for a tuple with
+3 integers.</li>
+<li>Write assignment statements that uses &quot;augmented assignment&quot; with
+the following operations: addition, subtraction, multiplication.</li>
+<li>Write an assignment statement that assigns to (1) a slice of a
+list, (2) a key in a dictionary, (3) and item in a list.</li>
+</ol>
+</div>
+<div class="section" id="import-statement">
+<h2><a class="toc-backref" href="#id9">2.2&nbsp;&nbsp;&nbsp;import statement</a></h2>
+<p>Perform the following import operations:</p>
+<ol class="arabic simple">
+<li>Import the <tt class="docutils literal">sys</tt> module.  Display the <tt class="docutils literal">path</tt> and <tt class="docutils literal">version</tt>
+properties.</li>
+<li>Import the <tt class="docutils literal">minidom</tt> member from the <tt class="docutils literal">dom</tt> in <tt class="docutils literal">xml</tt>.  Display
+the members of <tt class="docutils literal">minidom</tt>.  What is the type of member <tt class="docutils literal">parse</tt>?</li>
+<li>Import the <tt class="docutils literal">ConfigParser</tt> member from the <tt class="docutils literal">ConfigParser</tt>
+module.  What is its type?</li>
+<li>Import <tt class="docutils literal">urlopen</tt> from module <tt class="docutils literal">urllib</tt> renaming it to <tt class="docutils literal">uo</tt>.
+What is its type?  Use it to retrieve the contents of a Web page.</li>
+</ol>
+</div>
+<div class="section" id="print-statement">
+<h2><a class="toc-backref" href="#id10">2.3&nbsp;&nbsp;&nbsp;print statement</a></h2>
+<ol class="arabic simple">
+<li>Write a print statement that prints 3 values.</li>
+<li>Write a print statement that does not add a newline character to
+the end of the printed values.</li>
+<li>Write a print statement that prints a string formatted with the
+string formatting operator.</li>
+<li>Write content to standard-out (stdout), using the <tt class="docutils literal">sys</tt> module.</li>
+</ol>
+</div>
+<div class="section" id="if-then-else-statement">
+<h2><a class="toc-backref" href="#id11">2.4&nbsp;&nbsp;&nbsp;if/then/else statement</a></h2>
+<ol class="arabic simple">
+<li>Write the following boolean expressions (that answer the following
+questions) and print the resulting values:<ol class="arabic">
+<li>Is the value of a variable greater than a constant value?</li>
+<li>Is the value of a variable between two constant values.</li>
+<li>Is the value of a variable outside of (the range of) two
+constant values.</li>
+</ol>
+</li>
+<li>Write a simple <tt class="docutils literal">if</tt> statement.  Print a message if the condition
+is true.</li>
+<li>Write an <tt class="docutils literal">if</tt> statement with an <tt class="docutils literal">else</tt> clause.  Print messages
+in the true and false clauses.</li>
+<li>Write the equivalent of a C/C++/Java <tt class="docutils literal">switch</tt> statement using
+<tt class="docutils literal">if:elif:else:</tt>.  Check for the following values: &quot;red&quot;, &quot;green&quot;,
+&quot;blue&quot;.</li>
+</ol>
+</div>
+<div class="section" id="for-statement">
+<h2><a class="toc-backref" href="#id12">2.5&nbsp;&nbsp;&nbsp;for statement</a></h2>
+<ol class="arabic simple">
+<li>Use a <tt class="docutils literal">for</tt> statement to iterate over and print all the items in
+a list.</li>
+<li>Use a <tt class="docutils literal">for</tt> statement to iterate over all the items in a list.
+If an item is a string, print &quot;string: &lt;value&gt;&quot;.  If an item is an
+integer, print &quot;integer: &lt;value&gt;&quot;.  If an item is a list, iterate
+over its contains and print them as above.</li>
+<li>Write a function that (1) uses a <tt class="docutils literal">for</tt> statement to iterate over
+all the <em>items</em> in a dictionary, (2) uses unpacking to &quot;catch&quot; the key
+and value of each item, and (3) prints out the key and value.</li>
+<li>Write a <tt class="docutils literal">for</tt> statement to search for a given value in a list.
+Exit the loop when found.  After the loop, check to determine
+whether the value was found.</li>
+<li>Write a <tt class="docutils literal">for</tt> statement that uses the <tt class="docutils literal">continue</tt> statement to
+skip a given value in a list.  Print out all the <em>other</em> values.</li>
+</ol>
+</div>
+<div class="section" id="while-statement">
+<h2><a class="toc-backref" href="#id13">2.6&nbsp;&nbsp;&nbsp;while statement</a></h2>
+<ol class="arabic simple">
+<li>Implement a loop using the <tt class="docutils literal">while</tt> statement: Before the loop,
+initialize a counter to zero.  In the body of the loop, (1) check
+the value of the counter and exit if it is greater than 5 and (2)
+print the value of the counter.</li>
+<li>Create a list.  Now implement a <tt class="docutils literal">while</tt> loop that &quot;pops&quot; items
+off the list until it is empty.</li>
+<li>Implement a function that (1) takes a file name as an argument; (2)
+opens that file for input; then (3) uses a <tt class="docutils literal">while</tt> statement to
+read and print each line of the file.</li>
+</ol>
+</div>
+<div class="section" id="break-and-continue-statements">
+<h2><a class="toc-backref" href="#id14">2.7&nbsp;&nbsp;&nbsp;break and continue statements</a></h2>
+<ol class="arabic simple">
+<li>Implement a <tt class="docutils literal">while</tt> loop that &quot;breaks out&quot; when a counter exceeds
+the value 5.</li>
+<li>Implement a <tt class="docutils literal">while</tt> loop that uses the <tt class="docutils literal">continue</tt> statement to
+skip execution of a nested block of code.</li>
+</ol>
+</div>
+<div class="section" id="exceptions-try-except-raise-statements">
+<h2><a class="toc-backref" href="#id15">2.8&nbsp;&nbsp;&nbsp;Exceptions -- try/except, raise statements</a></h2>
+<ol class="arabic simple">
+<li>Write a <tt class="docutils literal">try/except</tt> statement.  In the body of the <tt class="docutils literal">try</tt>
+clause, attempt to open a non-existent file for reading.  Catch the
+resulting exception.  Question: What exception type should you be
+trying to catch?  And, how do you find out?</li>
+<li>Add, to your solution to the previous exercise, an attempt to use a
+non-exiting key in a dictionary.  Put this error before the attempt
+to open the non-existing file.  This should show that your
+<tt class="docutils literal">except</tt> clause is catching <em>only</em> the I/O exception.</li>
+<li>Now, add to the same solution, another <tt class="docutils literal">except</tt> clause that
+catches the dictionary look-up exception.</li>
+<li>Define your own exception class.</li>
+<li>Write a function that raises your exception.  Write another
+function that calls the first function.</li>
+<li>Write a function that calls the above function and catches the
+exeption that it throws.  Print the value of the exception.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="functions">
+<h1><a class="toc-backref" href="#id16">3&nbsp;&nbsp;&nbsp;Functions</a></h1>
+<ol class="arabic">
+<li><p class="first">Write a function that takes no arguments and returns an integer.</p>
+</li>
+<li><p class="first">Write a function that takes two strings as arguments and returns
+the concatenated value of those strings.</p>
+</li>
+<li><p class="first">Write a function that has one regular argument and one argument
+with a default value.  Print out both values.  Now, call your
+function both with and without the optional, second argument.</p>
+</li>
+<li><p class="first">Write a function that takes a string and a list as arguments.
+Search the list for the string.  Return true if the string is in
+the list, else return false.</p>
+</li>
+<li><p class="first">Call one of your functions using keyword arguments.</p>
+</li>
+<li><p class="first">Write a function that takes two arguments: (1) a function that
+takes one argument and (2) a list.  This (outer) function should
+apply the function argument to each item in the list argument.
+Next, define another function that takes one argument.  Call the
+first function, passing it the second function.</p>
+</li>
+<li><p class="first">Implement the a generator function -- The generator produced
+should <tt class="docutils literal">yield</tt> all values from a list/iterable that satisfy a
+predicate.  It should apply the transforms before return each
+value.  The function takes these arguments:</p>
+<ol class="arabic">
+<li><p class="first"><tt class="docutils literal">values</tt> -- A list of values</p>
+</li>
+<li><p class="first"><tt class="docutils literal">predicate</tt> -- A function that takes a single argument,
+performs a test on that value, and returns True or False.</p>
+</li>
+<li><p class="first"><tt class="docutils literal">transforms</tt> -- (optional) A list of functions.  Apply each
+function in this list and returns the resulting value.  So,
+for example, if the function is called like this:</p>
+<pre class="literal-block">
+result = transforms([11, 22], p, [f, g])
+</pre>
+<p>then the resulting generator might return:</p>
+<pre class="literal-block">
+g(f(11))
+</pre>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="classes">
+<h1><a class="toc-backref" href="#id17">4&nbsp;&nbsp;&nbsp;Classes</a></h1>
+<ol class="arabic">
+<li><p class="first">Implement a very simple class containing <em>no</em> members.</p>
+<p>Create an instance of your class; set and get a attribute <tt class="docutils literal">x</tt>.</p>
+</li>
+<li><p class="first">Implement a simple class containing getters and setters for data
+members <tt class="docutils literal">name</tt> (a string) and <tt class="docutils literal">size</tt> (an integer).</p>
+<p>Create an instance of your class; set the <tt class="docutils literal">name</tt> and <tt class="docutils literal">size</tt>
+member variables; then get these values from your instance and
+print them.</p>
+</li>
+<li><p class="first">Add a <tt class="docutils literal">show</tt> method, which prints out the <tt class="docutils literal">name</tt> and <tt class="docutils literal">size</tt>.</p>
+</li>
+<li><p class="first">Implement a simple class containing getters and setters for data
+members <tt class="docutils literal">name</tt> (a string) and <tt class="docutils literal">size</tt> (an integer).  Add a
+constructor that initializes the <tt class="docutils literal">name</tt> and <tt class="docutils literal">size</tt> data
+members.</p>
+</li>
+<li><p class="first">Implement a subclass of the above class.  Add a <tt class="docutils literal">description</tt>
+data member.  Add getter and setter for <tt class="docutils literal">description</tt>.  Add a
+constructor that (1) calls the super-class ctor and (2) sets the
+<tt class="docutils literal">description</tt> member variable.</p>
+</li>
+<li><p class="first">Add <tt class="docutils literal">show</tt> method to your sub-class, overriding the <tt class="docutils literal">show</tt>
+method in the super-class.  Also, call the super-class method from
+the sub-class.</p>
+</li>
+<li><p class="first">Implement a class that represents a node in a binary tree.  Each
+node should have a <tt class="docutils literal">name</tt> and a <tt class="docutils literal">left_child</tt> (a node) and
+<tt class="docutils literal">right_child</tt>.  Also implement a (recusive) method that
+displays the node and the two children under it.</p>
+</li>
+<li><p class="first">Implement a tree data structure in one of the following ways:</p>
+<ol class="arabic simple">
+<li>Implement a class that represents a Node in a tree structure.
+Each node should have a <tt class="docutils literal">name</tt> and a list of <tt class="docutils literal">children</tt>.
+Implement methods that get and set each of these instance
+members.  Implement a method <tt class="docutils literal">show</tt> that walks the tree and
+prints out the name of each node.</li>
+<li>Implement a class that represents a Node in a tree structure.
+Each node should have a <tt class="docutils literal">name</tt> and a <tt class="docutils literal">left_child</tt> and
+<tt class="docutils literal">right_child</tt>.  Implement methods that get and set each of
+these instance members.  Implement a method <tt class="docutils literal">show</tt> that
+walks the tree and prints out the name of each node.</li>
+</ol>
+</li>
+<li><p class="first">Implement the Vehicle class hierarchy described by your
+instructor.  Here is an outline of that hierarchy:</p>
+<ol class="arabic simple">
+<li>Vehicle -- Methods: set_fuel, get_fuel<ol class="arabic">
+<li>Truck -- Methods: get_load<ol class="arabic">
+<li>LightTruck -- Ctor: __init__(self, maxload).  Methods:
+set_load, get_load.</li>
+<li>BigRig -- Methods: set_wheels, get_wheels</li>
+</ol>
+</li>
+<li>Automobile</li>
+</ol>
+</li>
+</ol>
+<p>Suggestion: Try to think of your classes (and instances of them) as
+modeling objects (vehicles) out in the real world.  Imagine that
+you are implementing the data model for a vehicle tracking system.</p>
+</li>
+<li><p class="first">Implement a command line interface. Use (subclass) the <tt class="docutils literal">cmd</tt>
+module in the Python standard library.  Example:</p>
+<pre class="literal-block">
+import cmd
+
+class MySimpleCmd(cmd.Cmd):
+</pre>
+</li>
+</ol>
+</div>
+<div class="section" id="modules-and-packages">
+<h1><a class="toc-backref" href="#id18">5&nbsp;&nbsp;&nbsp;Modules (and packages)</a></h1>
+<ol class="arabic">
+<li><p class="first">Write a module that contains two (or more functions).  Add one more
+function that calls these two functions.  (1) Run your script from
+the command line.  (2) Import your script from within the
+interactive interpreter, then call your functions.</p>
+</li>
+<li><p class="first">Move your module to a sub-directory under your current directory.
+Now import your module and call a function in it.  (Hint: You will
+need an <tt class="docutils literal">__init__.py</tt> file.</p>
+<p>Add a <tt class="docutils literal">print</tt> statement to your <tt class="docutils literal">__init__.py</tt> file, to show
+that it is really being evaluated.</p>
+</li>
+<li><p class="first">Move your module to a separate directory that is <em>not</em> under your
+current directory.  Now import your module and call a function in
+it.  (Hint: You will need to add the path to your directory to your
+PYTHONPATH environment variable.)</p>
+<p>Congratulations.  You have implemented a Python/Python
+(mini-)package.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="more-python-exercises">
+<h1><a class="toc-backref" href="#id19">6&nbsp;&nbsp;&nbsp;More Python Exercises</a></h1>
+<p>The remaining sections of this document describe additional Python
+exercises.  These additional exercises focus on text processing, XML
+processing, processing several special file formats, object-oriented
+programming, and handling files and directories.</p>
+</div>
+<div class="section" id="text-processing">
+<h1><a class="toc-backref" href="#id20">7&nbsp;&nbsp;&nbsp;Text processing</a></h1>
+<ul class="simple">
+<li>Calculate the average length of the words in a text file.  Note: You
+will need to process every line in the file and every word in the
+line.</li>
+<li>Read a text file.  Print out the number of characters and number of
+words in each line.  Print totals at the end.  Also, print the
+average number of characters per line and average number of words
+per line.</li>
+<li>Read a text file and accumulate the number of occurances of each
+word in the file.  Print out a list of words and the number of
+occurance of each word.</li>
+<li>Modify the above solution so that upper and lower cased words are
+counted as the same.</li>
+<li>Calculate the number of characters, words, and lines in a text
+file.  Display each count.</li>
+<li>(1) Use a regular expression to search each line in a text file.
+Print out the lines that match.  (2) Same, but read the regular
+expression from the command line.  (3) Same, except add a command
+line flag &quot;-r&quot;, which if present, use a regular expression and if
+not, use a fixed pattern.</li>
+<li>Use a regular expression to search each line in a text file.
+Extract a substring and print the line and the matching substring.</li>
+<li>Use a regular expression to search each line in a text file.
+Substitute a string for the matching substring.  Print out the
+original line and the modified line.</li>
+<li>Same as the previous exercise, except use a function to insert the
+matched string in all caps (or some other transformation) and the
+length of the matched substring in parentheses.</li>
+</ul>
+</div>
+<div class="section" id="xml-processing">
+<h1><a class="toc-backref" href="#id21">8&nbsp;&nbsp;&nbsp;XML processing</a></h1>
+<ul class="simple">
+<li>Use minidom (xml.dom.minidom) to parse an XML document and display
+the document tree.</li>
+<li>Add functions to the above solution to modify a specific node (for
+example, add a particular attribute and its value).</li>
+<li>Use dom4j (<a class="reference external" href="http://www.dom4j.org/">http://www.dom4j.org/</a>) to parse an XML document and
+display the document tree.</li>
+</ul>
+</div>
+<div class="section" id="python-programming-techniques-and-idioms">
+<h1><a class="toc-backref" href="#id22">9&nbsp;&nbsp;&nbsp;Python programming techniques and idioms</a></h1>
+<ul class="simple">
+<li>Dispatch to a function based on an action name or keyword using a
+dictionary.  Use mydict.get() to get the function object or a
+default function if the command name is not in the dictionary.</li>
+<li>Write a &quot;switch&quot; statement using a dictionary whose values are
+functions.</li>
+</ul>
+</div>
+<div class="section" id="special-file-formats">
+<h1><a class="toc-backref" href="#id23">10&nbsp;&nbsp;&nbsp;Special file formats</a></h1>
+<div class="section" id="zip-files">
+<h2><a class="toc-backref" href="#id24">10.1&nbsp;&nbsp;&nbsp;Zip files</a></h2>
+<ul>
+<li><p class="first">Find a .zip or .jar file or an ODF/.odt (OpenOfficeWriter).  (1)
+Read the contents and print a list of the contents.  (2) Create a Zip
+archive, add several files to it, and write it to disk.</p>
+<p>Hint: The Python standard library contains a zipfile module.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="other-archive-compression-modules-tarfile-bz2-gzip">
+<h2><a class="toc-backref" href="#id25">10.2&nbsp;&nbsp;&nbsp;Other archive/compression modules: tarfile, bz2, gzip</a></h2>
+<p>The Zip file exercise above can also be performed using tarfile for
+archiving and one of gzip, bz2, or zlib for compression.</p>
+</div>
+<div class="section" id="csv-comma-separated-values-files">
+<h2><a class="toc-backref" href="#id26">10.3&nbsp;&nbsp;&nbsp;CSV -- comma separated values files</a></h2>
+<p>(Note: The csv module is in the Python standard library, but not (as of
+Jython 2.2.1) in the Jython standard library.)</p>
+<ul>
+<li><p class="first">Read a CSV (comma separated values) file.  (1) Print out a report of
+the contents of file with columns that are 10 characters wide.  (2)
+Create a CSV file, add several lines to it, and save it to disk.</p>
+<p>Hints: The Python standard library contains a csv module.  Consider
+using <tt class="docutils literal">my_str_variable.ljust(n)</tt> (or <tt class="docutils literal">.rjust()</tt>) to align
+columns.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="configuration-files-configparser">
+<h2><a class="toc-backref" href="#id27">10.4&nbsp;&nbsp;&nbsp;Configuration files -- ConfigParser</a></h2>
+<ul>
+<li><p class="first">Read a .ini file.  Print out a report of the contents of this file.
+Hint: The Python standard library contains the ConfigParser module.</p>
+<p>Example data:</p>
+<pre class="literal-block">
+[general]
+title: The Python Programming Language
+version: 2.5.1
+
+[details]
+location: http://python.org/download/
+formats: gzipped-tar bzipped-tar ms-windows-installer
+</pre>
+<p>Now, write a function that extracts a value, given the section name
+and option name entered on the command line.</p>
+</li>
+<li><p class="first">Write the following scripts:</p>
+<ol class="arabic simple">
+<li>Use module ConfigParser to create a configuration file containing
+two sections with several name-value pairs in each one.</li>
+<li>Use module ConfigParser to read the config file and displays
+several of the values in it.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="xml-documents">
+<h2><a class="toc-backref" href="#id28">10.5&nbsp;&nbsp;&nbsp;XML documents</a></h2>
+<p>(Note: Jython support for ElementTree is not there yet.  Consider
+using dom4j instead: <a class="reference external" href="http://www.dom4j.org/">http://www.dom4j.org/</a> )</p>
+<ul>
+<li><p class="first">Use xml.etree.ElementTree to read and parse an XML file.  (1) Print out
+all the tags in the file.  (2) Now, try to indent your print-out to show
+level of nesting. (3) Add display of the attributes.</p>
+<p>Sample data:</p>
+<pre class="literal-block">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;vegetables version=&quot;1.0&quot;&gt;
+  &lt;tomato id=&quot;001&quot;&gt;
+    &lt;name&gt;Tomato&lt;/name&gt;
+    &lt;colors&gt;
+      &lt;color&gt;pink&lt;/color&gt;
+      &lt;color&gt;red&lt;/color&gt;
+      &lt;color&gt;purple&lt;/color&gt;
+    &lt;/colors&gt;
+  &lt;/tomato&gt;
+  &lt;eggplant id=&quot;002&quot;&gt;
+    &lt;name&gt;Eggplant&lt;/name&gt;
+    &lt;colors&gt;
+      &lt;color&gt;purple&lt;/color&gt;
+    &lt;/colors&gt;
+  &lt;/eggplant&gt;
+&lt;/vegetables&gt;
+</pre>
+<p>Now, write code that does each of the following tasks:</p>
+<ol class="arabic">
+<li><p class="first">Extract the &quot;id&quot; attribute of the eggplant element.</p>
+</li>
+<li><p class="first">Extract the text (character data) in the eggplant/name element.</p>
+</li>
+<li><p class="first">Add a &quot;&lt;recipe&gt;&quot; element in the eggplant with attribute
+&quot;category&quot; and value &quot;main course&quot; and with character data
+&quot;ratatouille&quot;, that is:</p>
+<pre class="literal-block">
+&lt;recipe category=&quot;main course&quot;&gt;ratatouille&lt;/recipe&gt;
+</pre>
+</li>
+</ol>
+</li>
+<li><p class="first">Add a node to the XML tree, for example, add an additional
+vegetable..  (1) From the XML tree producea string. (2) Then write
+the string representation out to disk.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="object-oriented-programming">
+<h1><a class="toc-backref" href="#id29">11&nbsp;&nbsp;&nbsp;Object-oriented programming</a></h1>
+<ul>
+<li><p class="first">Expand the Vehicle/Truck example.  Add a Automobile class.
+Give one of your subclasses a method that overrides and calls
+a method in its superclass.</p>
+</li>
+<li><p class="first">Implement a tree data structure in which each node has a value and
+any number of child nodes.  Your Node class should implement the
+following methods:</p>
+<ul class="simple">
+<li>get_value</li>
+<li>set_value</li>
+<li>get_children</li>
+<li>set_children</li>
+<li>show -- show the value of the node</li>
+</ul>
+<p>Write a function that walks the tree and &quot;shows&quot; each node.</p>
+</li>
+<li><p class="first">Delegation -- (1) Define an interface using a class containing empty
+methods.  (2) Define two classes that implement this interface.  (3)
+Implement a class whose constructor takes an object that satisfies
+the interface and delegates operations to it.</p>
+</li>
+<li><p class="first">Modify your solution to the word count exercise so that it can take
+a command line argument that is either a path on the file system or
+a URL, for example:</p>
+<pre class="literal-block">
+file:///path/to/file.txt
+</pre>
+<p>or:</p>
+<pre class="literal-block">
+http://en.wikipedia.org/wiki/Python_(programming_language)
+</pre>
+</li>
+<li><p class="first">Modify the solution to the previous exercise so that it responds to
+the following command line options:</p>
+<ul class="simple">
+<li>-w, --word-count -- Compute and display word count.</li>
+<li>-c, --character-count -- Compute and display character count.</li>
+</ul>
+</li>
+<li><p class="first">Implement a class hierarchy different from but similar to the
+Vehicle/Truck class hierarchy.  For example:</p>
+<ul class="simple">
+<li>Plants/Trees/PineTrees/JefferyPine.</li>
+<li>EMailBox/FilteredEmailBox/...</li>
+<li>[Choose/design your own]</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="files-and-directories">
+<h1><a class="toc-backref" href="#id30">12&nbsp;&nbsp;&nbsp;Files and directories</a></h1>
+<ul class="simple">
+<li>Print out the names of all the files in a directory that are not
+sub-directories.  Hints: Consider the folowing: (1) the glob module;
+(2) the stat module.</li>
+<li>Modify the solution in the previous module so that you can enter a
+wild card file name on the command line and display the names of all
+matching files.</li>
+<li>Now, reuse your character/word/line count module.  Modify the
+previous solution so that it imports your module that does
+character, word, and line counts, then call the function that does
+so for each file that matches the wild card file name spec.</li>
+</ul>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+<a class="reference external" href="python_exercises_03.txt">View document source</a>.
+Generated by <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> from <a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> source.
+
+</div>
+</body>
+</html>

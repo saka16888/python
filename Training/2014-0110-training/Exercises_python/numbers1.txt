@@ -1,0 +1,24 @@
+.. vim: set ft=rst:
+
+======================
+Numbers -- exercises
+======================
+
+1. Create several integers; bind them to variables.  Print them.
+
+2. Create several floats; bind them to variables.  Print them.
+
+3. Perform a variety of operations on (1) integers, (2) floats, and
+   (3) mixed floats and integers.  Print the results.
+
+4. Divide one integer by another, obtaining a float as an answer.
+
+What you will learn:
+
+- How to create and manipulate integers and floats.
+
+- How to perform arithmetic operations using standard operators.
+
+- How to perform mixed mode (int and float) arithmetic.
+
+- How to use the ``math`` module.

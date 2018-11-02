@@ -1,0 +1,61 @@
+==============
+ Minidom walk
+==============
+
+Walk the DOM tree
+=================
+
+Use the minidom module in the standard library to read an XML
+document.  See ``people.xml`` for a sample XML document.
+
+1. Parse the document to get a document object.
+
+2. Get the root node from the document.
+
+2. Walk the DOM tree.
+   
+3. For each node in the tree, print out (1) the element (tag)
+   name, (2) the attributes of the node (name and value), and (3)
+   text content of the node.
+
+What you will learn:
+
+- How to process an XML document with the xml.dom.minidom
+  implementation of the Document Object Model (DOM).
+
+- How to use and manipulate a DOM tree.
+
+- How to use the minidom module from the standard Python library.
+
+
+Modify the tree
+===============
+
+1. Add a date attribute to each "person" element.
+
+2. Add a new "person" element.
+
+3. Walk and display the tree, again.
+
+
+What you will learn:
+
+- How do modify the DOM tree.
+
+- How to add/modify an attribute of an element.
+
+- How to create a new element and add it to the DOM tree.
+
+
+Additional information
+======================
+
+- In the Python standard library, see:
+  `Structured Markup Processing Tools --
+  http://www.python.org/doc/current/lib/markup.html
+  <http://www.python.org/doc/current/lib/markup.html>`_
+
+- `xml.dom.minidom -- Lightweight DOM implementation --
+  http://www.python.org/doc/current/lib/module-xml.dom.minidom.html
+  <http://www.python.org/doc/current/lib/module-xml.dom.minidom.html>`_
+

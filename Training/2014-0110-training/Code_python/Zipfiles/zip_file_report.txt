@@ -1,0 +1,39 @@
+=================
+ Zip file report
+=================
+
+1. Using the zipfile module in the standard library, read a Zip
+   archive.
+
+2. Display a report of the contents of the archive.
+
+3. For each item in the archive, display (1) the file name, (2)
+   the original size, and (3) the compressed size.
+
+
+What you will learn:
+
+- How to import a Python module.
+
+- How to use several features from the ``zipfile`` module.
+
+- How to use (call methods on) objects created by a module from
+  the standard library.
+
+
+Additional information:
+
+- `zipfile -- Work with ZIP archives --
+  http://docs.python.org/lib/module-zipfile.html
+  <http://docs.python.org/lib/module-zipfile.html>`_
+
+
+For examples of the use of the ``zipfile`` module, see:
+
+- ``zip-ls.py`` in this directory.
+
+- `Odtwriter for Docutils --
+  http://www.rexx.com/~dkuhlman/odtwriter.html
+  <http://www.rexx.com/~dkuhlman/odtwriter.html>`_
+
+

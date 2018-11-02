@@ -1,0 +1,39 @@
+=======================================
+Format Text and Write to Screen or File
+=======================================
+
+1. Use the following data as input::
+
+       Alice Appleby:501-511-5101:1.5:bird watching
+       Bill Barnaby:501-511-5102:4009.2:gardening
+       Charlie Carbunkle:501-5103:54.251:hiking and bicycling
+
+2. Write a script that splits this data into fields then formats a
+   report with the fields formatted in columns that have the
+   following headings and widths:
+   
+   - Name -- left justified, 20 characters
+   
+   - Phone -- left justified, 12 characters
+
+   - Level -- right justified, 10 characters
+
+   - Hobby -- left justified, 30 characters
+
+3. Copy and modify the above script so that it writes the formatted
+   report to a file.
+
+
+What you will learn:
+
+- How to split delimiter separated data into fields.
+
+  But note that the Python standard library has modules for some
+  common file formats, for example (1) comma separated values (the
+  csv module), (2) config files (the ConfigParser module), and (3)
+  a variety of modules for processing XML.
+
+- How to format text data into columns.
+
+- How to write formatted text data to a text file.
+

@@ -1,0 +1,28 @@
+===================
+Sets -- exercises
+===================
+
+1. Given a list (for example, ``range(5)``), create a set from that
+   list.
+
+2. Given a list that contains duplicates (for example, ``[11, 22,
+   11, 33, 22]``), create a list that has the duplicates removed.
+
+3. Given these two lists::
+
+       list1 = range(0, 10)
+       list2 = range(8, 20)
+
+   Using sets, test for membership in:
+
+   - ``list1`` or ``list2``
+   - ``list1`` and ``list2``
+   - ``list1`` but not ``list2``
+   - ``list1`` or ``list2`` but not both
+
+4. Your wise and helpful instructor has told you that a set does not
+   contain the same object more than once.  Therefore, sets must use
+   some test for "sameness".  Your task is to find out whether sets
+   test for "sameness" using the equality relationship (operator
+   ``==``) or using the identity relationship (operator ``is``), and
+   then prove it.

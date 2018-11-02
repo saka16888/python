@@ -1,0 +1,181 @@
+.. vim: set ft=rst:
+
+=========================
+Statements -- exercises
+=========================
+
+.. contents::
+
+
+Assignment statement
+======================
+
+Write a function that contains assignment statements that do the
+following:
+
+1. Bind a name to a string.
+
+2. Bind a name to an integer, then use augmented assignment (``+=``
+   and ``-=``) to (1) increment and (2) decrement the value (by 1 or
+   2 or 3).  Print the new values.
+
+3. Unpack a 3-tuple into variables ``a``, ``b``, and ``c``.
+
+4. Use the ``range(n)`` built-in function to create a list of
+   integers.  Use an assignment statement to change the value of the
+   2nd item in the list.
+
+5. From your list of integers, use slice notation to do each of the
+   following:
+   
+   - Get the 2nd through the 5th items from the list.  
+   - Get all but the first item from the list.
+   - Get all but the last item from the list.
+
+6. Create an empty dictionary.  Use an assignment statement to
+   create a key-value pair in that dictionary.
+
+
+import statement
+==================
+
+1. Import the ``json`` module from the Python standard library.  Use
+   the ``dumps`` function in that module to dump a Python list to a
+   string.
+
+2. Import the ``loads`` function from the ``json`` module.  Use it
+   to convert the string produced above into a Python data structure
+   (a list).
+
+3. Import the ``dumps`` function from the ``json`` module, renaming
+   it to ``jdump``.
+
+4. Import the ``xml.etree.ElementTree`` module.  Reference the
+   ``parse`` function in it.
+
+5. Import ``ElementTree`` from ``xml.etree``, renaming it to
+   ``etree``.
+
+
+for statement
+===============
+
+Define two lists (``data1`` and ``data2``) which each have four
+numeric items.  Then ...
+
+Write a function that does the following:
+
+1. Print each item from ``data1`` on a separate line using a ``for``
+   statement.
+
+2. Print each item from ``data1`` and an index each on a separate
+   line.
+
+3. Print only the items for which the index is even (not odd) each
+   on a separate line
+
+4. Update each item in ``data2`` by adding the corresponding item
+   from ``data1``.  -- ``data2[i] = data1[i] + data2[i]``.
+
+5. Using a list comprehension, create a new list from ``data1`` in
+   which each item is multiplied by 2.  Print it.
+
+6. Using a list comprehension, create a new list from the previous
+   list in which only the even items (divisible by 2) are each
+   multiplied by 3.  Print it.
+
+7. Given the following string (note the commas that separate fields
+   and the white space around the commas)::
+
+       data1 = "aaa bbb  ,   ccc ddd  , eee fff ggg"
+
+   Use list comprehension to create a list of fields that are
+   separated by commas but with surrounding white space removed.
+
+8. Using a ``for:`` statement with an ``else:`` clause, search a
+   list for a value and if found, set a variable to that value, but
+   if not found, set a variable to "not found".
+
+
+if statement
+==============
+
+Write a function that includes each of the following:
+
+1. An ``if`` statement with an ``elif`` clause and an ``else``
+   clause.
+
+2. Several ``if`` statements that use the logical operators:
+   ``and``, ``or``, and ``not``.  Or, maybe a single ``if``
+   statement that uses them all.
+
+3. Use the ``range()`` built-in function to create a list, for
+   example: ``numbers = range(10)``.  Write an ``if`` statement that
+   tests a value to determine if it is in a list.
+
+4. Write an ``if`` statement that tests whether the value is *not*
+   in the list (above).
+
+5. Create a small dictionary, for example: ``fruit = {'watermelon':
+   44}``.  Write an ``if`` statement that tests whether a key is in
+   the dictionary **and** tests whether the value is equal to some
+   value (such as ``44``).
+
+6. Assign a value to a variable, then write an ``if`` statement to
+   determine whether that value is the same as ``None`` and another
+   ``if`` statement to test whether the value is not ``None``.
+
+
+while statement
+=================
+
+1. Use a ``while`` statement to loop through a list of words and to
+   find the first word with a specific number of characters.
+
+2. Use a ``while`` statement to loop through a list; pop each item
+   off the right end of the list and print the item, until the list
+   is empty.
+
+3. Write a function that uses a ``while`` statement and
+   ``str.find(pat, pos)`` to print out all the positions of a
+   pattern string in a target string.
+
+4. Convert the above function into a function that returns a
+   generator that produces all the positions of the pattern string
+   in a target string.
+
+
+break and continue statements
+===============================
+
+
+try/except statement
+======================
+
+1. Define a subclass of class ``Exception``.  Call it
+   ``SpecialException``.
+
+2. Write 3 functions ``fn1``, ``fn2``, and ``fn3``:
+   
+   - ``fn1`` calls ``fn2``.
+   
+   - ``fn2`` calls ``fn3``.
+     
+   - ``fn3`` raise ``SpecialException``.
+
+3. Call ``fn1`` both outside and inside a ``try:except:`` statement
+   that catches ``SpecialException``.
+
+
+with statement
+================
+
+1. Write a ``with`` statement that opens a file and prints the lines
+   in the file.  Check to determine whether the file is closed after
+   the ``with`` statement.
+
+2. Write a context manager that prints a message before and after a
+   suite.
+
+3. Use your context manager in a ``with`` statement that prints a
+   greeting ("hello" or whatever).
