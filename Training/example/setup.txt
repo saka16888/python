@@ -1,0 +1,6 @@
+sudo apt-get install python3
+virtualenv -p python3 .virt
+cd ~/.virt
+virtualenv -p python3 uniq
+source ~/.virt/uniq/bin/activate
+

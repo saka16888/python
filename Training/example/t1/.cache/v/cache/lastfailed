@@ -1,0 +1,4 @@
+{
+  "test_module.py::test_ehlo": true,
+  "test_module.py::test_noop": true
+}
