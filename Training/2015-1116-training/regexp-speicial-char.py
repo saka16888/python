@@ -18,6 +18,9 @@ print("pattern = %s , ret = %s" % (pattern,ret))
 pattern=r'O.'
 ret=re.findall(pattern, hist)
 print("pattern = %r , ret = %r" % (pattern,ret))
+pattern=r'.O.'
+ret=re.findall(pattern, hist)
+print("pattern = %r , ret = %r" % (pattern,ret))
 
 # $
 

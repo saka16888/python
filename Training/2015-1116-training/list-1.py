@@ -10,11 +10,13 @@ s.extend([40,50,40])
 print(id(s),id(t))
 print(s)
 
+print("*" * 60)
 s[3]=53
 print("s[3] = ", s[3])
+s.append(5)
 s.append([6,7])
 print("s[0:5] = ", s[0:5])
-print("s[0:5:2] = ", s[0:5:2])
+print("s[0:5:2] = ", s[0:8:2])
 print(s,s.count(40))
 s.append("a")
 
@@ -23,7 +25,7 @@ s += [11,12] # equal extend
 print("s =",s)
 s.insert(2,'insert-2')
 s*=2
-print("s  *= 2 , result",s)
+print("\ns  *= 2 , \nresult = ",s)
 
 # delete sub list
 del s[5:10]
@@ -58,10 +60,11 @@ print("set(s) = ",set(s))
 y=[[x,s.count(x)] for x in set(s)]
 print("y =",y)
 
-y.
+'''
 for val,count in y:
     if s.count(x) > max_count:
         max_count=s.count(x)
         print(x,s.count(x))
         max_list.append([x,max_count])
 print(max_list)
+'''

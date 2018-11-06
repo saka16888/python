@@ -9,13 +9,15 @@ def printStar(n):
     for i in range(1,n+1):
         print("*" * i)
 s = [10, 20, 30]
-squares = []
+sq1 = []
 for x in s:
-    squares.append(x ** 2)
-print(squares)
+    sq1.append(x ** 2)
+print(sq1)
 print(list(map(square, s)))
 
 s2=[2,3,4]
 print(list(map(printStar,s2)))
 
+s3=list(map(hex, s))
+print("s3 = ",s3)
 print(list(map(hex, s)))

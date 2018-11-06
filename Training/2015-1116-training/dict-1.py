@@ -4,7 +4,7 @@ cat={"color": "white","size":"small"}
 
 animal=[dog,cat]
 def search_key(key,animal):
-    for a in animal:
+    for a,v in animal:
         try:
             print(a)
             #print(a.keys())

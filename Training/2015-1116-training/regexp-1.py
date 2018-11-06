@@ -16,6 +16,11 @@ pattern=r'segment[\w\s]*fault'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 pattern=r'segment[\w]*'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
+pattern=r'o[\w]*e'
+print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
+
+pattern=r'o[\w]{3}e'
+print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 
 print("\n","#" * 30,"-------------- quotes --------------", "#" * 30)
 string = "TEMPLATES = ( ('index.html', 'home'), ('base.html', 'base'))"

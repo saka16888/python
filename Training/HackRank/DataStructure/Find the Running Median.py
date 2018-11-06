@@ -1,5 +1,7 @@
-n = int(input())
-nlist = [float(input()) for i in range(n)]
+#n = int(input())
+# nlist = [float(input()) for i in range(n)]
+nlist=[1.3, 4.5,2.2, 6.7]
+n=len(nlist)
 
 for i in range(1,n+1):
     newlist=sorted(nlist[0:i])
