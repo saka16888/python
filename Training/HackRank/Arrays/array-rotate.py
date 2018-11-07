@@ -13,20 +13,34 @@ class arrayoperations():
         return arr
 
 def rotLeft(a, d):
-    t=[]
+    t=list(a)
     n=len(a)
-    print("a[%d:%d] = %r, a[:%d] = %r" % (d,n,a[d:n], d,a[0:d]))
-    t[:d-1], t[d:] = a[d:n-1], a[:d]
-    print(a,t)
+    d = d % n
+    print("\na[%d:%d] = %r, a[:%d] = %r" % (d,n,a[d:n], d,a[:d]))
+    t[:n-d], t[n-d:] = a[d:n], a[:d]
+    print('a=',a,'left rotate',d,', t=',t)
     return t
 
+def rotRight(a, d):
+    t=list(a)
+    n=len(a)
+    d=d % n
+    print("\na[%d:%d] = %r, a[:%d] = %r" % (d,n,a[d:n], d,a[:d]))
+    t[:n-d], t[n-d:] = a[d:n], a[:d]
+    print('a=',a,'left rotate',d,'t=',t)
+    return t
 
 arr=[2,3,4,6,1]
-print(arr[1:4])
-print(arr[0:4])
+# print(arr[1:4])
+# print(arr[0:4])
 print(arr[0:5])
 rotLeft(arr,0)
 rotLeft(arr,1)
+rotLeft(arr,5)
+rotLeft(arr,6)
+rotLeft(arr,7)
+
+print('-' * 50)
 arr1=arr
 n=len(arr)
 l1=arrayoperations()

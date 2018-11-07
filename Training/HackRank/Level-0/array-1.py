@@ -8,7 +8,7 @@ def find_index_equal_element(arr):
             print("arr[%d] = %d" % (i,arr[i-1]))
 
 
-arr1=[-1,2,3,6,5,4,6,8,9]
+arr1=[-1,2,3,7,5,4,6,8,9]
 find_index_equal_element(arr1)
 print("arr1 = ",arr1, "\nreverse array arr1[::-1] = ",arr1[::-1])
 
@@ -30,8 +30,9 @@ j=5
 k=-1
 print("arr1[%d:%d] = %s"% (i,j,arr1[i:j]))
 print("arr1[%d:%d:%d] = %s"% (i,j,k,arr1[i:j:k]))
+i=1;j=4
 print("arr1[%d:%d] = %s"% (i,j,arr1[i:j]))
-print("arr1[:3:%d] = %s"% (-1,arr1[::-1]))
+print("arr1[:%d:%d] = %s"% (3,-1,arr1[:3:-1]))
 print("arr1[:%d:%d] = %s"% (2,-1,arr1[:2:-1]))
 
 #---------------------------------------------------------------------------------
