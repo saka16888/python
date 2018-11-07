@@ -4,7 +4,7 @@ def fib(n):
     b = 1
     inc = -1 if n<0 else 1
     if n >=0:
-        print("inc = %d" % inc)
+        #print("inc = %d" % inc)
         for i in range(0,n+1,inc):
             tmp.append(a)
             a, b = b, a+b

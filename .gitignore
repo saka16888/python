@@ -1,6 +1,12 @@
 __pycache__
 .idea
 .cache
+<<<<<<< HEAD
+=======
+workspace.xml
+.gitignore
+.pyc
+>>>>>>> 246ad20e269c23ad1ddd52bb8b41b43950bfeccf
 *.xml
 .pyc
 workspace.xml
