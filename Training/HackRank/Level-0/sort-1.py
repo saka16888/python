@@ -13,7 +13,6 @@ print("a =",a)
 print(a.pop())
 print("a =",a)
 
-
 t = (3, 6, 8, 2, 78, 1, 23, 45, 9)
 print("t =", sorted(t), list(sorted(t)))
 

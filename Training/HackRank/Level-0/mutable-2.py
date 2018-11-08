@@ -24,7 +24,7 @@ print(my_function2(["hello"]))  # prints: ["thing"]
 print(my_function2(["hi"]))  # prints: ["thing", "thing"]
 
 '''
-Do not put a mutable object as the default value of a function parameter.
+DO NOT put a mutable object as the default value of a function parameter.
 Immutable types are perfectly safe.
 If you want to get the intended effect, do this.
 '''

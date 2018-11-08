@@ -5,14 +5,18 @@ def list_intersect():
 aList = [123, 'xyz', 'zara', 'abc', 'jobh',123,'abc',235]
 print("Reverse List : ", aList[::-1])
 print("Original List : ", aList)
+
+a1=[8,90]
+print("%r extend %r " %(aList , a1))
+aList.extend(a1)
+print("result = %r" % (aList))
+print("%s, index = %d" %('abc' , aList.index('abc')))
+print("%s, index = %d" %('abc', aList.index('abc',0,5)))
+print("%s, index = %d" %('abc', aList.index('abc',5)))
 aList.reverse();
 print("Reverse List : ", aList)
 print("Original List already change: ", aList)
 print("count = ", aList.count(123),aList.count('xyz'))
-
-print("index = ", aList.index('abc'))
-print("index = ", aList.index('abc',0,5))
-
 
 try:
     print("index = ", aList.index('abc',3,5))
@@ -31,7 +35,6 @@ print("remove = ", aList)
 
 aList.remove("xyz")
 print("remove = ", aList)
-
 
 aList.clear()
 print("clear = ", aList)

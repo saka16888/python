@@ -1,8 +1,8 @@
-n=6
-x=0
-y=[[x] * n]
-print("y = ",y)
-m1 = [x for x in [[x] * n] * n]
+# n=6
+# x=0
+# y=[[x] * n]
+# print("y = ",y)
+# m1 = [x for x in [[x] * n] * n]
 # for i in range(n):
 #     tmp = [int(x) for x in input().strip().split(" ")]
 #     m1[i]=tmp

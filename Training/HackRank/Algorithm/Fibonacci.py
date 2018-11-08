@@ -13,6 +13,7 @@ def fib(n):
         print('f(%d) =  %r' % (n,tmp))
         return tmp
     else:
+        # f(n) = f(n-1)+f(n-2)
         tmp[0], tmp[1] = 0, 1
         for i in range(n-1):
             tmp[i+2]=tmp[i]+tmp[i+1]

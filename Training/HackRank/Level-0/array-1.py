@@ -30,10 +30,9 @@ j=5
 k=-1
 print("arr1[%d:%d] = %s"% (i,j,arr1[i:j]))
 print("arr1[%d:%d:%d] = %s"% (i,j,k,arr1[i:j:k]))
-print("arr1[%d:%d] = %s"% (i,j,arr1[i:j]))
 print("arr1[:3:%d] = %s"% (-1,arr1[::-1]))
 print("arr1[:%d:%d] = %s"% (2,-1,arr1[:2:-1]))
-
+print("arr1[%d:] = %s"% (-2,arr1[-2:]))
 #---------------------------------------------------------------------------------
 print('*' * 40)
 print("arr1=%s" % arr1)
