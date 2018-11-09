@@ -1,7 +1,3 @@
-def my_function(param=[]):
-    param.append("thing")
-    return param
-
 '''
 What you might think would happen is that by giving an empty list as a default value to param,
 a new empty list is allocated each time the function is called and no list is passed in.
@@ -13,6 +9,9 @@ This is because Python
 See the following example:
 '''
 
+def my_function(param=[]):
+    param.append("thing")
+    return param
 print(my_function())  # prints: ["thing"]
 print(my_function())  # prints: ["thing", "thing"]
 

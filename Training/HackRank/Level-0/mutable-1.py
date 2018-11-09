@@ -33,6 +33,7 @@ print(x, y) # [1, 2, 3, 3, 2, 1]
 print("id(x) = ",id(x))
 print("id(y) = ",id(y))
 
+'''****************************'''
 def func(val):
     val += 'bar'
 

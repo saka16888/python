@@ -3,7 +3,8 @@ import re
 
 with open('notes/team_history.txt') as f:
     hist = f.read()
-print(hist,"\n")
+print(hist)
+print("-" * 80)
 #----------------------------------------------------------------------------------------------------------
 print("#" * 30,"--------------Error--------------", "#" * 30)
 pattern=r'segment[\w]* fault'
@@ -17,6 +18,8 @@ print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 pattern=r'segment[\w]*'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 pattern=r'o[\w]*e'
+print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
+pattern=r'ag[\d\w]*'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 
 pattern=r'o[\w]{3}e'
