@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba737649-4a7c-4f00-848d-5b0bd4a3c783" name="Default" comment="test scripts">
+      <change afterPath="$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/decorator-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/decorator-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/regexp-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/regexp-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/regexp-address.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/regexp-address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2015-1116-training/show_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2015-1116-training/show_args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-0/list-2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-0/list-2D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-0/mutable-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-0/mutable-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-0/mutable-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-0/mutable-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-0/swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-0/swap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-1/decorator_school3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-1/decorator_school3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-1/decorotor_recur1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-1/decorotor_recur1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-1/reduce-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-1/reduce-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-1/repr-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-1/repr-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HackRank/Level-2/SortTuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Level-2/SortTuple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,48 +24,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="146" />
+          <entry key="py" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="146" />
+          <entry key="Python" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="48" />
+          <entry key="py" value="50" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="48" />
+          <entry key="Python" value="50" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-multiple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../2015-1116-training/show_ipv4.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -131,11 +98,25 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="152">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-1.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -161,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Exercises_python/ThoughtProblems/re_match01.py" />
         <option value="$PROJECT_DIR$/mike/pickle-1.py" />
         <option value="$PROJECT_DIR$/mike/pickle-serialization-1.py" />
         <option value="$PROJECT_DIR$/Samples_python/import_and_run.py" />
@@ -212,14 +192,15 @@
         <option value="$PROJECT_DIR$/../2015-1116-training/regexp-1.py" />
         <option value="$PROJECT_DIR$/../2015-1116-training/regexp-address.py" />
         <option value="$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="5" />
     <option name="y" value="5" />
-    <option name="width" value="1713" />
-    <option name="height" value="909" />
+    <option name="width" value="1754" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -235,16 +216,7 @@
           <expand>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2015-1116-training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackRank" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parsers">
+  <component name="RunManager" selected="Python.func-var-parameter">
     <configuration name="dict1" type="PythonConfigurationType" factoryName="Python">
       <module name="2014-0110-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,6 +295,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="func-var-parameter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HackRank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HackRank/Level-0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="parsers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2015-1116-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,27 +329,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/parsers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ping" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2015-1116-training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../2015-1116-training" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/ping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -445,18 +417,18 @@
     <list>
       <item itemvalue="Python.dict1" />
       <item itemvalue="Python.regexp-address" />
-      <item itemvalue="Python.ping" />
       <item itemvalue="Python.regexp-multiple" />
       <item itemvalue="Python.regexp-speicial-char" />
       <item itemvalue="Python.parsers" />
+      <item itemvalue="Python.func-var-parameter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.func-var-parameter" />
         <item itemvalue="Python.parsers" />
         <item itemvalue="Python.regexp-speicial-char" />
         <item itemvalue="Python.regexp-address" />
         <item itemvalue="Python.regexp-multiple" />
-        <item itemvalue="Python.ping" />
       </list>
     </recent_temporary>
   </component>
@@ -485,14 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541576248524</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test scripts">
+      <created>1541755358487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541755358487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="4" width="1370" height="727" extended-state="0" />
+    <frame x="4" y="4" width="1403" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22488755" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28921932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -503,14 +482,14 @@
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5022082" side_tool="true" weight="0.26876876" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="7" visible="true" weight="0.3287037" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.11336718" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3168" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="Run" order="4" sideWeight="0.4977918" weight="0.28985506" />
+      <window_info active="true" anchor="right" id="Run" order="4" sideWeight="0.4977918" visible="true" weight="0.34126395" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -521,20 +500,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test scripts" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../2015-1116-training/convert-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/array-2-MxN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/array-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -823,8 +788,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="152">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
