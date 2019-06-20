@@ -21,8 +21,7 @@ def fib(n):
         return tmp
 
 for j in [-1,0,1,2,5,10]:
-    t=fib(j)
-    print(t)
+    print(fib(j))
 
 t=fib(10)
 print(t[9])

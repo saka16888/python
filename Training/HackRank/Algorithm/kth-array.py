@@ -29,7 +29,16 @@ a=[2,4,5,9,12,23,24,26,28,33,36,48]
 b=[3,6,5,8,9,11,14,15,17]
 k=12
 sum=sorted(a+b)
+print('sum =',sum)
 if k < len(sum):
-    print('kth element %s' % sum[k])
+    print('%d th element = %s' % (k,sum[k]))
+else:
+    print('%d th > length of list' % k)
+print('%d th element = %s' % (k,kth_element(a,b,k)))
 
-print('kth element = %s' % kth_element(a,b,k))
+k=25
+if k < len(sum):
+    print('%d th element = %s' % (k,sum[k]))
+else:
+    print('%d th > length of list' % k)
+print('%d th element = %s' % (k,kth_element(a,b,k)))

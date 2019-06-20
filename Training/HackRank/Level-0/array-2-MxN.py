@@ -1,5 +1,5 @@
-n=5
 m=3
+n=5
 # row 3 x 5 column
 x0=[[0 for j in range(n)] for i in range(m)]
 print("x0 = ", x0)

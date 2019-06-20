@@ -12,8 +12,8 @@ s = [10, 20, 30]
 sq1 = []
 for x in s:
     sq1.append(x ** 2)
-print(sq1)
-print(list(map(square, s)))
+print("sq1 =",sq1)
+print("Use map function",list(map(square, s)))
 
 s2=[2,3,4]
 print(list(map(printStar,s2)))

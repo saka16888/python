@@ -11,13 +11,13 @@ def test():
         count += 1
         line = line.rstrip()
         # right justified
-        print 'line %2d: "%s"' % (count, line, )
+        print('line %2d: "%s"' % (count, line, ))
         # left justified
         # print 'line %-2d: "%s"' % (count, line, )
         # zero filled
         # print 'line %02d: "%s"' % (count, line, )
-    print '-' * 40
-    print 'line count: %d' % count
+    print('-' * 40)
+    print('line count: %d' % count)
 
 if __name__ == '__main__':
     test()

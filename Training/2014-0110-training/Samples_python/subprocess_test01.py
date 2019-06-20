@@ -21,9 +21,9 @@ def test():
     proc.stdin.write("ggg hhh iii\n")
     proc.stdin.close()
     content = proc.stdout.readlines()
-    print 'length:', len(content)
+    print('length:', len(content))
     for line in content:
-        print 'line:', line.rstrip('\n')
+        print('line:', line.rstrip('\n'))
 
 if __name__ == '__main__':
     test()

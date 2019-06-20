@@ -1,7 +1,7 @@
 import os
 import sys
 
-def sum(numbers):
+def sum1(numbers):
     tmp = 0
     for n in numbers:
         tmp += int(n)
@@ -11,4 +11,5 @@ def sum(numbers):
 #nums = input().strip().split(" ")
 num1 = 5
 nums = [1,3,4,2,5]
+print(sum1(nums))
 print(sum(nums))

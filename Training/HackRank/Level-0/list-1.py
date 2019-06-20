@@ -7,7 +7,7 @@ print("Reverse List : ", aList[::-1])
 print("Original List : ", aList)
 
 a1=[8,90]
-print("%r extend %r " %(aList , a1))
+print("%r extend %r " % (aList , a1))
 aList.extend(a1)
 print("result = %r" % (aList))
 print("%s, index = %d" %('abc' , aList.index('abc')))
@@ -16,7 +16,7 @@ print("%s, index = %d" %('abc', aList.index('abc',5)))
 aList.reverse();
 print("Reverse List : ", aList)
 print("Original List already change: ", aList)
-print("count = ", aList.count(123),aList.count('xyz'))
+print("count =", aList.count(123),aList.count('xyz'))
 
 try:
     print("index = ", aList.index('abc',3,5))

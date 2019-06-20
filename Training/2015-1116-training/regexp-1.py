@@ -16,17 +16,23 @@ pattern=r'segment[\w\s]*fault'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 pattern=r'segment[\w]*'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
+
+print('*************** Simple String Pattern *****************************')
 pattern=r'o[\w]*e'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 
 pattern=r'o[\w]{3}e'
 print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
+pattern=r'[\w]{3}'
+print("pattern= %s , re.findall = %s"% (pattern, re.findall(pattern,hist,re.I)))
 
 print("\n","#" * 30,"-------------- quotes --------------", "#" * 30)
 string = "TEMPLATES = ( ('index.html', 'home'), ('base.html', 'base'))"
+print('string =', string)
 print(re.findall(r'\(*\)', string))
 print(re.findall(r'\([^()]*\)', string))
 
+print("\n","#" * 30,"-------------- Special char  quotes --------------", "#" * 30)
 print(re.findall(r'\(abc\)#',hist))
 print(re.findall(r'\(abc\) *#',hist))
 print(re.findall(r'\((\w+)\).\((\w+)\)#',hist))
@@ -34,8 +40,10 @@ print(re.findall(r'\((\w+)\) \((\w+)\) #',hist))
 print(re.findall(r'\([^()]*\)', hist))
 print(re.findall(r'(abc)*#',hist))
 
+print('*************** Single Char *****************************')
 print(re.findall(r'team',hist))
 print(re.findall(r'te.m',hist))
+print(re.findall(r'te*m',hist))
 print(re.findall(r'\bme\b',hist))
 print(re.findall(r'\bwe\b',hist))
 print(re.findall(r'[aeiou]',hist))
@@ -44,10 +52,9 @@ print(re.findall(r'[0-9]',hist))
 print(re.findall(r'\d*',hist))
 print(re.findall(r'^[0-9]',hist))
 
-print('*' * 40)
+print('********************************************')
 print(re.findall(r'\d+\s*point',hist))
 print(re.findall(r'\d+/\d+/d+',hist))
-
 
 print(re.findall(r'''
 \d+    # Number
@@ -67,9 +74,11 @@ mo=re.findall(r'(\d+)/(\d+)/(\d+)',hist)
     #print(mo.group(3))
     # month,day,year = map(int,mo.groups())
 
+print('**************** DOTALL ****************************')
 print(re.findall(r'p.*s',hist))
 print(re.findall(r'p.*?s',hist))
 print(re.findall(r'p.*s',hist),re.DOTALL)
+print('**************** MULTILINE ****************************')
 
 print(re.findall(r'^/* [A-Za-z]+',hist))
 print(re.findall(r'^/* [A-Za-z]+',hist, re.MULTILINE))
@@ -77,5 +86,4 @@ print(re.findall(r'^/* [A-Za-z]+',hist, re.MULTILINE))
 print(re.findall(r'won|lost',hist, re.MULTILINE))
 print(re.findall(r'\d+ point',hist))
 print(re.findall(r'(\d+) point',hist))
-
 

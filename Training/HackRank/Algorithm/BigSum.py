@@ -9,3 +9,4 @@ for v in arr1:
     print("%20r" % v)
     sum += v
 print("%10f" % sum)
+print("%10f" % sum(arr1))

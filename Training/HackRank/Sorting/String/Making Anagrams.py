@@ -20,9 +20,12 @@ def number_needed(a, b):
 
 a = "abdsbf"
 b = "abbdq"
+print ("a=",a,"\nb=",b)
+print (number_needed (a, b))
 
 a = "cde"
 b = "abc"
+print (number_needed (a, b))
 
 a = "fcrxzwscanmligyxyvym"
 b = "jxwtrhvujlmrpdoqbisbwhmgpmeoke"

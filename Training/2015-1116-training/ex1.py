@@ -3,8 +3,10 @@
 # atl-prev | alt-next
 ''' hello '''
 
+print(-2%5)
 x=10
 hex(id(x))
+print("id x = %r, %r" % (hex(id(x)), id(x)) )
 print(format("hello %s" % "world"))
 y=5+5
 
@@ -49,6 +51,6 @@ import os
 print(os.getcwd())
 print(os.chdir("."))
 
-print("__name__",__name__)
+print("__name__ =",__name__)
 if __name__ == '__main__':
     print("hello")

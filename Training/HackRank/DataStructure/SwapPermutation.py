@@ -13,7 +13,6 @@ def adjSwap(n):
     tmp %= 1000000007
     return tmp
 
-
 def Swap(n,k):
     if k>n : k=n
     tmp=1

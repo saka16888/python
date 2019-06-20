@@ -1,7 +1,3 @@
-
-
-
-
 ''' Goal:  Create the world's most brief set of notes and quick reference
            for tools useful for expressing tests elegantly
 '''

@@ -18,7 +18,7 @@ print("%d" % (3<<3))
 print("%d" % (5/3))
 
 a=5/3
-print("a= %f" % a)
+print("a= %f, a=%d" % (a,a))
 a=2/3
 print("a= %f" % a)
 a=2.0/3

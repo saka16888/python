@@ -1,5 +1,6 @@
 
-arr1 = [int(tmp) for tmp in input().strip().split(' ')]
+#arr1 = [int(tmp) for tmp in input().strip().split(' ')]
+arr1=[5,[324,5435,435,56546,3244]]
 n=arr1[0]
 diff=0
 for i in range(n):

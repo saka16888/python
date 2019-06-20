@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="2015-1116-training" />
     <orderEntry type="module" module-name="example" />
     <orderEntry type="module" module-name="HackRank" />
+    <orderEntry type="module" module-name="Code" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

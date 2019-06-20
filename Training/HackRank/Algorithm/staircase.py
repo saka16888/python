@@ -12,4 +12,5 @@ def  StairCase(n):
 
 if __name__ == '__main__':
     StairCase(6)
-    StairCase(1)
+    StairCase(20)
+    #StairCase(1)

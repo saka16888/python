@@ -1,7 +1,9 @@
 
-arr1 = [int(tmp) for tmp in input().strip().split(' ')]
-n=arr1[0]
-arr1 = [int(tmp) for tmp in input().strip().split(' ')]
+# arr1 = [int(tmp) for tmp in input().strip().split(' ')]
+# n=arr1[0]
+# arr1 = [int(tmp) for tmp in input().strip().split(' ')]
+# arr1_len=len(arr1)
+arr1 = [1,-1,3,5,0,-5]
 arr1_len=len(arr1)
 zero_count = p_count = n_count = 0
 for v in arr1:

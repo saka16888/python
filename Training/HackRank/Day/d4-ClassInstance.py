@@ -7,16 +7,20 @@ class Person:
             self.initialAge=initialAge
         # Add some more code to run some checks on initialAge
     def amIOld(self):
-        if self.initialAge < 13 :
+        print("You are ", self.initialAge)
+        if self.initialAge <= 0:
+            print("Are you born?")
+        elif self.initialAge < 13 :
             print("You are young.")
         elif self.initialAge < 18 :
             print("You are a teenager.")
-        elif self.initialAge >= 18:
-            print("You are a old.")
+        elif self.initialAge >=18:
+            print("You are an old.")
         # Do some computations in here and print out the correct statement to the console
     def yearPasses(self):
         # Increment the age of the person in here
         self.initialAge += 1
+        print("You are ",self.initialAge)
 '''
 Sample input
 4
@@ -25,13 +29,13 @@ Sample input
 16
 18
 '''
-t=int(input())
-for i in range(0,t):
-    age=int(input())
+#t=int(input())
+t=[4,-1,10,16,17,18,58]
+for age in t:
+    #age=int(input())
     p = Person(age)
     p.amIOld()
-    for j in range(0,3):
+    for j in range(3):
         p.yearPasses()
     p.amIOld()
-    print("")
-
+    print("----------------------")

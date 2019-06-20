@@ -3,16 +3,24 @@ from operator import itemgetter, attrgetter
 a = [3, 6, 8, 2, 78, 1, 23, 45, 9]
 print(sorted(a))
 print(a.sort())
-print(sorted(a,reverse=True))
-print(a.sort(reverse=True))
-b=[24,31]
-print(a.extend(b))
-print("a =",a)
-print(a.extend([b]))
-print("a =",a)
-print(a.pop())
 print("a =",a)
 
+print("-------------------------------------------------------------")
+# a.sort(key=3)
+print("a =",a)
+print(sorted(a,reverse=True))
+print(a.sort(reverse=True))
+
+print("-------------------------------------------------------------")
+b=[24,31]
+a.extend(b)
+print("a =",a)
+a.extend([b])
+print("a =",a)
+a.pop()
+print("a =",a)
+
+print("----------------------- hello --------------------------------------")
 t = (3, 6, 8, 2, 78, 1, 23, 45, 9)
 print("t =", sorted(t), list(sorted(t)))
 
@@ -25,12 +33,11 @@ They must always use the sorted function to return a sorted list.
 # print(sorted(a))  : AttributeError: 'tuple' object has no attribute 'sort'
 print("Reverse sort t =", sorted(t, reverse=True))
 
-#-------------------------------------------------------------
+print("-------------------------------------------------------------")
 s1 = [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'C', 10)]
 
 def getKey(item):
     return item[1]
-
 
 print(sorted(s1))
 print(sorted(s1,key=lambda x : x[2]))
@@ -67,7 +74,6 @@ for key,value in sorted(a1.items(), key=itemgetter(0),reverse = True):
     print("Reverse Sort by key %s: %s" % (key, value))
 for key,value in sorted(a1.items(), key=itemgetter(1)):
     print("Sort by value %s: %s" % (key, value))
-
 
 #----------------------------------------------------------------------
 def fruitfunc():

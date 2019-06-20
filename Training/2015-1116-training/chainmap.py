@@ -11,5 +11,5 @@ for adult in adults:
         #break
     except KeyError:
         pass
-else:                             # no_break   or   loop_finished_normally
-    raise KeyError(key)
+    else: # no_break   or   loop_finished_normally
+       raise KeyError(key)

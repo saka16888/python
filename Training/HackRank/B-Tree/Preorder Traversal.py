@@ -23,7 +23,6 @@ class Node:
         if self.right: tmp.extend(self.right.preorderNode())
         return tmp
 
-
     def postorderNode(self):
         tmp = [self.data]
         # print(self.data)
@@ -40,7 +39,7 @@ n6=Node(19,n4)
 n7=Node(4,n1,n5)
 n8=Node(13,None,n6)
 n9=Node(10,n7,n8)
-print(n9.depth())
+print("n9.depth = ",n9.depth())
 
 print("Preorder")
 print(n9.preorderNode())

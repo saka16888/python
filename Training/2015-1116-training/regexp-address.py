@@ -5,7 +5,7 @@ with open('notes/team_history.txt') as f:
 print(hist,"\n")
 
 #----------------------------------------------------------------------------------------------------------
-print("#" * 30,"-------------- findall --------------", "#" * 30)
+print("#" * 30,"-------------- Mac address--------------", "#" * 30)
 
 pattern='[0-9A-F]{2}'
 ret=re.findall(pattern,hist,re.I)
@@ -55,7 +55,7 @@ print("pattern = %s  ,\nret = %s" % (pattern, ret))
 #     print("ret = ",ret)
 #     #print(ret.group(0))
 
-print("#" * 30,"-------------- Not a good script, it will fail once it can't find the pattern --------------", "#" * 30)
+print("#" * 30,"\n-------------- Not a good script, it will fail once it can't find the pattern --------------", "#" * 30)
 # Not a good script, it will fail once it can't find the pattern
 ret = re.search(r'([0-9A-F]{2}[:-]){5}([0-9A-F]{2})', hist, re.I)
 if ret:
@@ -74,7 +74,7 @@ else:
     assert ret is None, "MAC address is not configured"
 
 #-------------------------------------------------------------------------
-
+print("*************** findall  IP Address ***************")
 pattern=r'((\d+\.){3}(\d+))'
 ret=re.search(pattern,hist)
 if ret:
