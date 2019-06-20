@@ -1,14 +1,13 @@
 def swap(x,y):
-    x,y = y,x
+    #x,y = y,x
     # tmp=x
     # x=y
     # y=tmp
-    print (x, y)
-    return x,y
+    #print (x, y)
+    return y,x
 
 
-x=3
-y=4
+x=3; y=4
 x,y = swap(x,y)
 print(x,y)
 

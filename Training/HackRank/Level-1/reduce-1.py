@@ -10,33 +10,22 @@ If the optional initializer is present, it is placed before the items of the ite
 and serves as a default when the iterable is empty.
 If initializer is not given and iterable contains only one item, the first item is returned.
 '''
-
 from functools import reduce
 
 mlist = [1, 2, 3, 4, 5]
 print(reduce(lambda x, y: x + y, mlist))
 
-
 def add(x, y):
     return x + y
-
-
 print("reduce(add, mlist) = ", reduce(add, mlist))
-
 
 def sq(x):
     return x * x
-
-
 print(list(map(sq, range(1, 11))))
-
 
 def double(x):
     return x + x
-
-
 print(list(map(double, "abcd")))
-
 
 def add(x, y): return x + y
 

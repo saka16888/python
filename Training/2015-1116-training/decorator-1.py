@@ -38,7 +38,6 @@ def ordinary():
     print("I am ordinary")
 
 ordinary()
-
 print("Assign pretty")
 pretty=make_pretty(ordinary)
 print("Run pretty")

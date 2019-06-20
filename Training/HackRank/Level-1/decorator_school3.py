@@ -44,7 +44,6 @@ equal to
 func = f1(arg)(f2(func))
 '''
 
-
 @happy                        # square = happy(square)
 def square(x):
     return x ** 2

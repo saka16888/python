@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba737649-4a7c-4f00-848d-5b0bd4a3c783" name="Default" comment="test scripts">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../Code/213-HouseRobber-II.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Code/Heap/347-TopKthFreqElement.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Code/LinkedList/160-IntersectionOfTwoLinkedList.py" afterDir="false" />
@@ -57,6 +58,10 @@
       <change beforePath="$PROJECT_DIR$/../HackRank/Week25/GCD-LCM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/Week25/GCD-LCM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HackRank/mike/for-break-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/mike/for-break-1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HackRank/mike/while-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HackRank/mike/while-1.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,27 +69,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="755348468">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="240" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="240" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="50" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="50" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../2015-1116-training/dict-1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+=======
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/show_ipv4.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/t1.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/t4-lambda.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/t3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../2015-1116-training/ip_address.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
+=======
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-address.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1691">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../HackRank/B-Tree/Height of a Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
@@ -118,26 +188,46 @@
               <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding>
                 <element signature="e#21#50#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/parsers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="e#67#76#0" expanded="true" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../2015-1116-training/keyword-1.py">
+=======
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-prompt.py">
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../2015-1116-training/ex2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-912">
               <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+=======
+        <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/../HackRank/Algorithm/kth-array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -151,6 +241,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
               <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+=======
+        <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-1.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </state>
           </provider>
         </entry>
@@ -167,7 +268,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>__is_connected</find>
+<<<<<<< HEAD
       <find>---</find>
+=======
+      <find>ea</find>
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
     </findStrings>
     <replaceStrings>
       <replace>***</replace>
@@ -179,6 +284,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/mike/pickle-1.py" />
+        <option value="$PROJECT_DIR$/mike/pickle-serialization-1.py" />
+        <option value="$PROJECT_DIR$/Samples_python/import_and_run.py" />
+        <option value="$PROJECT_DIR$/Samples_python/functions1.py" />
+        <option value="$PROJECT_DIR$/Samples_python/assert_statement.py" />
+        <option value="$PROJECT_DIR$/Samples_python/if1.py" />
+        <option value="$PROJECT_DIR$/Samples_python/Import_share/module2.py" />
+        <option value="$PROJECT_DIR$/Samples_python/for_else.py" />
+        <option value="$PROJECT_DIR$/Samples_python/continue_sample.py" />
+        <option value="$PROJECT_DIR$/Samples_python/with_as1.py" />
+        <option value="$PROJECT_DIR$/Samples_python/class1-3.7.2.py" />
+        <option value="$PROJECT_DIR$/Samples_python/while.py" />
+        <option value="$PROJECT_DIR$/Samples_python/test_class_var.py" />
+        <option value="$PROJECT_DIR$/mike/parse_arg.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
         <option value="$PROJECT_DIR$/../HackRank/DataStructure/Find the Running Median.py" />
         <option value="$PROJECT_DIR$/../HackRank/Level-0/enumerate-1.py" />
         <option value="$PROJECT_DIR$/../HackRank/Level-0/sum-2.py" />
@@ -193,6 +315,7 @@
         <option value="$PROJECT_DIR$/../2015-1116-training/convert-1.py" />
         <option value="$PROJECT_DIR$/../HackRank/Sorting/BubbleSort.py" />
         <option value="$PROJECT_DIR$/../2015-1116-training/map-1.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/../HackRank/Level-0/array-2-MxN.py" />
         <option value="$PROJECT_DIR$/../HackRank/Level-0/list-1.py" />
         <option value="$PROJECT_DIR$/../HackRank/mike/for-break-1.py" />
@@ -230,13 +353,56 @@
         <option value="$PROJECT_DIR$/../HackRank/Algorithm/kth-array.py" />
         <option value="$PROJECT_DIR$/../Code/Heap/347-TopKthFreqElement.py" />
         <option value="$PROJECT_DIR$/../HackRank/B-Tree/Preorder Traversal.py" />
+=======
+        <option value="$PROJECT_DIR$/mike/for-1.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/enumerate-1.py" />
+        <option value="$PROJECT_DIR$/mike/while-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/mike/for-2.py" />
+        <option value="$PROJECT_DIR$/../HackRank/mike/for-break-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/mike/for-3.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/dict-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/mike/while-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/array-2-MxN.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/array-rotate.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Warm-up/RepeatedString.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Warm-up/SockMerchant.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Warm-up/CountingValleys.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Warm-up/JumpingontheClouds.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/array-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Arrays/array-rotate.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/print-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-2/SortTuple.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/list-2D.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/swap.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/mutable-2.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/mutable-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-1/reduce-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-1/repr-1.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-1/decorator_school3.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-1/decorotor_recur1.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/decorator-1.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/ex1.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/show_args.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/fibonacci.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/regexp-1.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/regexp-address.py" />
+        <option value="$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py" />
+        <option value="$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-7" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
+=======
+    <option name="x" value="5" />
+    <option name="y" value="5" />
+    <option name="width" value="1754" />
+    <option name="height" value="904" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -252,11 +418,7 @@
           <expand>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2014-0110-training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2015-1116-training" type="462c0819:PsiDirectoryNode" />
+              <item name="HackRank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
@@ -285,20 +447,26 @@
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
               <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Level-0" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="B-Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,10 +488,14 @@
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
               <item name="Level-0" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Level-1" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Level-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,6 +518,9 @@
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackRank" type="462c0819:PsiDirectoryNode" />
               <item name="Warm-up" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Level-2" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
             </path>
             <path>
               <item name="2014-0110-training" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +537,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -388,20 +567,34 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.Preorder Traversal">
     <configuration name="LarryArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HackRank" />
+=======
+  <component name="RunManager" selected="Python.func-var-parameter">
+    <configuration name="dict1" type="PythonConfigurationType" factoryName="Python">
+      <module name="2014-0110-training" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HackRank/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HackRank/Algorithm/LarryArray.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samples_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samples_python/dict1.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,7 +603,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Preorder Traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="func-var-parameter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <module name="HackRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,11 +615,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HackRank/B-Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HackRank/B-Tree/Preorder Traversal.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HackRank/Level-0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,7 +636,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="basics" type="PythonConfigurationType" factoryName="Python">
+=======
+    <configuration name="parsers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <module name="2015-1116-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -443,7 +652,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/basics.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/parsers.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,7 +665,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="dict-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="regexp-address" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <module name="2015-1116-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -464,7 +681,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/dict-1.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/regexp-address.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,19 +694,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dict1" type="PythonConfigurationType" factoryName="Python">
-      <module name="2014-0110-training" />
+    <configuration name="regexp-multiple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2015-1116-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samples_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../2015-1116-training" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samples_python/dict1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/regexp-multiple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -494,6 +715,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2015-1116-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -516,6 +738,9 @@
       <method v="2" />
     </configuration>
     <configuration name="ip_address" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="regexp-speicial-char" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <module name="2015-1116-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -527,7 +752,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/ip_address.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -553,6 +782,7 @@
     <list>
       <item itemvalue="Python.basics" />
       <item itemvalue="Python.dict1" />
+<<<<<<< HEAD
       <item itemvalue="Python.dict-1" />
       <item itemvalue="Python.LarryArray" />
       <item itemvalue="Python.ex1" />
@@ -566,6 +796,21 @@
         <item itemvalue="Python.ex1" />
         <item itemvalue="Python.LarryArray" />
         <item itemvalue="Python.dict-1" />
+=======
+      <item itemvalue="Python.regexp-address" />
+      <item itemvalue="Python.regexp-multiple" />
+      <item itemvalue="Python.regexp-speicial-char" />
+      <item itemvalue="Python.parsers" />
+      <item itemvalue="Python.func-var-parameter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.func-var-parameter" />
+        <item itemvalue="Python.parsers" />
+        <item itemvalue="Python.regexp-speicial-char" />
+        <item itemvalue="Python.regexp-address" />
+        <item itemvalue="Python.regexp-multiple" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       </list>
     </recent_temporary>
   </component>
@@ -588,6 +833,7 @@
       <updated>1541466800358</updated>
     </task>
     <task id="LOCAL-00002" summary="test scripts">
+<<<<<<< HEAD
       <created>1541639123180</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
@@ -595,6 +841,22 @@
       <updated>1541639123180</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+=======
+      <created>1541576248522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541576248524</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test scripts">
+      <created>1541755358487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541755358487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
     <servers />
   </component>
   <component name="TodoView">
@@ -607,14 +869,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2663126" />
+=======
+    <frame x="4" y="4" width="1403" height="723" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28921932" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="2" weight="0.26553673" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -622,13 +892,26 @@
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5022082" side_tool="true" weight="0.10714286" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="7" visible="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Version Control" order="8" />
+=======
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.18686868" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5022082" side_tool="true" weight="0.26876876" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="7" visible="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.11336718" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3168" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Run" order="4" sideWeight="0.4977918" weight="0.40819424" />
+=======
+      <window_info active="true" anchor="right" id="Run" order="4" sideWeight="0.4977918" visible="true" weight="0.34126395" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -647,6 +930,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../2015-1116-training/decorator_school3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285" />
@@ -791,6 +1075,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/array-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Arrays/array-rotate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/print-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/sort-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-2/SortTuple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-2/Tintri.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-2/vmware-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-2/duck-typing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/list-2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/list-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/list-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/swap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/mutable-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/mutable-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/map-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/reduce-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/repr-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/SimpleArraySum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/argparse-1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/class-property-1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/decorator_school3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/decorator_school3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/decorotor_recur1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/decorator_school2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/ex1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
         </state>
       </provider>
     </entry>
@@ -801,6 +1240,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../HackRank/Sorting/BubbleSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -945,10 +1385,129 @@
           <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding>
             <element signature="e#21#50#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/decorator_school2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-1/Stack-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/decorator-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/decorator_school.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/show_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/star_school.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Algorithm/Fibonacci-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/notes/team_history.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/oop_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/ping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/parse_ping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-multiple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/show_ipv4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/t1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/t4-lambda.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/t3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#67#76#0" expanded="true" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Exercises_python/lists1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -973,6 +1532,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+=======
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-prompt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2015-1116-training/regexp-speicial-char.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HackRank/Level-0/func-var-parameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
         </state>
       </provider>
     </entry>

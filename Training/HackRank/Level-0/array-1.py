@@ -7,7 +7,12 @@ def find_index_equal_element(arr):
         if (i == arr[i]) :
             print("arr[%d] = %d" % (i,arr[i-1]))
 
+<<<<<<< HEAD
 arr1=[-1,2,3,6,5,4,6,8,9,2]
+=======
+
+arr1=[-1,2,3,7,5,4,6,8,9]
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
 find_index_equal_element(arr1)
 v=2
 print("v index= ",arr1.index(v))
@@ -38,7 +43,13 @@ j=5
 k=-1
 print("arr1[%d:%d] = %s"% (i,j,arr1[i:j]))
 print("arr1[%d:%d:%d] = %s"% (i,j,k,arr1[i:j:k]))
+<<<<<<< HEAD
 print("arr1[:3:%d] = %s"% (-1,arr1[::-1]))
+=======
+i=1;j=4
+print("arr1[%d:%d] = %s"% (i,j,arr1[i:j]))
+print("arr1[:%d:%d] = %s"% (3,-1,arr1[:3:-1]))
+>>>>>>> d047a4498263098e75c657701b835e59cd3f2ca1
 print("arr1[:%d:%d] = %s"% (2,-1,arr1[:2:-1]))
 print("arr1[%d:] = %s"% (-2,arr1[-2:]))
 print("arr1[:%d] = %s"% (-1,arr1[:-1]))

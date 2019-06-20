@@ -13,8 +13,8 @@ y=5+5
 def printstart(n,d):
     for i in range(1,n+1):
         j=i%d
-        if j != 0:
-            print("*" * (i%6))
+        if j != 0: print("*" * (i % 6))
+
 printstart(10,6)
 
 s1="\r\nfgeg\r\ndfbeb"

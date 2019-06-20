@@ -15,6 +15,14 @@ pattern=r'^ON'
 ret=re.findall(pattern, hist)
 print("pattern = %s , ret = %s" % (pattern,ret))
 
+pattern=r'\^ON'
+ret=re.findall(pattern, hist)
+print("pattern = %s , ret = %s" % (pattern,ret))
+
+pattern=r'\*ON[\w]*'
+ret=re.findall(pattern, hist)
+print("pattern = %s , ret = %s" % (pattern,ret))
+
 pattern=r'O.'
 ret=re.findall(pattern, hist)
 print("pattern = %r , ret = %r" % (pattern,ret))
