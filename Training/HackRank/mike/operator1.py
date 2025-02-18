@@ -8,7 +8,7 @@ print(r'Walrus Operator :=')
 #x := 10  # ❌ SyntaxError (must be inside an expression)
 #
 x=5
-print(x:=10)
+print("x=",x:=10)
 a1=[1,3,6]
 
 #Using := in a While Loop
