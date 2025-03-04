@@ -1,29 +1,31 @@
 m=3
 n=5
 # row 3 x 5 column
-x0=[[0 for j in range(n)] for i in range(m)]
-print("x0 = ", x0)
+x0=[[i+j for j in range(n)] for i in range(m)]
+print("row 3 x 5 column x0 = ", x0)
 
 #myArray[4][2]=1
 x0[2][3]=1
-print("x0 = ",x0)
+print("Assign x0[2][3]=1 , x0 = ",x0)
 
 # row 2 x 5 column
 x1=[x[:] for x in [[1] * 5] * 2]
-print("x1 = ",x1)
+x1[1][2]=2
+print("Assign x1[1][2]=1 , x1 = ",x1)
 
 # 3-D array
-x2=[j for j in [i for i in [[1] * 4] * 2] * 3]
-print("x2 = ",x2)
+s2=[i for i in [[1] * 4] * 2] * 3
+x2=[j for j in s2]
+print("s2 = ",s2,"x2 = ",x2)
 
 x3=[0] * 4
 print("x3= ",x3)
-x4=[x3] * 3
+x4=[x3[:]] * 3
 print("x4= ",x4)
-x5=[x4] * 2
+x5=[x4[:]] * 2
 print("x5= ",x5)
 x5[0][1][2]=2
-print("x5= ",x5)
+print("Assign x5[0][1][2]=2, x5= ",x5)
 x5[1][2][3]=6
 print("x5= ",x5)
 

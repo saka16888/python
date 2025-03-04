@@ -6,6 +6,7 @@ because they are passed by reference.
 
 def modify_list(lst):
     lst.append(4)  # Modifies the original list
+    lst[0]=0
 
 my_list = [1, 2, 3]
 modify_list(my_list)

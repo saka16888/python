@@ -37,13 +37,13 @@ Sample Input 0
 
 def repeatedString(s,n):
     if n<=0: return ""
-    t=len(s)
-    m= int(n/t) * s.count("a") + s[:n%t].count("a")
+    l=len(s)
+    m= (n//l) * s.count("a") + s[:n%l].count("a")
     #r= s* int(n/t+1); print(r[:n],'m=',m)
     return m
 
 a="aba"
-n=10
+n=100
 #print(n/3)
 print(repeatedString(a,n))
 print(repeatedString(a,4))

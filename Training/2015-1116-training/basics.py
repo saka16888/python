@@ -15,28 +15,6 @@ if __name__ == '__main__':
     print('Usually, we put test code in this section')
 
 
-
-#### Dictionaries #########################################
-
-brands = {
-    'raymond': 'mac',
-    'rachel': 'pc',
-    'matthew': 'vtech',
-}
-
-print(type(brands))          # show type
-print(len(brands))           # show size
-print(brands)                # show contents
-print(brands['rachel'])      # key lookup
-brands['matthew'] = 'asus'   # store a new key/value pair
-del brands['raymond']        # remove a key
-print('matthew' in brands)   # membership test
-print(brands)
-
-print(brands.keys())
-print(brands.values())
-print(brands.items())
-
 #### File and URL Handling #################################
 
 with open('notes/hamlet.txt') as f:
@@ -118,5 +96,4 @@ del brands
 b1 = json.loads(s1)
 b2 = pickle.loads(s2)
 b3 = urllib.parse.parse_qsl(s3)
-b4 = yaml.load(s4)
-
+#b4 = yaml.load()

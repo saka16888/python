@@ -12,7 +12,7 @@ copied.append(7)
 print(original)  # [1, 2, 3, [4, 5, 6]]
 print(copied)    # [1, 2, 3, [4, 5, 6],7]
 
-#Using List Slicing [:] (Shallow Copy)
+print("Using List Slicing [:] (Shallow Copy)")
 original = [1, 2, 3]
 copied = original[:]
 copied.append(4)
@@ -20,7 +20,7 @@ copied.append(4)
 print(original)  # [1, 2, 3]
 print(copied)    # [1, 2, 3, 4]
 
-# Using list() Constructor (Shallow Copy)
+print("# Using list() Constructor (Shallow Copy)")
 original = [1, 2, 3]
 copied = list(original)
 copied.append(4)
@@ -28,7 +28,7 @@ copied.append(4)
 print(original)  # [1, 2, 3]
 print(copied)    # [1, 2, 3, 4]
 
-# Using copy.deepcopy() (Deep Copy)
+print("# Using copy.deepcopy() (Deep Copy)")
 import copy
 original = [1, 2, 3, [4, 5]]
 copied = copy.deepcopy(original)

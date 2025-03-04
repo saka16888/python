@@ -48,3 +48,28 @@ ar1=[1,2,1,2,1,3,2,3]
 n=7
 #ar.remove(1)
 print(sockMerchant(len(ar1),ar1))
+
+
+def count_sock_pairs(n, ar):
+    # Dictionary to count occurrences of each color
+    color_count = {}
+
+    for color in ar:
+        if color in color_count:
+            color_count[color] += 1
+        else:
+            color_count[color] = 1
+
+    # Count pairs
+    pairs = 0
+    for count in color_count.values():
+        pairs += count // 2  # Integer division counts pairs
+
+    return pairs
+
+
+# Example usage
+n = 7
+ar = [1, 2, 1, 2, 1, 3, 2]
+result = count_sock_pairs(n, ar)
+print(f"Number of pairs: {result}")

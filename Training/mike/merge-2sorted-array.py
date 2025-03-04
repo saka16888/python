@@ -12,7 +12,7 @@ def merge2(nums1, nums2):
             j=j+1
         i=i+1
     if i == len(nums1):
-        nums1.extend(nums2[j::])
+        nums1.extend(nums2[j:])
     print("nums1",nums1,"nums2",nums2)
 
 def merge3(nums1, nums2):
@@ -25,7 +25,7 @@ def merge3(nums1, nums2):
             j=j+1
         i=i+1
     if i == len(nums1):
-        nums1.extend(nums2[j::])
+        nums1.extend(nums2[j:])
     print("nums1",nums1,"nums2",nums2)
 
 a1=[1,3,4,8]

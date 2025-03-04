@@ -15,12 +15,12 @@ a2 = Person("Hellen",15)
 a2.show()
 a_dict = {'da': 111, 2: [23,1,4], '23': {1:2,'d':'sad'}}
 
-with open('pickle.txt','wb') as f:
+with open('pickle.txt', 'wb') as f:
     pickle.dump(a1,f,0)
     pickle.dump(a2, f, 0)
     pickle.dump(a_dict, f, 0)
 
-with open('pickle.txt','rb') as f:
+with open('pickle.txt', 'rb') as f:
     b1=pickle.load(f)
     b1.show()
     b2 = pickle.load(f)
